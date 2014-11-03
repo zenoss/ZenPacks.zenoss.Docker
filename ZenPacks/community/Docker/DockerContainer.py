@@ -18,10 +18,20 @@ from .DockerComponent import DockerComponent
 class DockerContainer(DockerComponent):
     meta_type = portal_type = 'DockerContainer'
 
+    image = ""
+    command = ""
+    created = ""
     container_state = ""
+    ports = ""
+    size = ""
 
     _properties = DockerComponent._properties + (
+        {'id': 'image', 'type': 'string'},
+        {'id': 'command', 'type': 'string'},
+        {'id': 'created', 'type': 'string'},
         {'id': 'container_state', 'type': 'string'},
+        {'id': 'ports', 'type': 'string'},
+        {'id': 'size', 'type': 'string'},
     )
 
     _relations = DockerComponent._relations + (
@@ -42,7 +52,12 @@ class IDockerContainerInfo(IComponentInfo):
     API Info interface for DockerContainer.
     '''
 
+    image = schema.TextLine(title=_t(u'Image'))
+    command = schema.TextLine(title=_t(u'Command'))
+    created = schema.TextLine(title=_t(u'Created'))
     container_state = schema.TextLine(title=_t(u'Container State'))
+    ports = schema.TextLine(title=_t(u'Ports'))
+    size = schema.TextLine(title=_t(u'Size'))
 
 
 class DockerContainerInfo(ComponentInfo):
@@ -51,4 +66,9 @@ class DockerContainerInfo(ComponentInfo):
     implements(IDockerContainerInfo)
     adapts(DockerContainer)
 
+    image = ProxyProperty('image')
+    command = ProxyProperty('command')
+    created = ProxyProperty('created')
     container_state = ProxyProperty('container_state')
+    ports = ProxyProperty('ports')
+    size = ProxyProperty('size')
