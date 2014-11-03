@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "utf-8"?>
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser = "http://namespaces.zope.org/browser"
+    xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:zcml="http://namespaces.zope.org/zcml"
     >
 
@@ -15,16 +15,15 @@
 
     <!-- Browser Resources -->
     <browser:resourceDirectory
-        name="ZenPacks_community_Docker"
+        name="docker"
         directory="resources"
         />
 
-    <!-- JavaScript needed for all Zenoss pages. -->
     <browser:viewlet
-        name="js-dockerviews"
-        paths="/++resource++ZenPacks_community_Docker/js/views.js"
-        for="*"
-        weight="20"
+        name="js-docker"
+        paths="/++resource++docker/js/panels.js"
+        weight="10"
+        for="Products.ZenModel.Device.Device"
         manager="Products.ZenUI3.browser.interfaces.IJavaScriptSrcManager"
         class="Products.ZenUI3.browser.javascript.JavaScriptSrcBundleViewlet"
         permission="zope2.Public"
