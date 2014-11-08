@@ -1,7 +1,7 @@
 ZenPacks.community.Docker
 =========================
 
-Docker monitoring zenpack for Zenoss.
+Docker monitoring zenpack for Zenoss. Adds "Docker Containers" component to devices.
 
 
-Uses `docker ps` to retrieve data about configured/running containers.
+Background: uses `docker ps` to retrieve data about configured/running containers.
