@@ -11,17 +11,31 @@ from Products.ZenRRD.CommandParser import CommandParser
 class docker_usage(CommandParser):
 
     def processResults(self, cmd, result):
-        print "DOCKER USAGE MEMORY:"
-        print cmd.result.output
-        # for point in cmd.points:
-        #     if point.id == 'pset_min':
-        #         result.values.append((point, to_units(data[2])))
-        #     if point.id == 'pset_max':
-        #         result.values.append((point, to_units(data[3][:-1])))
-        #     if point.id == 'pset_size':
-        #         result.values.append((point, to_units(data[4])))
-        #     if point.id == 'pset_used':
-        #         result.values.append((point, to_units(data[5])))
-        #     if point.id == 'pset_load':
-        #         result.values.append((point, to_units(data[6])))
+
+        lines = cmd.result.output.splitlines()
+        if len(lines) > 1:
+            cpu_user = 0
+            cpu_system = 0
+
+            for line in lines:
+                if "user" in line:
+                    cpu_user = int(line.replace("user", "").strip())
+                if "system" in line:
+                    cpu_system = int(line.replace("system", "").strip())
+
+            for point in cmd.points:
+                if point.id == 'cpu_user':
+                    result.values.append((point, float(cpu_user)))
+                if point.id == 'cpu_system':
+                    result.values.append((point, float(cpu_system)))
+
+        elif len(lines) == 1:
+            try:
+                mem_usage = int(cmd.result.output)
+                for point in cmd.points:
+                    if point.id == 'mem_usage':
+                        result.values.append((point, float(mem_usage)))
+            except:
+                pass
+
         return result

@@ -7,6 +7,16 @@ Docker monitoring zenpack for Zenoss. Adds "Docker Containers" component to devi
 
 Background: uses `docker ps` to retrieve data about configured/running containers.
 
+
+Monitoring
+==========
+
+For every Docker Container monitored:
+
+ - CPU usage (user, system)
+ - Memory usage
+
+
 Compatibility
 =============
 
