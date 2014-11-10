@@ -40,6 +40,64 @@ True
 ZenPacks.community.Docker.parsers.docker.container_status
 </property>
 </object>
+<object id='docker_memory_usage' module='Products.ZenModel.BasicDataSource' class='BasicDataSource'>
+<property select_variable="sourcetypes" type="selection" id="sourcetype" mode="w" >
+COMMAND
+</property>
+<property type="boolean" id="enabled" mode="w" >
+True
+</property>
+<property type="string" id="component" mode="w" >
+${here/id}
+</property>
+<property type="string" id="eventClass" mode="w" >
+/Status
+</property>
+<property type="int" id="severity" mode="w" >
+2
+</property>
+<property type="string" id="commandTemplate" mode="w" >
+/bin/grep "." /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes
+</property>
+<property type="int" id="cycletime" mode="w" >
+300
+</property>
+<property type="boolean" id="usessh" mode="w" >
+True
+</property>
+<property type="string" id="parser" mode="w" >
+ZenPacks.community.Docker.parsers.docker.docker_usage
+</property>
+</object>
+<object id='docker_cpu_usage' module='Products.ZenModel.BasicDataSource' class='BasicDataSource'>
+<property select_variable="sourcetypes" type="selection" id="sourcetype" mode="w" >
+COMMAND
+</property>
+<property type="boolean" id="enabled" mode="w" >
+True
+</property>
+<property type="string" id="component" mode="w" >
+${here/id}
+</property>
+<property type="string" id="eventClass" mode="w" >
+/Status
+</property>
+<property type="int" id="severity" mode="w" >
+2
+</property>
+<property type="string" id="commandTemplate" mode="w" >
+/bin/grep "." /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat
+</property>
+<property type="int" id="cycletime" mode="w" >
+300
+</property>
+<property type="boolean" id="usessh" mode="w" >
+True
+</property>
+<property type="string" id="parser" mode="w" >
+ZenPacks.community.Docker.parsers.docker.docker_usage
+</property>
+</object>
 </tomanycont>
 </object>
 </objects>
