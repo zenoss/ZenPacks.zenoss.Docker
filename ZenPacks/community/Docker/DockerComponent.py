@@ -25,5 +25,5 @@ class DockerComponent(DeviceComponent, ManagedEntity):
         '''
         Return the path to an icon for this component.
         '''
-        return '/++resource++ZenPacks_community_Docker/img/%s.png' \
+        return '/++resource++docker/img/%s.png' \
                % self.meta_type
