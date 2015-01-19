@@ -10,6 +10,7 @@ import zope.interface
 from Products.ZenRRD.CommandParser import CommandParser
 from Products.DataCollector.plugins.DataMaps import ObjectMap
 from Products.ZenCollector.interfaces import ICollector
+from Products.ZenEvents import ZenEventClasses
 
 
 class container_status(CommandParser):
@@ -20,7 +21,7 @@ class container_status(CommandParser):
     def processResults(self, cmd, result):
 
         created = ""
-        container_state= "N/A"
+        container_state= "Down"
 
         if cmd.result.stderr:
             log.debug('No received data about status for Docker Container %s' % cmd.component)
@@ -34,6 +35,15 @@ class container_status(CommandParser):
                 created = bits[3]
                 container_state = bits[4]
                 break
+
+        if not ("up" in container_state.lower()):
+            result.events.append(dict(
+                severity=ZenEventClasses.Error,
+                summary="Container status is " + container_state,
+                eventClassKey='docker_error',
+                eventClass='/Status',
+                component=cmd.component
+            ))
 
         maps = [ObjectMap({
             "compname": 'docker_containers/%s' % cmd.component,
