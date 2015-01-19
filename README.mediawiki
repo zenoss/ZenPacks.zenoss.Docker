@@ -1,0 +1,76 @@
+{{ZenPack
+|Summary=This ZenPack provides status and performance monitoring of Docker Containers.
+|Author=Volodymyr Serheiev
+|Maintainer=Volodymyr Serheiev
+|License=Apache License, Version 2.0
+|ZenPack name=ZenPacks.community.Docker
+|Homepage=https://github.com/vsergeyev/ZenPacks.community.Docker
+|Source URI=https://github.com/vsergeyev/ZenPacks.community.Docker.git
+|Flavor=free
+|Releases={{Release
+|Version=1.0.0
+|Tag=8e1c8758184ae82f96b75dabd221abf4331ce1db
+|Release date=2014/11/08
+|Compatible with=Zenoss Core 4.2.x, Zenoss Resource Manager 4.2.x
+}}
+|Devices=
+|Applications=
+|Integrations=
+|DataAudits=
+}}
+
+__TOC__
+
+== Features ==
+The features added by this ZenPack can be summarized as follows.
+They are each detailed further below.
+* Discovery and periodic remodeling of relevant components.
+* Performance monitoring.
+* Event monitoring.
+* Optional service impact with addition of Zenoss Service Dynamics product.
+
+=== Discovery ===
+The following values are discovered:
+; Docker Container
+: ''Attributes'': Name, Image, Command, Created, Container State, Ports, Size
+
+=== Performance Monitoring ===
+The following metrics will be collected and graphed every 5 minutes by default:
+; Docker Container
+: ''CPU User'': CPU User usage, ticks
+: ''CPU System'': CPU User usage, ticks
+: ''Memory'': Memory usage, bytes
+
+=== Event monitoring ===
+The following events will be triggered with respect to the monitored metrics:
+; Docker Container
+: ''Error'': The container is down.
+
+=== Service Impact ===
+When combined with the Zenoss Service Dynamics product, this ZenPack adds
+built-in service impact capability for Docker Containers. The following service impact
+relationships are automatically added. These will be included in any services
+containing one or more of the explicitly mentioned entities.
+;Service Impact Relationships
+* Device affects related Docker Containers.
+
+== Troubleshooting ==
+Please refer the the Zenoss Service Dynamics documentation if you run into
+any of the following problems:
+* ZenPack will not install
+* Adding a device fails
+* Don't understand how to add a device
+* Don't understand how to model a device
+If you cannot find the answer in the documentation, then Resource Manager (Service Dynamics)
+users should contact [https://support.zenoss.com Zenoss Customer Support].
+Core users can use the #zenoss IRC channel or the community.zenoss.org forums.
+== Installed Items ==
+Installing this ZenPack will add the following items to your Zenoss system.
+;Modeler Plugins
+* DockerCollector
+;Monitoring Templates
+* DockerContainer
+;Component Types
+* DockerContainer (on related device)
+
+{{ZenPackFooter}}
