@@ -1,3 +1,7 @@
+'''
+Collects information about Docker Containers.
+'''
+
 import collections
 from itertools import chain
 import re

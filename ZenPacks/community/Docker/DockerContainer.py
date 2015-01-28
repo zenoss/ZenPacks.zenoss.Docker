@@ -26,12 +26,12 @@ class DockerContainer(DockerComponent):
     size = ""
 
     _properties = DockerComponent._properties + (
-        {'id': 'image', 'type': 'string'},
-        {'id': 'command', 'type': 'string'},
-        {'id': 'created', 'type': 'string'},
-        {'id': 'container_state', 'type': 'string'},
-        {'id': 'ports', 'type': 'string'},
-        {'id': 'size', 'type': 'string'},
+        {'id': 'image', 'label': 'Image', 'type': 'string'},
+        {'id': 'command', 'label': 'Command', 'type': 'string'},
+        {'id': 'created', 'label': 'Created', 'type': 'string'},
+        {'id': 'container_state', 'label': 'Container State', 'type': 'string'},
+        {'id': 'ports', 'label': 'Ports', 'type': 'string'},
+        {'id': 'size', 'label': 'Size', 'type': 'string'},
     )
 
     _relations = DockerComponent._relations + (

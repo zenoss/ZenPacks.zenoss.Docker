@@ -77,6 +77,10 @@ GAUGE
 <property type="boolean" id="isrow" mode="w" >
 True
 </property>
+<tomanycont id='aliases'>
+<object id='cpu_system__ticks' module='Products.ZenModel.RRDDataPointAlias' class='RRDDataPointAlias'>
+</object>
+</tomanycont>
 </object>
 <object id='cpu_user' module='Products.ZenModel.RRDDataPoint' class='RRDDataPoint'>
 <property select_variable="rrdtypes" type="selection" id="rrdtype" mode="w" >
@@ -85,6 +89,10 @@ GAUGE
 <property type="boolean" id="isrow" mode="w" >
 True
 </property>
+<tomanycont id='aliases'>
+<object id='cpu_user__ticks' module='Products.ZenModel.RRDDataPointAlias' class='RRDDataPointAlias'>
+</object>
+</tomanycont>
 </object>
 </tomanycont>
 </object>
@@ -124,6 +132,10 @@ GAUGE
 <property type="boolean" id="isrow" mode="w" >
 True
 </property>
+<tomanycont id='aliases'>
+<object id='mem_usage__bytes' module='Products.ZenModel.RRDDataPointAlias' class='RRDDataPointAlias'>
+</object>
+</tomanycont>
 </object>
 </tomanycont>
 </object>
