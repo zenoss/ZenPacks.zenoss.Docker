@@ -74,7 +74,7 @@ class DockerCollector(CommandPlugin):
 
         maps["docker_containers"].append(RelationshipMap(
             relname='docker_containers',
-            modname='ZenPacks.community.Docker.DockerContainer',
+            modname='ZenPacks.zenoss.Docker.DockerContainer',
             objmaps=oms))
 
         return list(chain.from_iterable(maps.itervalues()))

@@ -23,7 +23,7 @@ from ZenPacks.zenoss.Impact.impactd.interfaces import INodeTriggers
 AVAILABILITY = 'AVAILABILITY'
 PERCENT = 'policyPercentageTrigger'
 THRESHOLD = 'policyThresholdTrigger'
-RP = 'ZenPacks.community.Docker'
+RP = 'ZenPacks.zenoss.Docker'
 
 
 def guid(obj):

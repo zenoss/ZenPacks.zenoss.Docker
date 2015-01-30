@@ -9,7 +9,7 @@ Docker Container status monitoring.
 Docker Container status monitoring.
 </property>
 <property type="string" id="targetPythonClass" mode="w" >
-ZenPacks.community.Docker.DockerContainer
+ZenPacks.zenoss.Docker.DockerContainer
 </property>
 <tomanycont id='datasources'>
 <object id='container_status' module='Products.ZenModel.BasicDataSource' class='BasicDataSource'>
@@ -38,7 +38,7 @@ ${here/id}
 True
 </property>
 <property type="string" id="parser" mode="w" >
-ZenPacks.community.Docker.parsers.docker.container_status
+ZenPacks.zenoss.Docker.parsers.docker.container_status
 </property>
 </object>
 <object id='docker_cpu_usage' module='Products.ZenModel.BasicDataSource' class='BasicDataSource'>
@@ -67,7 +67,7 @@ ${here/id}
 True
 </property>
 <property type="string" id="parser" mode="w" >
-ZenPacks.community.Docker.parsers.docker.docker_usage
+ZenPacks.zenoss.Docker.parsers.docker.docker_usage
 </property>
 <tomanycont id='datapoints'>
 <object id='cpu_system' module='Products.ZenModel.RRDDataPoint' class='RRDDataPoint'>
@@ -122,7 +122,7 @@ ${here/id}
 True
 </property>
 <property type="string" id="parser" mode="w" >
-ZenPacks.community.Docker.parsers.docker.docker_usage
+ZenPacks.zenoss.Docker.parsers.docker.docker_usage
 </property>
 <tomanycont id='datapoints'>
 <object id='mem_usage' module='Products.ZenModel.RRDDataPoint' class='RRDDataPoint'>

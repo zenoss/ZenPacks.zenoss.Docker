@@ -24,7 +24,7 @@ productNames = (
 
 # Useful to avoid making literal string references to module and class names
 # throughout the rest of the ZenPack.
-ZP_NAME = 'ZenPacks.community.Docker'
+ZP_NAME = 'ZenPacks.zenoss.Docker'
 MODULE_NAME = {}
 CLASS_NAME = {}
 for product_name in productNames:
@@ -37,7 +37,7 @@ NEW_DEVICE_RELATIONS = (
     )
 
 NEW_COMPONENT_TYPES = (
-    'ZenPacks.community.Docker.DockerContainer.DockerContainer',
+    'ZenPacks.zenoss.Docker.DockerContainer.DockerContainer',
     )
 
 # Add new relationships to Device if they don't already exist.
