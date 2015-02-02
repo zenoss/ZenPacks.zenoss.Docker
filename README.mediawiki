@@ -41,6 +41,7 @@ any of the following problems:
 If you cannot find the answer in the documentation, then Resource Manager (Service Dynamics)
 users should contact [https://support.zenoss.com Zenoss Customer Support].
 Core users can use the #zenoss IRC channel or the community.zenoss.org forums.
+
 == Installed Items ==
 Installing this ZenPack will add the following items to your Zenoss system.
 ;Modeler Plugins
@@ -49,5 +50,8 @@ Installing this ZenPack will add the following items to your Zenoss system.
 * DockerContainer
 ;Component Types
 * DockerContainer (on related device)
+
+== Docker on Microsoft Windows ==
+Currently ZenPack don't support monitoring of Docker installed on Microsoft Windows systems.
 
 {{ZenPackFooter}}
