@@ -22,6 +22,7 @@ class container_status(CommandParser):
 
         created = ""
         container_state= "Down"
+        ports = ""
 
         if cmd.result.stderr:
             log.debug('No received data about status for Docker Container %s' % cmd.component)
@@ -34,6 +35,8 @@ class container_status(CommandParser):
                     filter(lambda x: x.strip(), line.split("  "))]
                 created = bits[3]
                 container_state = bits[4]
+                if len(bits) == 7:
+                    ports = bits[5]
                 break
 
         if not ("up" in container_state.lower()):
@@ -44,12 +47,21 @@ class container_status(CommandParser):
                 eventClass='/Status',
                 component=cmd.component
             ))
+        else:
+            result.events.append(dict(
+                severity=ZenEventClasses.Clear,
+                summary="Container status is Up",
+                eventClassKey='docker_error',
+                eventClass='/Status',
+                component=cmd.component
+            ))
 
         maps = [ObjectMap({
             "compname": 'docker_containers/%s' % cmd.component,
             "modname": 'DockerContainer',
             "created": created,
-            "container_state": container_state
+            "container_state": container_state,
+            "ports": ports
         })]
         self.apply_maps(cmd, maps=maps)
 
