@@ -10,6 +10,10 @@ import os
 import re
 from Products.ZenUtils.Utils import unused
 from Products.ZenModel.Device import Device
+from Products.Zuul.form import schema
+from Products.Zuul.infos import ProxyProperty
+from Products.Zuul.infos.device import DeviceInfo
+from Products.Zuul.interfaces import IDeviceInfo
 from Products.ZenModel.ZenPack import ZenPack as ZenPackBase
 from Products.ZenRelations.RelSchema import ToManyCont, ToOne
 
@@ -47,6 +51,17 @@ for relname, modname in NEW_DEVICE_RELATIONS:
             (relname,
              ToManyCont(ToOne, '.'.join((ZP_NAME, modname)), 'docker_host')),
         )
+
+
+# Add new properties to Device
+Device.docker_version = ""
+Device._properties = Device._properties + (
+    {'id':'docker_version', 'type':'string', 'mode':'w',
+        'label': 'Docker Version'},
+)
+IDeviceInfo.docker_version = schema.TextLine(
+    title=u"Docker Version", group="Details")
+DeviceInfo.docker_version = ProxyProperty('docker_version')
 
 
 class ZenPack(ZenPackBase):
