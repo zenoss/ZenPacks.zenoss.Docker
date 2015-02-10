@@ -45,7 +45,7 @@ class DockerCollector(CommandPlugin):
         oms = []
         for line in results.splitlines()[2:]:
             bits = [x.strip() for x in \
-                filter(lambda x: x.strip(), line.split("  "))]
+                filter(lambda x: x.strip(), line.split("   "))]
 
             if len(bits) == 7:
                 container_state = bits[4]
