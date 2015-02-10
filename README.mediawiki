@@ -57,6 +57,6 @@ Currently ZenPack don't support monitoring of Docker installed on Microsoft Wind
 == Known issues ==
 
 ;Error message "Dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS?"
- * This means that user you using to connect to Docker server has no permissions to execute 'docker' command. It may be fixed by adding this user to 'docker' group.
+* This means that user you using to connect to Docker server has no permissions to execute 'docker' command. It may be fixed by adding this user to 'docker' group.
 
 {{ZenPackFooter}}
