@@ -20,7 +20,8 @@ class DockerCollector(CommandPlugin):
         return True
 
     command = (
-        'docker ps -a -s --no-trunc'
+        # 'docker ps -a -s --no-trunc' may cause timeout on large count of containers
+        'docker ps -a --no-trunc'
     )
 
     def process(self, device, results, log):
@@ -41,21 +42,18 @@ class DockerCollector(CommandPlugin):
             bits = [x.strip() for x in \
                 filter(lambda x: x.strip(), line.split("  "))]
 
-            if len(bits) == 8:
+            if len(bits) == 7:
                 container_state = bits[4]
                 ports = bits[5]
                 title = bits[6]
-                size = bits[7]
-            elif len(bits) == 7: # No Ports
+            elif len(bits) == 6: # No Ports
                 ports = ""
                 container_state = bits[4]
                 title = bits[5]
-                size = bits[6]
-            elif len(bits) == 6: # No Status & Ports, probably not running or error
+            elif len(bits) == 5: # No Status & Ports, probably not running or error
                 ports = ""
                 container_state = ""
                 title = bits[4]
-                size = bits[5]
             else:
                 log.error("Bad format of docker ps output.")
                 log.error(bits)
@@ -69,7 +67,7 @@ class DockerCollector(CommandPlugin):
                 "created": bits[3],
                 "container_state": bits[4],
                 "ports": ports,
-                "size": size
+                "size": "N/A"
                 }))
 
         maps["docker_containers"].append(RelationshipMap(
