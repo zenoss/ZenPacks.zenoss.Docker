@@ -32,7 +32,7 @@ class container_status(CommandParser):
         for line in lines:
             if cmd.component in line:
                 bits = [x.strip() for x in \
-                    filter(lambda x: x.strip(), line.split("  "))]
+                    filter(lambda x: x.strip(), line.split("   "))]
                 created = bits[3]
                 container_state = bits[4]
                 if len(bits) == 7:
