@@ -58,7 +58,7 @@ ${here/id}
 2
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-/usr/bin/test -f /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes &amp;&amp; /bin/grep "." /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat || echo ""
+/usr/bin/test -f /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat &amp;&amp; /bin/grep "." /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat || echo "0"
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
@@ -113,7 +113,7 @@ ${here/id}
 2
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-/usr/bin/test -f /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes &amp;&amp; /bin/grep "." /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes || echo ""
+/usr/bin/test -f /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes &amp;&amp; /bin/grep "." /sys/fs/cgroup/memory/docker/${here/id}/memory.usage_in_bytes || echo "0"
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
