@@ -46,23 +46,11 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
                 dataIndex: 'image',
                 header: _t('Image')
             },{
-                id: 'command',
-                dataIndex: 'command',
-                header: _t('Command'),
-                sortable: true,
-                width: 120
-            },{
                 id: 'ports',
                 dataIndex: 'ports',
                 header: _t('Ports'),
                 sortable: true,
                 width: 100
-            },{
-                id: 'size',
-                dataIndex: 'size',
-                header: _t('Size'),
-                sortable: true,
-                width: 60
             },{
                 id: 'created',
                 dataIndex: 'created',
