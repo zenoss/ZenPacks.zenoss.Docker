@@ -57,7 +57,7 @@ class IDockerContainerInfo(IComponentInfo):
     created = schema.TextLine(title=_t(u'Created'))
     container_state = schema.TextLine(title=_t(u'Container State'))
     ports = schema.TextLine(title=_t(u'Ports'))
-    size = schema.TextLine(title=_t(u'Size'))
+    # size = schema.TextLine(title=_t(u'Size'))
 
 
 class DockerContainerInfo(ComponentInfo):
@@ -71,4 +71,4 @@ class DockerContainerInfo(ComponentInfo):
     created = ProxyProperty('created')
     container_state = ProxyProperty('container_state')
     ports = ProxyProperty('ports')
-    size = ProxyProperty('size')
+    # size = ProxyProperty('size')
