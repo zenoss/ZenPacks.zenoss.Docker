@@ -8,7 +8,7 @@ log = logging.getLogger('zen.Docker')
 import Globals
 import os
 import re
-from Products.ZenUtils.Utils import unused
+from Products.ZenUtils.Utils import monkeypatch, unused
 from Products.ZenModel.Device import Device
 from Products.Zuul.form import schema
 from Products.Zuul.infos import ProxyProperty
@@ -95,3 +95,18 @@ class ZenPack(ZenPackBase):
     def _buildDeviceRelations(self):
         for d in self.dmd.Devices.getSubDevicesGen():
             d.buildRelations()
+
+
+@monkeypatch('Products.ZenHub.services.CommandPerformanceConfig.CommandPerformanceConfig')
+def remote_applyDataMaps(self, device, datamaps):
+    """Patching command datasource to add partial remodeling"""
+    from Products.DataCollector.ApplyDataMap import ApplyDataMap
+    device = self.getPerformanceMonitor().findDevice(device)
+    applicator = ApplyDataMap(self)
+
+    changed = False
+    for datamap in datamaps:
+        if applicator._applyDataMap(device, datamap):
+            changed = True
+
+    return changed
