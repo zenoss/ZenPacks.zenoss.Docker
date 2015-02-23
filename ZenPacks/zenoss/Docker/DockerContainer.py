@@ -24,19 +24,28 @@ class DockerContainer(DockerComponent):
     container_state = ""
     ports = ""
     size = ""
+    size_used = ""
+    size_free = ""
+    size_used_percents = ""
 
     _properties = DockerComponent._properties + (
         {'id': 'image', 'label': 'Image', 'type': 'string'},
         {'id': 'command', 'label': 'Command', 'type': 'string'},
         {'id': 'created', 'label': 'Created', 'type': 'string'},
-        {'id': 'container_state', 'label': 'Container State', 'type': 'string'},
+        {'id': 'container_state', 'label': 'Container State',
+            'type': 'string'},
         {'id': 'ports', 'label': 'Ports', 'type': 'string'},
-        {'id': 'size', 'label': 'Size', 'type': 'string'},
+        {'id': 'size', 'label': 'Root FS Size', 'type': 'string'},
+        {'id': 'size_used', 'label': 'Root FS Used', 'type': 'string'},
+        {'id': 'size_free', 'label': 'Root FS Available', 'type': 'string'},
+        {'id': 'size_used_percents', 'label': 'Root FS Used %',
+            'type': 'string'},
     )
 
     _relations = DockerComponent._relations + (
         ('docker_host', ToOne(
-            ToManyCont, 'Products.ZenModel.Device.Device', 'docker_containers')
+            ToManyCont, 'Products.ZenModel.Device.Device',
+            'docker_containers')
         ),
     )
 
@@ -57,7 +66,10 @@ class IDockerContainerInfo(IComponentInfo):
     created = schema.TextLine(title=_t(u'Created'))
     container_state = schema.TextLine(title=_t(u'Container State'))
     ports = schema.TextLine(title=_t(u'Ports'))
-    # size = schema.TextLine(title=_t(u'Size'))
+    size = schema.TextLine(title=_t(u'Root FS Size'))
+    size_used = schema.TextLine(title=_t(u'Root FS Used'))
+    size_free = schema.TextLine(title=_t(u'Root FS Available'))
+    size_used_percents = schema.TextLine(title=_t(u'Root FS Used %'))
 
 
 class DockerContainerInfo(ComponentInfo):
@@ -71,4 +83,7 @@ class DockerContainerInfo(ComponentInfo):
     created = ProxyProperty('created')
     container_state = ProxyProperty('container_state')
     ports = ProxyProperty('ports')
-    # size = ProxyProperty('size')
+    size = ProxyProperty('size')
+    size_used = ProxyProperty('size_used')
+    size_free = ProxyProperty('size_free')
+    size_used_percents = ProxyProperty('size_used_percents')

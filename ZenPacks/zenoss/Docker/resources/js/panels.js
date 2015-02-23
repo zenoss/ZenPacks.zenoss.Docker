@@ -22,6 +22,9 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
                 {name: 'image'},
                 {name: 'ports'},
                 {name: 'size'},
+                {name: 'size_used'},
+                {name: 'size_free'},
+                {name: 'size_used_percents'},
                 {name: 'created'},
                 {name: 'command'},
                 {name: 'monitor'},
@@ -56,13 +59,37 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
                 dataIndex: 'created',
                 header: _t('Created'),
                 sortable: true,
-                width: 100
+                width: 90
+            },{
+                id: 'size',
+                dataIndex: 'size',
+                header: _t('Root FS Size'),
+                sortable: true,
+                width: 70
+            },{
+                id: 'size_used',
+                dataIndex: 'size_used',
+                header: _t('Used'),
+                sortable: true,
+                width: 50
+            },{
+                id: 'size_free',
+                dataIndex: 'size_free',
+                header: _t('Available'),
+                sortable: true,
+                width: 50
+            },{
+                id: 'size_used_percents',
+                dataIndex: 'size_used_percents',
+                header: _t('Use %'),
+                sortable: true,
+                width: 50
             },{
                 id: 'status',
                 dataIndex: 'status',
                 header: _t('Status'),
                 renderer: Zenoss.render.pingStatus,
-                width: 70
+                width: 60
             },{
                 id: 'monitored',
                 dataIndex: 'monitored',
