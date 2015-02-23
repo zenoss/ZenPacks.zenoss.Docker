@@ -29,7 +29,7 @@ ${here/id}
 3
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-/usr/bin/docker ps --no-trunc
+/usr/bin/docker ps --no-trunc &amp;&amp; echo '--cut--' &amp;&amp; docker exec ${here/id} df -h 2> /dev/null
 </property>
 <property type="int" id="cycletime" mode="w" >
 300

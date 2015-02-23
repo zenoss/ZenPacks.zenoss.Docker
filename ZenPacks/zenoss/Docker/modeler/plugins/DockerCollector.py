@@ -72,7 +72,9 @@ class DockerCollector(CommandPlugin):
                 "created": bits[3],
                 "container_state": bits[4],
                 "ports": ports,
-                "size": "N/A"
+                "size": "",
+                "size_used": "",
+                "size_free": ""
                 }))
 
         maps["docker_containers"].append(RelationshipMap(
