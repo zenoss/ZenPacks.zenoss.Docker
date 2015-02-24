@@ -48,7 +48,7 @@ class container_status(CommandParser):
                 break
 
         for line in sizes_info.splitlines():
-            if 'rootfs' in line:
+            if ' /' in line:
                 bits = line.split()
                 size = bits[1]
                 size_used = bits[2]
@@ -90,7 +90,6 @@ class container_status(CommandParser):
             })
 
         self.apply_maps(cmd, maps=[ObjectMap(om_data)])
-        print result.events
         return result
 
     def apply_maps(self, cmd, maps=[]):
