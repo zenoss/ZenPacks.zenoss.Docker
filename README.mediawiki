@@ -9,7 +9,7 @@ They are each detailed further below.
 === Discovery ===
 The following values are discovered:
 ; Docker Container
-: ''Attributes'': Name, Image, Command, Created, Container State, Ports, Size
+: ''Attributes'': Name, Image, Command, Created, Container State, Ports, Root FS Size, Root FS Size Used, Root FS Size Available, Root FS Used %
 
 === Performance Monitoring ===
 The following metrics will be collected and graphed every 5 minutes by default:
