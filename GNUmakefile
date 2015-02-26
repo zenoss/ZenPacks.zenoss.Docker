@@ -22,3 +22,6 @@ analytics:
 		--domain="Docker Domain" \
 		--device=192.168.1.205
 	cd analytics; zip -r ../ZenPacks/zenoss/Docker/analytics/analytics-bundle.zip *
+
+test:
+	runtests ZenPacks.zenoss.Docker
