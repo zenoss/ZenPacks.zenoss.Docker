@@ -320,7 +320,7 @@ ${here/id}
 3
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-docker exec ${here/id} df -h 2> /dev/null
+/usr/bin/docker exec ${here/id} df -h 2> /dev/null
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
