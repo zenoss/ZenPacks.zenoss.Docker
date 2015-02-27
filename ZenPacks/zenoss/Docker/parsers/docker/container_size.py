@@ -13,7 +13,7 @@ from Products.ZenCollector.interfaces import ICollector
 from Products.ZenEvents import ZenEventClasses
 
 
-class container_status(CommandParser):
+class container_size(CommandParser):
     """
     Datasource for Docker components
     """
