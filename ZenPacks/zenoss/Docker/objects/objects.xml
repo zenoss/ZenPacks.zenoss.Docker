@@ -320,7 +320,7 @@ ${here/id}
 3
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-/usr/bin/docker exec ${here/id} df -h 2> /dev/null
+/usr/bin/docker ps -q --no-trunc | grep ${here/id} &amp;&amp; /usr/bin/docker exec ${here/id} df -h || echo "0"
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
