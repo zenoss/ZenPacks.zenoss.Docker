@@ -55,6 +55,15 @@ class DockerContainer(DockerComponent):
     def getStatus(self):
         return not ("up" in self.container_state.lower())
 
+    def _old_docker(self):
+        return ("version 1.2" in self.device().docker_version)
+
+    def getRRDTemplates(self):
+        if self._old_docker():
+            return [self.getRRDTemplateByName('DockerContainer')]
+        return [self.getRRDTemplateByName('DockerContainer'),
+            self.getRRDTemplateByName('DockerContainerSize')]
+
 
 class IDockerContainerInfo(IComponentInfo):
     '''
@@ -87,3 +96,8 @@ class DockerContainerInfo(ComponentInfo):
     size_used = ProxyProperty('size_used')
     size_free = ProxyProperty('size_free')
     size_used_percents = ProxyProperty('size_used_percents')
+
+    @property
+    @info
+    def old_docker(self):
+        return self._object._old_docker()

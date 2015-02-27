@@ -1,9 +1,9 @@
 """
-Docker container status parser
+Docker container size parser
 """
 
 import logging
-log = logging.getLogger("zen.DockerContainerStatus")
+log = logging.getLogger("zen.DockerContainerSize")
 
 import zope.interface
 
@@ -20,49 +20,37 @@ class container_status(CommandParser):
 
     def processResults(self, cmd, result):
 
-        created = ""
-        container_state= "Down"
-        ports = ""
+        size = ""
+        size_used = ""
+        size_free = ""
+        size_used_percents = ""
 
         if cmd.result.stderr:
-            log.warning('No received data about status for '
+            log.warning('No received data about size for '
                 'Docker Container %s' % cmd.component)
             return result
 
         for line in cmd.result.output.splitlines():
-            if cmd.component in line:
-                bits = [x.strip() for x in \
-                    filter(lambda x: x.strip(), line.split("   "))]
-                created = bits[3]
-                container_state = bits[4]
-                if len(bits) == 7:
-                    ports = bits[5]
+            if ' /' in line:
+                bits = line.split()
+                size = bits[1]
+                size_used = bits[2]
+                size_free = bits[3]
+                size_used_percents = bits[4]
                 break
-
-        if not ("up" in container_state.lower()):
-            result.events.append(dict(
-                severity=ZenEventClasses.Error,
-                summary="Container status is " + container_state,
-                eventClassKey='docker_error',
-                eventClass='/Status',
-                component=cmd.component
-            ))
-        else:
-            result.events.append(dict(
-                severity=ZenEventClasses.Clear,
-                summary="Container status is Up",
-                eventClassKey='docker_error',
-                eventClass='/Status',
-                component=cmd.component
-            ))
 
         om_data = {
             "compname": 'docker_containers/%s' % cmd.component,
             "modname": 'DockerContainer',
-            "created": created,
-            "container_state": container_state,
-            "ports": ports
         }
+
+        if size:
+            om_data.update({
+                "size": size,
+                "size_used": size_used,
+                "size_free": size_free,
+                "size_used_percents": size_used_percents
+            })
 
         self.apply_maps(cmd, maps=[ObjectMap(om_data)])
         return result

@@ -29,7 +29,7 @@ ${here/id}
 3
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-/usr/bin/docker ps --no-trunc &amp;&amp; echo '--cut--' &amp;&amp; docker exec ${here/id} df -h 2> /dev/null
+/usr/bin/docker ps --no-trunc
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
@@ -289,6 +289,48 @@ AVERAGE
 </property>
 </object>
 </tomanycont>
+</object>
+</tomanycont>
+</object>
+<object id='/zport/dmd/Devices/rrdTemplates/DockerContainerSize' module='Products.ZenModel.RRDTemplate' class='RRDTemplate'>
+<property id='zendoc' type='string'>
+Docker Container size monitoring.
+</property>
+<property type="text" id="description" mode="w" >
+Docker Container size monitoring.
+</property>
+<property type="string" id="targetPythonClass" mode="w" >
+ZenPacks.zenoss.Docker.DockerContainer
+</property>
+<tomanycont id='datasources'>
+<object id='container_size' module='Products.ZenModel.BasicDataSource' class='BasicDataSource'>
+<property select_variable="sourcetypes" type="selection" id="sourcetype" mode="w" >
+COMMAND
+</property>
+<property type="boolean" id="enabled" mode="w" >
+True
+</property>
+<property type="string" id="component" mode="w" >
+${here/id}
+</property>
+<property type="string" id="eventClass" mode="w" >
+/Status
+</property>
+<property type="int" id="severity" mode="w" >
+3
+</property>
+<property type="string" id="commandTemplate" mode="w" >
+docker exec ${here/id} df -h 2> /dev/null
+</property>
+<property type="int" id="cycletime" mode="w" >
+300
+</property>
+<property type="boolean" id="usessh" mode="w" >
+True
+</property>
+<property type="string" id="parser" mode="w" >
+ZenPacks.zenoss.Docker.parsers.docker.container_size
+</property>
 </object>
 </tomanycont>
 </object>

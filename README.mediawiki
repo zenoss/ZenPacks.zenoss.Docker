@@ -48,11 +48,16 @@ Installing this ZenPack will add the following items to your Zenoss system.
 * DockerCollector
 ;Monitoring Templates
 * DockerContainer
+* DockerContainerSize
 ;Component Types
 * DockerContainer (on related device)
 
 == Docker on Microsoft Windows ==
 Currently ZenPack don't support monitoring of Docker installed on Microsoft Windows systems.
+
+== Docker 1.2 note ==
+
+For Docker versions older than 1.3 monitoring of containers' sizes is not supported.
 
 == Known issues ==
 

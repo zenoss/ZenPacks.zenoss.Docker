@@ -30,7 +30,8 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
                 {name: 'monitor'},
                 {name: 'monitored'},
                 {name: 'locking'},
-                {name: 'status'}
+                {name: 'status'},
+                {name: 'old_docker'}
             ],
             columns: [{
                 id: 'severity',
@@ -106,6 +107,21 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
             }]
         });
         ZC.DockerContainerPanel.superclass.constructor.call(this, config);
+        this.store.on('guaranteedrange', function(){
+            if (this.loaded) return;
+            var items = Ext.getCmp('component_card').componentgrid.getView().store.data.items;
+
+            if (items) {
+                if (items[0].data.old_docker) {
+                    Ext.ComponentQuery.query("gridcolumn[text=Root FS Size]")[0].hide();
+                    Ext.ComponentQuery.query("gridcolumn[text=Used]")[0].hide();
+                    Ext.ComponentQuery.query("gridcolumn[text=Available]")[0].hide();
+                    Ext.ComponentQuery.query("gridcolumn[text=Use %]")[0].hide();
+                }
+            }
+
+            this.loaded = true;
+        }, this);
     }
 });
 
