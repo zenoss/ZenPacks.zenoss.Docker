@@ -1,0 +1,3 @@
+/usr/bin/test -f /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat && /bin/grep '.' /sys/fs/cgroup/cpuacct/docker/${here/id}/cpuacct.stat || echo '0'
+user 95
+system 107

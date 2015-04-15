@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<folder exportedWithPermissions="false">
+  <parent>/public</parent>
+  <name>Docker_ZenPack</name>
+  <label>Docker ZenPack</label>
+  <resource>Docker_Domain</resource>
+</folder>

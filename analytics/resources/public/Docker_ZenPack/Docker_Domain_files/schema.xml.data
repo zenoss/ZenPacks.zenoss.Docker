@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<schema version="1.0" xmlns="http://www.jaspersoft.com/2007/SL/XMLSchema">
+  <itemGroups>
+    <itemGroup resourceId="JoinTree_1" label="Devices" id="set_device" description="">
+      <itemGroups>
+        <itemGroup resourceId="JoinTree_1" label="Measures" id="set_device_measures" description="">
+          <itemGroups/>
+          <items>
+        </items>
+        </itemGroup>
+      </itemGroups>
+      <items>
+        <item resourceId="JoinTree_1.dim_device.device_name" dimensionOrMeasure="Dimension" id="dim_device_device_name" label="Device Name"/>
+        <item resourceId="JoinTree_1.dim_device.device_manage_ip" dimensionOrMeasure="Dimension" id="dim_device_device_manage_ip" label="manageIp"/>
+      </items>
+    </itemGroup>
+    <itemGroup resourceId="JoinTree_1" label="DockerContainers" id="set_docker_container" description="">
+      <itemGroups>
+        <itemGroup resourceId="JoinTree_1" label="Measures" id="set_docker_container_measures" description="">
+          <itemGroups/>
+          <items>
+            <item resourceId="JoinTree_1.daily_cpu_system__ticks.fct_ts" dimensionOrMeasure="Dimension" id="daily_cpu_system__ticks_fct_ts" label="cpu_system__ticks / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_cpu_system__ticks.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_cpu_system__ticks_fct_ts_gmt" label="cpu_system__ticks / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_cpu_system__ticks.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_system__ticks_fct_avg" label="cpu_system__ticks / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_cpu_system__ticks.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_system__ticks_fct_max" label="cpu_system__ticks / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_cpu_system__ticks.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_system__ticks_fct_min" label="cpu_system__ticks / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_cpu_system__ticks.fct_ts" dimensionOrMeasure="Dimension" id="hourly_cpu_system__ticks_fct_ts" label="cpu_system__ticks / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_cpu_system__ticks.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_cpu_system__ticks_fct_ts_gmt" label="cpu_system__ticks / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_cpu_system__ticks.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_system__ticks_fct_avg" label="cpu_system__ticks / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_cpu_system__ticks.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_system__ticks_fct_max" label="cpu_system__ticks / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_cpu_system__ticks.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_system__ticks_fct_min" label="cpu_system__ticks / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_cpu_user__ticks.fct_ts" dimensionOrMeasure="Dimension" id="daily_cpu_user__ticks_fct_ts" label="cpu_user__ticks / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_cpu_user__ticks.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_cpu_user__ticks_fct_ts_gmt" label="cpu_user__ticks / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_cpu_user__ticks.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_user__ticks_fct_avg" label="cpu_user__ticks / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_cpu_user__ticks.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_user__ticks_fct_max" label="cpu_user__ticks / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_cpu_user__ticks.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_cpu_user__ticks_fct_min" label="cpu_user__ticks / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_cpu_user__ticks.fct_ts" dimensionOrMeasure="Dimension" id="hourly_cpu_user__ticks_fct_ts" label="cpu_user__ticks / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_cpu_user__ticks.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_cpu_user__ticks_fct_ts_gmt" label="cpu_user__ticks / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_cpu_user__ticks.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_user__ticks_fct_avg" label="cpu_user__ticks / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_cpu_user__ticks.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_user__ticks_fct_max" label="cpu_user__ticks / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_cpu_user__ticks.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_cpu_user__ticks_fct_min" label="cpu_user__ticks / hourly / Lowest"/>
+            <item resourceId="JoinTree_1.daily_mem_usage__bytes.fct_ts" dimensionOrMeasure="Dimension" id="daily_mem_usage__bytes_fct_ts" label="mem_usage__bytes / daily / TS"/>
+            <item resourceId="JoinTree_1.daily_mem_usage__bytes.fct_ts_gmt" dimensionOrMeasure="Dimension" id="daily_mem_usage__bytes_fct_ts_gmt" label="mem_usage__bytes / daily / TS GMT"/>
+            <item resourceId="JoinTree_1.daily_mem_usage__bytes.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_mem_usage__bytes_fct_avg" label="mem_usage__bytes / daily / Average"/>
+            <item resourceId="JoinTree_1.daily_mem_usage__bytes.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_mem_usage__bytes_fct_max" label="mem_usage__bytes / daily / Highest"/>
+            <item resourceId="JoinTree_1.daily_mem_usage__bytes.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="daily_mem_usage__bytes_fct_min" label="mem_usage__bytes / daily / Lowest"/>
+            <item resourceId="JoinTree_1.hourly_mem_usage__bytes.fct_ts" dimensionOrMeasure="Dimension" id="hourly_mem_usage__bytes_fct_ts" label="mem_usage__bytes / hourly / TS"/>
+            <item resourceId="JoinTree_1.hourly_mem_usage__bytes.fct_ts_gmt" dimensionOrMeasure="Dimension" id="hourly_mem_usage__bytes_fct_ts_gmt" label="mem_usage__bytes / hourly / TS GMT"/>
+            <item resourceId="JoinTree_1.hourly_mem_usage__bytes.fct_avg" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_mem_usage__bytes_fct_avg" label="mem_usage__bytes / hourly / Average"/>
+            <item resourceId="JoinTree_1.hourly_mem_usage__bytes.fct_max" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_mem_usage__bytes_fct_max" label="mem_usage__bytes / hourly / Highest"/>
+            <item resourceId="JoinTree_1.hourly_mem_usage__bytes.fct_min" dimensionOrMeasure="Measure" defaultAgg="Average" id="hourly_mem_usage__bytes_fct_min" label="mem_usage__bytes / hourly / Lowest"/>
+          </items>
+        </itemGroup>
+      </itemGroups>
+      <items>
+        <item resourceId="JoinTree_1.dim_docker_container.image" dimensionOrMeasure="Dimension" id="dim_docker_container_image" label="Image"/>
+        <item resourceId="JoinTree_1.dim_docker_container.command" dimensionOrMeasure="Dimension" id="dim_docker_container_command" label="Command"/>
+        <item resourceId="JoinTree_1.dim_docker_container.created" dimensionOrMeasure="Dimension" id="dim_docker_container_created" label="Created"/>
+        <item resourceId="JoinTree_1.dim_docker_container.container_state" dimensionOrMeasure="Dimension" id="dim_docker_container_container_state" label="Container State"/>
+        <item resourceId="JoinTree_1.dim_docker_container.ports" dimensionOrMeasure="Dimension" id="dim_docker_container_ports" label="Ports"/>
+        <item resourceId="JoinTree_1.dim_docker_container.size" dimensionOrMeasure="Dimension" id="dim_docker_container_size" label="Size"/>
+      </items>
+    </itemGroup>
+  </itemGroups>
+  <items>
+    <item resourceId="JoinTree_1.dim_date.date_date" dimensionOrMeasure="Dimension" id="dim_date_date_date" label="Date"/>
+  </items>
+  <resources>
+    <jdbcTable tableName="dim_date" datasourceId="zenoss_reporting" id="dim_date">
+      <fieldList>
+        <field type="java.lang.Integer" id="date_key"/>
+        <field type="java.util.Date" id="date_date"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="dim_device" datasourceId="zenoss_reporting" id="dim_device">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.sql.Timestamp" id="device_deleted_at" dataSetExpression="if(device_deleted_at,null,0,1)"/>
+        <field type="java.lang.String" id="device_id"/>
+        <field type="java.lang.String" id="device_name"/>
+        <field type="java.lang.String" id="device_type"/>
+        <field type="java.lang.String" id="device_uid"/>
+        <field type="java.lang.String" id="device_class"/>
+        <field type="java.lang.String" id="device_snmpindex"/>
+        <field type="java.lang.Boolean" id="device_monitor"/>
+        <field type="java.lang.String" id="device_production_state"/>
+        <field type="java.lang.String" id="device_pre_mw_production_state"/>
+        <field type="java.lang.String" id="device_title"/>
+        <field type="java.lang.String" id="device_manage_ip"/>
+        <field type="java.lang.String" id="device_snmp_agent"/>
+        <field type="java.lang.String" id="device_snmp_descr"/>
+        <field type="java.lang.String" id="device_snmp_oid"/>
+        <field type="java.lang.String" id="device_snmp_contact"/>
+        <field type="java.lang.String" id="device_snmp_sys_name"/>
+        <field type="java.lang.String" id="device_snmp_location"/>
+        <field type="java.util.Date" id="device_snmp_last_collection"/>
+        <field type="java.lang.String" id="device_rack_slot"/>
+        <field type="java.lang.String" id="device_comments"/>
+        <field type="java.lang.String" id="device_sysedge_license_mode"/>
+        <field type="java.lang.Double" id="device_priority"/>
+        <field type="java.lang.Double" id="dependencies_count"/>
+        <field type="java.lang.Double" id="dependents_count"/>
+        <field type="java.lang.Integer" id="device_class_key"/>
+        <field type="java.lang.Integer" id="performance_conf_key"/>
+        <field type="java.lang.Integer" id="location_key"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="dim_docker_container" datasourceId="zenoss_reporting" id="dim_docker_container">
+      <fieldList>
+        <field type="java.lang.Integer" id="docker_container_key"/>
+        <field type="java.sql.Timestamp" id="docker_container_deleted_at" dataSetExpression="if(docker_container_deleted_at,null,0,1)"/>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.String" id="snmpindex"/>
+        <field type="java.lang.Boolean" id="monitor"/>
+        <field type="java.lang.String" id="productionState"/>
+        <field type="java.lang.String" id="preMWProductionState"/>
+        <field type="java.lang.String" id="image"/>
+        <field type="java.lang.String" id="command"/>
+        <field type="java.lang.String" id="created"/>
+        <field type="java.lang.String" id="container_state"/>
+        <field type="java.lang.String" id="ports"/>
+        <field type="java.lang.String" id="size"/>
+        <field type="java.lang.Integer" id="docker_host_key"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="daily_cpu_system__ticks" datasourceId="zenoss_reporting" id="daily_cpu_system__ticks">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="hourly_cpu_system__ticks" datasourceId="zenoss_reporting" id="hourly_cpu_system__ticks">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="daily_cpu_user__ticks" datasourceId="zenoss_reporting" id="daily_cpu_user__ticks">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="hourly_cpu_user__ticks" datasourceId="zenoss_reporting" id="hourly_cpu_user__ticks">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="daily_mem_usage__bytes" datasourceId="zenoss_reporting" id="daily_mem_usage__bytes">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="hourly_mem_usage__bytes" datasourceId="zenoss_reporting" id="hourly_mem_usage__bytes">
+      <fieldList>
+        <field type="java.lang.Integer" id="device_key"/>
+        <field type="java.lang.Integer" id="component_key"/>
+        <field type="java.util.Date" id="date_key"/>
+        <field type="java.sql.Timestamp" id="fct_ts"/>
+        <field type="java.sql.Timestamp" id="fct_ts_gmt"/>
+        <field type="java.lang.Double" id="fct_avg"/>
+        <field type="java.lang.Double" id="fct_max"/>
+        <field type="java.lang.Double" id="fct_min"/>
+      </fieldList>
+    </jdbcTable>
+    <jdbcTable tableName="dim_device" datasourceId="zenoss_reporting" id="JoinTree_1">
+      <fieldList>
+        <field type="java.lang.Integer" id="dim_date.date_key"/>
+        <field type="java.util.Date" id="dim_date.date_date"/>
+        <field type="java.lang.Integer" id="dim_device.device_key"/>
+        <field type="device_deleted_at" id="dim_device.device_deleted_at" dataSetExpression="if(dim_device.device_deleted_at,null,0,1)"/>
+        <field type="java.lang.String" id="dim_device.device_id"/>
+        <field type="java.lang.String" id="dim_device.device_name"/>
+        <field type="java.lang.String" id="dim_device.device_type"/>
+        <field type="java.lang.String" id="dim_device.device_uid"/>
+        <field type="java.lang.String" id="dim_device.device_class"/>
+        <field type="java.lang.String" id="dim_device.device_snmpindex"/>
+        <field type="java.lang.Boolean" id="dim_device.device_monitor"/>
+        <field type="java.lang.String" id="dim_device.device_production_state"/>
+        <field type="java.lang.String" id="dim_device.device_pre_mw_production_state"/>
+        <field type="java.lang.String" id="dim_device.device_title"/>
+        <field type="java.lang.String" id="dim_device.device_manage_ip"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_agent"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_descr"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_oid"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_contact"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_sys_name"/>
+        <field type="java.lang.String" id="dim_device.device_snmp_location"/>
+        <field type="java.util.Date" id="dim_device.device_snmp_last_collection"/>
+        <field type="java.lang.String" id="dim_device.device_rack_slot"/>
+        <field type="java.lang.String" id="dim_device.device_comments"/>
+        <field type="java.lang.String" id="dim_device.device_sysedge_license_mode"/>
+        <field type="java.lang.Double" id="dim_device.device_priority"/>
+        <field type="java.lang.Double" id="dim_device.dependencies_count"/>
+        <field type="java.lang.Double" id="dim_device.dependents_count"/>
+        <field type="java.lang.Integer" id="dim_device.device_class_key"/>
+        <field type="java.lang.Integer" id="dim_device.performance_conf_key"/>
+        <field type="java.lang.Integer" id="dim_device.location_key"/>
+        <field type="java.lang.Integer" id="dim_docker_container.docker_container_key"/>
+        <field type="docker_container_deleted_at" id="dim_docker_container.docker_container_deleted_at" dataSetExpression="if(dim_docker_container.docker_container_deleted_at,null,0,1)"/>
+        <field type="java.lang.Integer" id="dim_docker_container.device_key"/>
+        <field type="java.lang.String" id="dim_docker_container.snmpindex"/>
+        <field type="java.lang.Boolean" id="dim_docker_container.monitor"/>
+        <field type="java.lang.String" id="dim_docker_container.productionState"/>
+        <field type="java.lang.String" id="dim_docker_container.preMWProductionState"/>
+        <field type="java.lang.String" id="dim_docker_container.image"/>
+        <field type="java.lang.String" id="dim_docker_container.command"/>
+        <field type="java.lang.String" id="dim_docker_container.created"/>
+        <field type="java.lang.String" id="dim_docker_container.container_state"/>
+        <field type="java.lang.String" id="dim_docker_container.ports"/>
+        <field type="java.lang.String" id="dim_docker_container.size"/>
+        <field type="java.lang.Integer" id="dim_docker_container.docker_host_key"/>
+        <field type="java.lang.Integer" id="daily_cpu_system__ticks.device_key"/>
+        <field type="java.lang.Integer" id="daily_cpu_system__ticks.component_key"/>
+        <field type="java.util.Date" id="daily_cpu_system__ticks.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_cpu_system__ticks.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_cpu_system__ticks.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_cpu_system__ticks.fct_avg"/>
+        <field type="java.lang.Double" id="daily_cpu_system__ticks.fct_max"/>
+        <field type="java.lang.Double" id="daily_cpu_system__ticks.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_cpu_system__ticks.device_key"/>
+        <field type="java.lang.Integer" id="hourly_cpu_system__ticks.component_key"/>
+        <field type="java.util.Date" id="hourly_cpu_system__ticks.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_cpu_system__ticks.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_cpu_system__ticks.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_cpu_system__ticks.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_cpu_system__ticks.fct_max"/>
+        <field type="java.lang.Double" id="hourly_cpu_system__ticks.fct_min"/>
+        <field type="java.lang.Integer" id="daily_cpu_user__ticks.device_key"/>
+        <field type="java.lang.Integer" id="daily_cpu_user__ticks.component_key"/>
+        <field type="java.util.Date" id="daily_cpu_user__ticks.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_cpu_user__ticks.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_cpu_user__ticks.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_cpu_user__ticks.fct_avg"/>
+        <field type="java.lang.Double" id="daily_cpu_user__ticks.fct_max"/>
+        <field type="java.lang.Double" id="daily_cpu_user__ticks.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_cpu_user__ticks.device_key"/>
+        <field type="java.lang.Integer" id="hourly_cpu_user__ticks.component_key"/>
+        <field type="java.util.Date" id="hourly_cpu_user__ticks.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_cpu_user__ticks.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_cpu_user__ticks.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_cpu_user__ticks.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_cpu_user__ticks.fct_max"/>
+        <field type="java.lang.Double" id="hourly_cpu_user__ticks.fct_min"/>
+        <field type="java.lang.Integer" id="daily_mem_usage__bytes.device_key"/>
+        <field type="java.lang.Integer" id="daily_mem_usage__bytes.component_key"/>
+        <field type="java.util.Date" id="daily_mem_usage__bytes.date_key"/>
+        <field type="java.sql.Timestamp" id="daily_mem_usage__bytes.fct_ts"/>
+        <field type="java.sql.Timestamp" id="daily_mem_usage__bytes.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="daily_mem_usage__bytes.fct_avg"/>
+        <field type="java.lang.Double" id="daily_mem_usage__bytes.fct_max"/>
+        <field type="java.lang.Double" id="daily_mem_usage__bytes.fct_min"/>
+        <field type="java.lang.Integer" id="hourly_mem_usage__bytes.device_key"/>
+        <field type="java.lang.Integer" id="hourly_mem_usage__bytes.component_key"/>
+        <field type="java.util.Date" id="hourly_mem_usage__bytes.date_key"/>
+        <field type="java.sql.Timestamp" id="hourly_mem_usage__bytes.fct_ts"/>
+        <field type="java.sql.Timestamp" id="hourly_mem_usage__bytes.fct_ts_gmt"/>
+        <field type="java.lang.Double" id="hourly_mem_usage__bytes.fct_avg"/>
+        <field type="java.lang.Double" id="hourly_mem_usage__bytes.fct_max"/>
+        <field type="java.lang.Double" id="hourly_mem_usage__bytes.fct_min"/>
+      </fieldList>
+      <joinInfo alias="dim_device" referenceId="dim_device"/>
+      <joinedDataSetList>
+        <joinedDataSetRef>
+          <joinString>left outer join dim_docker_container dim_docker_container on (dim_docker_container.device_key == dim_device.device_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join daily_cpu_system__ticks daily_cpu_system__ticks on (dim_docker_container.docker_container_key == daily_cpu_system__ticks.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join hourly_cpu_system__ticks hourly_cpu_system__ticks on (dim_docker_container.docker_container_key == hourly_cpu_system__ticks.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join daily_cpu_user__ticks daily_cpu_user__ticks on (dim_docker_container.docker_container_key == daily_cpu_user__ticks.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join hourly_cpu_user__ticks hourly_cpu_user__ticks on (dim_docker_container.docker_container_key == hourly_cpu_user__ticks.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join daily_mem_usage__bytes daily_mem_usage__bytes on (dim_docker_container.docker_container_key == daily_mem_usage__bytes.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join hourly_mem_usage__bytes hourly_mem_usage__bytes on (dim_docker_container.docker_container_key == hourly_mem_usage__bytes.component_key)</joinString>
+        </joinedDataSetRef>
+        <joinedDataSetRef>
+          <joinString>left outer join dim_date dim_date on (daily_mem_usage__bytes.date_key == dim_date.date_key and daily_cpu_user__ticks.date_key == dim_date.date_key and hourly_cpu_system__ticks.date_key == dim_date.date_key and hourly_mem_usage__bytes.date_key == dim_date.date_key and hourly_cpu_user__ticks.date_key == dim_date.date_key and daily_cpu_system__ticks.date_key == dim_date.date_key)</joinString>
+        </joinedDataSetRef>
+      </joinedDataSetList>
+    </jdbcTable>
+  </resources>
+</schema>

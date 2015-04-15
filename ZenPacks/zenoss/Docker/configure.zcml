@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    >
+
+    <!-- API: Info Adapters -->
+
+    <adapter
+        provides=".DockerContainer.IDockerContainerInfo"
+        for=".DockerContainer.DockerContainer"
+        factory=".DockerContainer.DockerContainerInfo"
+        />
+
+    <!-- Impact -->
+    <configure zcml:condition="installed ZenPacks.zenoss.Impact">
+        <include package="ZenPacks.zenoss.Impact" file="meta.zcml"/>
+
+        <subscriber
+            provides="ZenPacks.zenoss.Impact.impactd.interfaces.IRelationshipDataProvider"
+            for=".DockerContainer.DockerContainer"
+            factory=".impact.DockerContainerRelationsProvider"
+            />
+    </configure>
+
+    <!-- Browser Resources -->
+    <browser:resourceDirectory
+        name="docker"
+        directory="resources"
+        />
+
+    <browser:viewlet
+        name="js-docker"
+        paths="/++resource++docker/js/panels.js"
+        weight="10"
+        for="Products.ZenModel.Device.Device"
+        manager="Products.ZenUI3.browser.interfaces.IJavaScriptSrcManager"
+        class="Products.ZenUI3.browser.javascript.JavaScriptSrcBundleViewlet"
+        permission="zope2.Public"
+        />
+</configure>

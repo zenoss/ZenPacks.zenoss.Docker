@@ -1,12 +1,12 @@
 # These variables are overwritten by Zenoss when the ZenPack is exported
 # or saved.  Do not modify them directly here.
 # NB: PACKAGES is deprecated
-NAME = "ZenPacks.community.Docker"
-VERSION = "1.0.0"
-AUTHOR = "V.Sergeyev <pydevside@gmail.com>"
-LICENSE = "MIT License"
-NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.community']
-PACKAGES = ['ZenPacks', 'ZenPacks.community', 'ZenPacks.community.Docker']
+NAME = "ZenPacks.zenoss.Docker"
+VERSION = "1.1.0"
+AUTHOR = "Zenoss"
+LICENSE = ""
+NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.zenoss']
+PACKAGES = ['ZenPacks', 'ZenPacks.zenoss', 'ZenPacks.zenoss.Docker']
 INSTALL_REQUIRES = []
 COMPAT_ZENOSS_VERS = ">=4.2"
 PREV_ZENPACK_NAME = ""
