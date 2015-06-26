@@ -48,13 +48,14 @@ Installing this ZenPack will add the following items to your Zenoss system.
 * DockerCollector
 ;Monitoring Templates
 * DockerContainer
+* DockerContainerCoreOS
 * DockerContainerSize
 ;Component Types
 * DockerContainer (on related device)
 
 == Containers metrics ==
 ZenPack monitors containers for CPU and memory usage using information from control groups.
-Monitoring template "DockerContainer" is configured to look for metrics files in "/sys/fs/cgroup/cpuacct/docker/Container_ID/" location.
+Monitoring template "DockerContainer" is configured to look for metrics files in "/sys/fs/cgroup/cpuacct/docker/Container_ID/" location. Monitoring template "DockerContainerCoreOS" is configured to use "/sys/fs/cgroup/cpuacct/system.slice/docker-${ID}.scope/cpuacct.stat" location.
 
 On some Linux distros or versions this can differ and will result in empty graphs data.
 If you are experiencing such issue check your filesystem for actual location of metrics and do changes in Zenoss (menu "Advanced", "Monitoring Templates", "DockerContainer" item).
