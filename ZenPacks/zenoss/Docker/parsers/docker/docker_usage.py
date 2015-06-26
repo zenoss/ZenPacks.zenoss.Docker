@@ -1,8 +1,12 @@
 """
 Performance parser for Docker Containers
 Performance data located in:
+Ubuntu:
     /sys/fs/cgroup/memory/docker/CONTAINER_ID/memory.usage_in_bytes
     /sys/fs/cgroup/cpuacct/docker/CONTAINER_ID/cpuacct.stat
+CoreOS:
+    /sys/fs/cgroup/memory/system.slice/docker-${ID}.scope/memory.usage_in_bytes
+    /sys/fs/cgroup/cpuacct/system.slice/docker-${ID}.scope/cpuacct.stat
 """
 
 from Products.ZenRRD.CommandParser import CommandParser

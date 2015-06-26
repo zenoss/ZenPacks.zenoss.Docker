@@ -58,11 +58,17 @@ class DockerContainer(DockerComponent):
     def _old_docker(self):
         return ("version 1.2" in self.device().docker_version)
 
+    def _coreos(self):
+        return ("CoreOS" in self.device().docker_version)
+
     def getRRDTemplates(self):
+        template = self.getRRDTemplateByName('DockerContainer')
+        if self._coreos():
+            template = self.getRRDTemplateByName('DockerContainerCoreOS')
+
         if self._old_docker():
-            return [self.getRRDTemplateByName('DockerContainer')]
-        return [self.getRRDTemplateByName('DockerContainer'),
-            self.getRRDTemplateByName('DockerContainerSize')]
+            return [template]
+        return [template, self.getRRDTemplateByName('DockerContainerSize')]
 
 
 class IDockerContainerInfo(IComponentInfo):

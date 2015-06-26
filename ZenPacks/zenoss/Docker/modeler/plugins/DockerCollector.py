@@ -21,7 +21,7 @@ class DockerCollector(CommandPlugin):
 
     command = (
         # 'docker ps -a -s --no-trunc' may cause timeout on large count of containers
-        'docker -v && docker ps -a --no-trunc'
+        'docker -v && cat /etc/os-release && docker ps -a --no-trunc'
     )
 
     def process(self, device, results, log):
@@ -38,12 +38,17 @@ class DockerCollector(CommandPlugin):
             ('device', []),
         ])
 
+        docker_version = results.splitlines()[0]
+        sys_info, containers_data = results.split('CONTAINER')
+        if "coreos"  in sys_info.lower():
+            docker_version += ", on CoreOS"
+
         maps['device'].append(ObjectMap({
-            'docker_version': results.splitlines()[0]
+            'docker_version': docker_version
         }))
 
         oms = []
-        for line in results.splitlines()[2:]:
+        for line in containers_data.splitlines()[1:]:
             bits = [x.strip() for x in \
                 filter(lambda x: x.strip(), line.split("   "))]
 
