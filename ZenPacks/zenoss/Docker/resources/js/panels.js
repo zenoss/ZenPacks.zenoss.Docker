@@ -31,7 +31,8 @@ ZC.DockerContainerPanel = Ext.extend(ZC.ComponentGridPanel, {
                 {name: 'monitored'},
                 {name: 'locking'},
                 {name: 'status'},
-                {name: 'old_docker'}
+                {name: 'old_docker'},
+                {name: 'usesMonitorAttribute'}
             ],
             columns: [{
                 id: 'severity',
