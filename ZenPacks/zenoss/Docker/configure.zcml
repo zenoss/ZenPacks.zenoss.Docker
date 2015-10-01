@@ -22,6 +22,12 @@
             for=".DockerContainer.DockerContainer"
             factory=".impact.DockerContainerRelationsProvider"
             />
+
+        <subscriber
+            provides="ZenPacks.zenoss.Impact.impactd.interfaces.IRelationshipDataProvider"
+            for="Products.ZenModel.Device.Device"
+            factory=".impact.DeviceRelationsProvider"
+            />
     </configure>
 
     <!-- Browser Resources -->
