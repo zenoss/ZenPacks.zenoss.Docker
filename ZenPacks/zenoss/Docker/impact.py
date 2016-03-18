@@ -66,8 +66,7 @@ class DockerContainerRelationsProvider(BaseRelationsProvider):
     adapts(DockerComponent)
 
     def getEdges(self):
-        for container in self._object.docker_containers():
-            yield ImpactEdge(guid(self._object.device()), guid(container), RP)
+        yield ImpactEdge(guid(self._object.device()), guid(self._object), RP)
 
 
 class DeviceRelationsProvider(BaseRelationsProvider):
