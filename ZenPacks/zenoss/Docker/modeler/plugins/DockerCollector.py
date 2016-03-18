@@ -1,90 +1,106 @@
-'''
-Collects information about Docker Containers.
-'''
+##############################################################################
+#
+# Copyright (C) Zenoss, Inc. 2016, all rights reserved.
+#
+# This content is made available according to terms specified in
+# License.zenoss under the directory where your Zenoss product is installed.
+#
+##############################################################################
 
-import collections
-from itertools import chain
-import re
+"""Collects information about Docker Containers."""
 
-from Products.ZenUtils.Utils import prepId
 from Products.DataCollector.plugins.CollectorPlugin import CommandPlugin
-from Products.DataCollector.plugins.DataMaps import ObjectMap, RelationshipMap
+from Products.DataCollector.plugins.DataMaps import ObjectMap
+
+
+def command_from_commands(*commands):
+    """Return a single command given an iterable of commands.
+
+    The results of each command will be separated by __SPLIT__, and the
+    results will contain the commands stdout and stderr.
+
+    """
+    return " ; echo __SPLIT__ ; ".join("{} 2>&1".format(c) for c in commands)
+
+
+def results_from_result(result):
+    """Return results split into a list of per-command output."""
+    try:
+        return [r.strip() for r in result.split("__SPLIT__")]
+    except Exception:
+        return []
 
 
 class DockerCollector(CommandPlugin):
-    """
-    Modeler plugin for Docker
-    """
 
-    def condition(self, device, log):
-        return True
+    relname = "docker_containers"
+    modname = "ZenPacks.zenoss.Docker.DockerContainer"
 
-    command = (
-        # 'docker ps -a -s --no-trunc' may cause timeout on large count of containers
-        'docker -v && cat /etc/os-release && docker ps -a --no-trunc'
-    )
+    command = command_from_commands(
+        "docker -v",
+        "sudo docker ps -a --no-trunc",
+        )
 
     def process(self, device, results, log):
         log.info('Collecting docker containers for device %s' % device.id)
 
-        if not "CONTAINER" in results:
-            log.error("Cann't parse output. "
-                "Check that Docker installed "
-                "and you have permissions to use it."
-            )
+        # Change results into a list of of results. One element per command.
+        results = results_from_result(results)
 
-        maps = collections.OrderedDict([
-            ('docker_containers', []),
-            ('device', []),
-        ])
+        maps = []
 
-        docker_version = results.splitlines()[0]
-        sys_info, containers_data = results.split('CONTAINER')
-        if "coreos"  in sys_info.lower():
-            docker_version += ", on CoreOS"
+        # Map device "docker_version" property.
+        if results[0].startswith("Docker version"):
+            maps.append(
+                ObjectMap({
+                    'docker_version': results[0],
+                    }))
+        else:
+            log.info("%s: no docker version: %s", device.id, results[0])
 
-        maps['device'].append(ObjectMap({
-            'docker_version': docker_version
-        }))
+        # Map containers.
+        if results[1].startswith("CONTAINER"):
+            rm = self.relMap()
+            for line in results[1].splitlines()[1:]:
+                bits = [x.strip() for x in \
+                    filter(lambda x: x.strip(), line.split("   "))]
 
-        oms = []
-        for line in containers_data.splitlines()[1:]:
-            bits = [x.strip() for x in \
-                filter(lambda x: x.strip(), line.split("   "))]
+                # Full output.
+                if len(bits) == 7:
+                    ports = bits[5]
+                    title = bits[6]
 
-            if len(bits) == 7:
-                container_state = bits[4]
-                ports = bits[5]
-                title = bits[6]
-            elif len(bits) == 6: # No Ports
-                ports = ""
-                container_state = bits[4]
-                title = bits[5]
-            elif len(bits) == 5: # No Status & Ports, probably not running or error
-                ports = ""
-                container_state = ""
-                title = bits[4]
-            else:
-                log.error("Bad format of docker ps output.")
-                log.error(bits)
-                continue
+                # No ports.
+                elif len(bits) == 6:
+                    ports = ""
+                    title = bits[5]
 
-            oms.append(ObjectMap({
-                "id": bits[0],
-                "title": title,
-                "image": bits[1],
-                "command": bits[2],
-                "created": bits[3],
-                "container_state": bits[4],
-                "ports": ports,
-                "size": "",
-                "size_used": "",
-                "size_free": ""
-                }))
+                # No status or ports. Probably not running, or in error.
+                elif len(bits) == 5:
+                    ports = ""
+                    title = bits[4]
 
-        maps["docker_containers"].append(RelationshipMap(
-            relname='docker_containers',
-            modname='ZenPacks.zenoss.Docker.DockerContainer',
-            objmaps=oms))
+                else:
+                    log.error(
+                        "%s: unrecognized docker ps output line: %s",
+                        device.id,
+                        line)
 
-        return list(chain.from_iterable(maps.itervalues()))
+                    continue
+
+                rm.append(
+                    self.objectMap({
+                        "id": bits[0],
+                        "title": title,
+                        "image": bits[1],
+                        "command": bits[2],
+                        "created": bits[3],
+                        "ports": ports,
+                        }))
+
+            maps.append(rm)
+
+        else:
+            log.info("%s: no docker containers: %s", device.id, results[1])
+
+        return maps

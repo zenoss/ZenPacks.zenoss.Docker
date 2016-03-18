@@ -6,18 +6,21 @@ import logging
 log = logging.getLogger('zen.Docker')
 
 import Globals
-import os
-import re
 from Products.ZenUtils.Utils import monkeypatch, unused
 from Products.ZenModel.Device import Device
-from Products.Zuul.form import schema
+from Products.Zuul import form
 from Products.Zuul.infos import ProxyProperty
 from Products.Zuul.infos.device import DeviceInfo
 from Products.Zuul.interfaces import IDeviceInfo
-from Products.ZenModel.ZenPack import ZenPack as ZenPackBase
 from Products.ZenRelations.RelSchema import ToManyCont, ToOne
 
 unused(Globals)
+
+from . import zenpacklib
+
+CFG = zenpacklib.load_yaml()
+
+from . import schema
 
 
 # Modules containing model classes. Used by zenchkschema to validate
@@ -59,18 +62,15 @@ Device._properties = Device._properties + (
     {'id':'docker_version', 'type':'string', 'mode':'w',
         'label': 'Docker Version'},
 )
-IDeviceInfo.docker_version = schema.TextLine(
+IDeviceInfo.docker_version = form.schema.TextLine(
     title=u"Docker Version", group="Details")
 DeviceInfo.docker_version = ProxyProperty('docker_version')
 
 
-class ZenPack(ZenPackBase):
+class ZenPack(schema.ZenPack):
     """
     ZenPack loader that handles custom installation and removal tasks.
     """
-
-    packZProperties = [
-    ]
 
     def install(self, app):
         super(ZenPack, self).install(app)
