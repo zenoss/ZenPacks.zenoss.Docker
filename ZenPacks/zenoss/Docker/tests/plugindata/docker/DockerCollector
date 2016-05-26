@@ -1,4 +1,4 @@
-docker -v && docker ps -a --no-trunc
+docker -v && cat /etc/os-release && docker ps -a --no-trunc
 Docker version 1.3.3, build d344625
 CONTAINER ID                                                       IMAGE               COMMAND             CREATED             STATUS                  PORTS                NAMES
 c5bd2f24206f09583561c6143416a0593cd2c5f67101bbf6113a45280ca3dff1   ubuntu:14.04        "/bin/bash"         2 weeks ago         Exited (0) 2 days ago                        cranky_ardinghelli
