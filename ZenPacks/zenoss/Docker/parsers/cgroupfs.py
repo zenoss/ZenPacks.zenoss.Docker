@@ -128,7 +128,9 @@ def process_blkio(data):
                         pass
 
     extract_values("blkio.io_service_bytes_recursive", "bytes")
+    extract_values("blkio.throttle.io_service_bytes", "bytes")
     extract_values("blkio.io_serviced_recursive", "io")
+    extract_values("blkio.throttle.io_serviced", "io")
 
     return values
 
@@ -157,6 +159,8 @@ PROCESSORS = {
         "files": [
             "blkio.io_service_bytes_recursive",
             "blkio.io_serviced_recursive",
+            "blkio.throttle.io_service_bytes",
+            "blkio.throttle.io_serviced",
             ],
         },
     }
