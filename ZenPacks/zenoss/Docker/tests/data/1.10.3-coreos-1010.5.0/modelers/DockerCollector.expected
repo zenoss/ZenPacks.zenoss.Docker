@@ -1,0 +1,31 @@
+# vim: ft=yaml
+command: "docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null"
+
+expected:
+  - docker_version: "Docker version 1.10.3, build 8acee1b"
+
+  - relname: "docker_containers"
+    maps:
+      - id: "22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "nginx"
+        image: "nginx"
+        command: "\"nginx -g 'daemon off;'\""
+        created: "6 hours ago"
+        ports: "443/tcp, 0.0.0.0:8080->80/tcp, 0.0.0.0:8081->81/tcp"
+
+      - id: "1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "pedantic_raman"
+        image: "dkuffner/docker-stress"
+        command: "\"stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M\""
+        created: "6 hours ago"
+        ports: ""
+
+      - id: "4f09d7ef8eaac37345678857360a270277429568671c004f414e5a64482b4b20"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "fervent_lovelace"
+        image: "hello-world"
+        command: "\"/hello\""
+        created: "6 hours ago"
+        ports: ""

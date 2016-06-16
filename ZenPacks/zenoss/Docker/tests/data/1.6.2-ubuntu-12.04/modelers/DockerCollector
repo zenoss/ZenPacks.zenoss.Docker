@@ -1,0 +1,6 @@
+Docker version 1.6.2, build 7c8fca2
+__SPLIT__
+CONTAINER ID                                                       IMAGE                           COMMAND                                          CREATED             STATUS                   PORTS                                                 NAMES
+8527dc5f078078839dc0e9dbfeed68fda8e90daf83d7f6c17a7be64a83cc63fa   nginx:latest                    "nginx -g 'daemon off;'"                         3 hours ago         Up 3 hours               443/tcp, 0.0.0.0:8080->80/tcp, 0.0.0.0:8081->81/tcp   nginx               
+9ffff877e5c702dde9583ff8f0d5cdc2a01bbb26fef7ac23e7140fd6f88fb69f   dkuffner/docker-stress:latest   "stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M"   3 hours ago         Up 3 hours                                                                     desperate_babbage   
+46ff00ea5094ffd48c5f1bbce0799e2ffce97554fdb086a8dfb8dac7b0f9fac3   hello-world:latest              "/hello"                                         3 hours ago         Exited (0) 3 hours ago                                                         determined_morse    

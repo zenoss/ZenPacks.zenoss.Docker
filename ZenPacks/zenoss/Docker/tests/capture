@@ -1,0 +1,30 @@
+#!/bin/sh
+#
+# Capture test data from local system.
+
+# Cleanup old files.
+rm -Rf "captured"
+
+## DockerCollector modeler
+mkdir -p "captured/modelers"
+{ docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null ; } \
+    > "captured/modelers/DockerCollector"
+
+## cgroupfs parser
+mkdir -p "captured/parsers/cgroupfs"
+{ /usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \; ; } \
+    > "captured/parsers/cgroupfs/cpuacct"
+
+{ /usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \; ; } \
+    > "captured/parsers/cgroupfs/memory"
+
+{ /usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \; ; } \
+    > "captured/parsers/cgroupfs/blkio"
+
+## ps parser
+mkdir -p "captured/parsers/ps"
+{ /usr/bin/env sudo docker ps -a --no-trunc 2>/dev/null ; } \
+    > "captured/parsers/ps/status"
+
+{ /usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null ; } \
+    > "captured/parsers/ps/size"

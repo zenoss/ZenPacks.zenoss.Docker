@@ -1,0 +1,11 @@
+# vim: ft=yaml
+command: '/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf \"\n%p\n" -exec cat {} 2>/dev/null \;'
+
+values:
+  9ffff877e5c702dde9583ff8f0d5cdc2a01bbb26fef7ac23e7140fd6f88fb69f:
+    bytes_total: 10096640
+    bytes_read: 2240512
+    bytes_write: 7856128
+    io_total: 2021
+    io_read: 103
+    io_write: 1918

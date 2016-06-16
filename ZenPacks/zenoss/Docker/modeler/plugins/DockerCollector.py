@@ -12,15 +12,17 @@
 from Products.DataCollector.plugins.CollectorPlugin import CommandPlugin
 from Products.DataCollector.plugins.DataMaps import ObjectMap
 
+from ZenPacks.zenoss.Docker import parsing
+
 
 def command_from_commands(*commands):
     """Return a single command given an iterable of commands.
 
     The results of each command will be separated by __SPLIT__, and the
-    results will contain the commands stdout and stderr.
+    results will contain only the commands' stdout.
 
     """
-    return " ; echo __SPLIT__ ; ".join("{} 2>&1".format(c) for c in commands)
+    return " ; echo __SPLIT__ ; ".join("{} 2>/dev/null".format(c) for c in commands)
 
 
 def results_from_result(result):
@@ -51,56 +53,45 @@ class DockerCollector(CommandPlugin):
 
         # Map device "docker_version" property.
         if results[0].startswith("Docker version"):
-            maps.append(
-                ObjectMap({
-                    'docker_version': results[0],
+            log.info("%s: %s", device.id, results[0])
+            maps.append(ObjectMap({'docker_version': results[0]}))
+        else:
+            log.info("%s: no docker version", device.id)
+            maps.append(ObjectMap({"docker_version": None}))
+
+        try:
+            rows = parsing.rows_from_output(
+                results[1],
+                expected_columns=[
+                    "CONTAINER ID",
+                    "IMAGE",
+                    "COMMAND",
+                    "CREATED",
+                    "PORTS",
+                    "NAMES",
+                    ])
+
+        except parsing.MissingColumnsError:
+            log.info("%s: unexpected docker ps output", device.id)
+            return maps
+
+        rm = self.relMap()
+        maps.append(rm)
+
+        if not rows:
+            log.info("%s: no docker containers found", device.id)
+            return maps
+
+        for row in rows:
+            rm.append(
+                self.objectMap({
+                    "id": row["CONTAINER ID"],
+                    "title": row["NAMES"],
+                    "image": row["IMAGE"],
+                    "command": row["COMMAND"],
+                    "created": row["CREATED"],
+                    "ports": row["PORTS"],
                     }))
-        else:
-            log.info("%s: no docker version: %s", device.id, results[0])
 
-        # Map containers.
-        if results[1].startswith("CONTAINER"):
-            rm = self.relMap()
-            for line in results[1].splitlines()[1:]:
-                bits = [x.strip() for x in \
-                    filter(lambda x: x.strip(), line.split("   "))]
-
-                # Full output.
-                if len(bits) == 7:
-                    ports = bits[5]
-                    title = bits[6]
-
-                # No ports.
-                elif len(bits) == 6:
-                    ports = ""
-                    title = bits[5]
-
-                # No status or ports. Probably not running, or in error.
-                elif len(bits) == 5:
-                    ports = ""
-                    title = bits[4]
-
-                else:
-                    log.error(
-                        "%s: unrecognized docker ps output line: %s",
-                        device.id,
-                        line)
-
-                    continue
-
-                rm.append(
-                    self.objectMap({
-                        "id": bits[0],
-                        "title": title,
-                        "image": bits[1],
-                        "command": bits[2],
-                        "created": bits[3],
-                        "ports": ports,
-                        }))
-
-            maps.append(rm)
-
-        else:
-            log.info("%s: no docker containers: %s", device.id, results[1])
-
+        log.info("%s: found %s Docker containers", device.id, len(rm.maps))
         return maps

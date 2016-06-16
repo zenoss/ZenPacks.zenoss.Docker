@@ -113,10 +113,20 @@ device_classes:
               # io_async: DERIVE_MIN_0
               # io_merged: DERIVE_MIN_0
 
-          ps:
+          status:
             type: COMMAND
             usessh: true
-            commandTemplate: '/usr/bin/env sudo docker ps -a -s --no-trunc --format "{{.ID}}|{{.Status}}|{{.Size}}" 2>/dev/null'
+            commandTemplate: '/usr/bin/env sudo docker ps -a --no-trunc 2>/dev/null'
+            parser: ZenPacks.zenoss.Docker.parsers.ps
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+            cycletime: 60
+
+          size:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null'
             parser: ZenPacks.zenoss.Docker.parsers.ps
             component: ${here/id}
             eventClass: /Ignore
