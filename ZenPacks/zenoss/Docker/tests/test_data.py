@@ -374,10 +374,11 @@ def local_dir(*args):
 
 def zenpack_name():
     """Return the fully-qualified name of the ZenPack containing this file."""
-    zenpack_match = re.compile(r'^ZenPacks\.([^\.]+)\..*$').match
+    matcher = re.compile(r'^(ZenPacks\.([^\.]+)\.[^\-]+)').search
     for part in local_dir().split(os.sep):
-        if zenpack_match(part):
-            return part
+        match = matcher(part)
+        if match:
+            return match.group(1)
 
 
 def load_output(path):
