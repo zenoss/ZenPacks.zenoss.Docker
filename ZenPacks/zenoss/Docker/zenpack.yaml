@@ -22,6 +22,7 @@ device_classes:
     templates:
       DockerContainer-Stats:
         description: "Docker container statistics monitoring using cgroupfs via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.DockerContainer
 
         datasources:
           cpuacct:
@@ -200,6 +201,7 @@ device_classes:
 
       DockerContainer-Status:
         description: "Docker container status monitoring using \"docker ps\" via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.DockerContainer
 
         datasources:
           status:
@@ -214,6 +216,7 @@ device_classes:
 
       DockerContainer-Size:
         description: "Docker container size monitoring using \"docker ps -s\" via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.DockerContainer
 
         datasources:
           size:
