@@ -14,7 +14,7 @@ zProperties:
 
   zDockerMonitorContainerSize:
     type: boolean
-    default: true
+    default: false
 
 
 device_classes:
