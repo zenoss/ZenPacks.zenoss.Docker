@@ -12,4 +12,16 @@ dockerContainerStatus
 container status: exited (0) 48 minutes ago
 </property>
 </object>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'instances', 'docker-ps-status') -->
+<object id='/zport/dmd/Events/Status/instances/docker-ps-status' module='Products.ZenEvents.EventClassInst' class='EventClassInst'>
+<property type="string" id="eventClassKey" mode="w" >
+docker-ps-status
+</property>
+<property type="int" id="sequence" mode="w" >
+1001
+</property>
+<property type="string" id="example" mode="w" >
+received unexpected output from docker ps
+</property>
+</object>
 </objects>
