@@ -7,64 +7,35 @@
 #
 ##############################################################################
 
-from zope.component import adapts
-from zope.interface import implements
-
-from Products.ZenRelations.RelSchema import ToOne, ToManyCont
-
-from Products.Zuul.form import schema
-from Products.Zuul.infos import ProxyProperty
-from Products.Zuul.infos.component import ComponentInfo
-from Products.Zuul.interfaces.component import IComponentInfo
-from Products.Zuul.utils import ZuulMessageFactory as _t
-
-from .DockerComponent import DockerComponent
+# ZenPack Imports
+from . import schema
 
 
-class DockerContainer(DockerComponent):
-    meta_type = portal_type = 'DockerContainer'
+class DockerContainer(schema.DockerContainer):
+    """Model class for DockerContainer.
 
-    image = ""
-    command = ""
-    created = ""
-    ports = ""
+    Extends the definition of DockerContainer in zenpack.yaml.
 
-    _properties = DockerComponent._properties + (
-        {'id': 'image', 'label': 'Image', 'type': 'string'},
-        {'id': 'command', 'label': 'Command', 'type': 'string'},
-        {'id': 'created', 'label': 'Created', 'type': 'string'},
-        {'id': 'ports', 'label': 'Ports', 'type': 'string'},
-    )
+    """
 
-    _relations = DockerComponent._relations + (
-        ('docker_host', ToOne(
-            ToManyCont, 'Products.ZenModel.Device.Device',
-            'docker_containers')
-        ),
-    )
+    def getRRDTemplates(self):
+        """Return RRDTemplate list to bind to this component."""
+        monitor_status = self.zDockerMonitorContainerStatus
+        monitor_stats = self.zDockerMonitorContainerStats
+        monitor_size = self.zDockerMonitorContainerSize
 
-    def device(self):
-        return self.docker_host()
+        templates = []
+        for template in super(DockerContainer, self).getRRDTemplates():
+            # Prefix matching is done to support the -replacement and
+            # -addition custom templates that may come from super.
+            if template.id.endswith("-Status") and not monitor_status:
+                continue
+            elif template.id.endswith("-Stats") and not monitor_stats:
+                continue
+            elif template.id.endswith("-Size") and not monitor_size:
+                continue
 
+            # Any templates that made it this far get used.
+            templates.append(template)
 
-class IDockerContainerInfo(IComponentInfo):
-    '''
-    API Info interface for DockerContainer.
-    '''
-
-    image = schema.TextLine(title=_t(u'Image'))
-    command = schema.TextLine(title=_t(u'Command'))
-    created = schema.TextLine(title=_t(u'Created'))
-    ports = schema.TextLine(title=_t(u'Ports'))
-
-
-class DockerContainerInfo(ComponentInfo):
-    ''' API Info adapter factory for DockerContainer '''
-
-    implements(IDockerContainerInfo)
-    adapts(DockerContainer)
-
-    image = ProxyProperty('image')
-    command = ProxyProperty('command')
-    created = ProxyProperty('created')
-    ports = ProxyProperty('ports')
+        return templates

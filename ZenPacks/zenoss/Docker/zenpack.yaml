@@ -1,10 +1,27 @@
 name: ZenPacks.zenoss.Docker
 
+zProperties:
+  DEFAULTS:
+    category: Docker
+
+  zDockerMonitorContainerStats:
+    type: boolean
+    default: true
+
+  zDockerMonitorContainerStatus:
+    type: boolean
+    default: true
+
+  zDockerMonitorContainerSize:
+    type: boolean
+    default: true
+
+
 device_classes:
   /:
     templates:
-      DockerContainer:
-        description: "Docker container monitoring using cgroupfs via SSH."
+      DockerContainer-Stats:
+        description: "Docker container statistics monitoring using cgroupfs via SSH."
 
         datasources:
           cpuacct:
@@ -113,30 +130,6 @@ device_classes:
               # io_async: DERIVE_MIN_0
               # io_merged: DERIVE_MIN_0
 
-          status:
-            type: COMMAND
-            usessh: true
-            commandTemplate: '/usr/bin/env sudo docker ps -a --no-trunc 2>/dev/null'
-            parser: ZenPacks.zenoss.Docker.parsers.ps
-            component: ${here/id}
-            eventClass: /Ignore
-            severity: Clear
-            cycletime: 60
-
-          size:
-            type: COMMAND
-            usessh: true
-            commandTemplate: '/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null'
-            parser: ZenPacks.zenoss.Docker.parsers.ps
-            component: ${here/id}
-            eventClass: /Ignore
-            severity: Clear
-            cycletime: 600
-
-            datapoints:
-              size: GAUGE_MIN_0
-              size_virtual: GAUGE_MIN_0
-
         graphs:
           CPU Usage:
             units: percent
@@ -170,18 +163,21 @@ device_classes:
                 dpName: memory_usage
                 format: "%7.2lf%s"
 
-          Storage Usage:
-            units: bytes
+          IO Rate:
+            units: operations/sec
             miny: 0
-            base: true
 
             graphpoints:
-              Size:
-                dpName: ps_size
+              Total:
+                dpName: blkio_io_total
                 format: "%7.2lf%s"
 
-              Virtual Size:
-                dpName: ps_size_virtual
+              Read:
+                dpName: blkio_io_read
+                format: "%7.2lf%s"
+
+              Write:
+                dpName: blkio_io_write
                 format: "%7.2lf%s"
 
           IO Throughput:
@@ -202,19 +198,89 @@ device_classes:
                 dpName: blkio_bytes_write
                 format: "%7.2lf%s"
 
-          IO Rate:
-            units: operations/sec
+      DockerContainer-Status:
+        description: "Docker container status monitoring using \"docker ps\" via SSH."
+
+        datasources:
+          status:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo docker ps -a --no-trunc 2>/dev/null'
+            parser: ZenPacks.zenoss.Docker.parsers.ps
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+            cycletime: 60
+
+      DockerContainer-Size:
+        description: "Docker container size monitoring using \"docker ps -s\" via SSH."
+
+        datasources:
+          size:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null'
+            parser: ZenPacks.zenoss.Docker.parsers.ps
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+            cycletime: 600
+
+            datapoints:
+              size: GAUGE_MIN_0
+              size_virtual: GAUGE_MIN_0
+
+        graphs:
+          Storage Usage:
+            units: bytes
             miny: 0
+            base: true
 
             graphpoints:
-              Total:
-                dpName: blkio_io_total
+              Size:
+                dpName: ps_size
                 format: "%7.2lf%s"
 
-              Read:
-                dpName: blkio_io_read
+              Virtual Size:
+                dpName: ps_size_virtual
                 format: "%7.2lf%s"
 
-              Write:
-                dpName: blkio_io_write
-                format: "%7.2lf%s"
+
+classes:
+  DockerContainer:
+    base: [zenpacklib.Component]
+    label: Docker Container
+    order: 1
+
+    properties:
+      image:
+        label: Image
+        order: 4.01
+
+      command:
+        label: Command
+        order: 4.02
+
+      created:
+        label: Created
+        order: 4.03
+
+      ports:
+        label: Ports
+        order: 4.04
+
+    monitoring_templates:
+      - DockerContainer
+      - DockerContainer-Status
+      - DockerContainer-Stats
+      - DockerContainer-Size
+
+    dynamicview_group: Docker Containers
+    dynamicview_views: [service_view]
+    dynamicview_weight: 35
+    dynamicview_relations:
+      impacted_by:
+        - docker_host
+
+class_relationships:
+  - Products.ZenModel.Device.Device(docker_containers) 1:MC (docker_host)DockerContainer
