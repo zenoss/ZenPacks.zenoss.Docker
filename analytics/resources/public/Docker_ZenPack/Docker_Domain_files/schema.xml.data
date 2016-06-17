@@ -16,7 +16,7 @@
         <item resourceId="JoinTree_1.dim_device.device_hw_serial_number" dimensionOrMeasure="Dimension" id="dim_device_device_hw_serial_number" label="Hardware Serial Number"/>
       </items>
     </itemGroup>
-    <itemGroup resourceId="JoinTree_1" label="Devices" id="set_docker_container" description="">
+    <itemGroup resourceId="JoinTree_1" label="Docker Containers" id="set_docker_container" description="">
       <itemGroups>
         <itemGroup resourceId="JoinTree_1" label="Measures" id="set_docker_container_measures" description="">
           <itemGroups/>
@@ -65,7 +65,7 @@
         </itemGroup>
       </itemGroups>
       <items>
-        <item resourceId="JoinTree_1.dim_docker_container.docker_container_name" dimensionOrMeasure="Dimension" id="dim_docker_container_docker_container_name" label="Device Name"/>
+        <item resourceId="JoinTree_1.dim_docker_container.docker_container_name" dimensionOrMeasure="Dimension" id="dim_docker_container_docker_container_name" label="Docker Container Name"/>
         <item resourceId="JoinTree_1.dim_docker_container.image" dimensionOrMeasure="Dimension" id="dim_docker_container_image" label="Image"/>
         <item resourceId="JoinTree_1.dim_docker_container.command" dimensionOrMeasure="Dimension" id="dim_docker_container_command" label="Command"/>
         <item resourceId="JoinTree_1.dim_docker_container.created" dimensionOrMeasure="Dimension" id="dim_docker_container_created" label="Created"/>
