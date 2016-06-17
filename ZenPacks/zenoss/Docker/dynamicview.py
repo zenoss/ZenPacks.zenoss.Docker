@@ -32,8 +32,9 @@ class DeviceRelationsProvider(BaseRelationsProvider):
         """Generate IRelation providing objects for adapted object."""
         device = self._adapted
 
-        if not device.aqBaseHasAttr("docker_containers"):
-            return
+        if type in (TAG_ALL, TAG_IMPACTS):
+            if not device.aqBaseHasAttr("docker_containers"):
+                return
 
-        for container in device.docker_containers():
-            yield self.constructRelationTo(container, TAG_IMPACTS)
+            for container in device.docker_containers():
+                yield self.constructRelationTo(container, TAG_IMPACTS)
