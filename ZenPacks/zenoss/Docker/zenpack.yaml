@@ -241,11 +241,11 @@ device_classes:
 
             graphpoints:
               Size:
-                dpName: ps_size
+                dpName: size_size
                 format: "%7.2lf%s"
 
               Virtual Size:
-                dpName: ps_size_virtual
+                dpName: size_size_virtual
                 format: "%7.2lf%s"
 
 
