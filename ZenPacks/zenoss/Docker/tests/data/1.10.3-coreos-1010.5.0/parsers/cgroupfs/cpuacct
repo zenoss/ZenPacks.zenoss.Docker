@@ -1,0 +1,2407 @@
+
+/sys/fs/cgroup/cpuacct/
+
+/sys/fs/cgroup/cpuacct/cpuacct.usage_percpu
+23855881617190 23843640286778 
+
+/sys/fs/cgroup/cpuacct/tasks
+1
+2
+3
+5
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+27
+28
+37
+39
+41
+42
+105
+113
+323
+324
+355
+378
+379
+383
+489
+490
+606
+607
+845
+1023
+5394
+9512
+13621
+13630
+
+/sys/fs/cgroup/cpuacct/cgroup.procs
+1
+2
+3
+5
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+27
+28
+37
+39
+41
+42
+105
+113
+323
+324
+355
+378
+379
+383
+489
+490
+606
+607
+845
+1023
+5394
+9512
+13621
+13630
+
+/sys/fs/cgroup/cpuacct/cpu.rt_runtime_us
+950000
+
+/sys/fs/cgroup/cpuacct/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/release_agent
+
+
+/sys/fs/cgroup/cpuacct/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/cpuacct.stat
+user 2982106
+system 1821662
+
+/sys/fs/cgroup/cpuacct/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/cpuacct.usage_percpu
+23849955136462 23838341843119 
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpuacct.usage_percpu
+4259539 2785749 
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/boot.mount/cpuacct.usage
+7045288
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpuacct.usage_percpu
+196643595 288163211 
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/tasks
+682
+684
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cgroup.procs
+682
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpuacct.stat
+user 22
+system 6
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dbus.service/cpuacct.usage
+484806806
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpuacct.usage_percpu
+289765609 73556101 
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/tasks
+680
+814
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cgroup.procs
+680
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpuacct.stat
+user 29
+system 7
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/update-engine.service/cpuacct.usage
+363321710
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sshd-keygen.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-catalog-update.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-vconsole-setup.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpuacct.usage_percpu
+12477416983 13100141850 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/tasks
+858
+861
+862
+13623
+13625
+13629
+13637
+13654
+13755
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cgroup.procs
+858
+861
+862
+13623
+13625
+13629
+13637
+13654
+13756
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpuacct.stat
+user 439
+system 2000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-sshd.slice/cpuacct.usage
+25599434367
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpuacct.usage_percpu
+22048772 9441101 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpuacct.stat
+user 1
+system 1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-system\x2dcloudinit.slice/cpuacct.usage
+31489873
+
+/sys/fs/cgroup/cpuacct/system.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-fsck-root.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/-.mount/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpuacct.usage_percpu
+460328 2535524 
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/tmp.mount/cpuacct.usage
+2995852
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpuacct.usage_percpu
+23796483646254 23780310194150 
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/tasks
+1068
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1090
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cgroup.procs
+1068
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1090
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpuacct.stat
+user 2975500
+system 1783675
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cpuacct.usage
+47576836244974
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysusers.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpuacct.usage_percpu
+16078737 71148103 
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/tasks
+1177
+1184
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cgroup.procs
+1177
+1184
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpuacct.stat
+user 6
+system 2
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cpuacct.usage
+87226840
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpuacct.usage_percpu
+3837571 27213825 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/tasks
+672
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cgroup.procs
+672
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpuacct.stat
+user 0
+system 2
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-serial\x2dgetty.slice/cpuacct.usage
+31051396
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpuacct.usage_percpu
+278581101 325612607 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/tasks
+503
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cgroup.procs
+503
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpuacct.stat
+user 15
+system 37
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journald.service/cpuacct.usage
+604193708
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-sysctl.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpuacct.usage_percpu
+45522462 113135980 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/tasks
+717
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cgroup.procs
+717
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpuacct.stat
+user 3
+system 6
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-resolved.service/cpuacct.usage
+158658442
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpuacct.usage_percpu
+665645 3243346 
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr-share-oem.mount/cpuacct.usage
+3908991
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/audit-rules.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpuacct.usage_percpu
+2290991 1627431 
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-mqueue.mount/cpuacct.usage
+3918422
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-tmpfiles-setup-dev.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/xenserver-pv-version.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpuacct.usage_percpu
+123888077 10673545 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/tasks
+644
+721
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cgroup.procs
+644
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpuacct.stat
+user 1
+system 4
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-timesyncd.service/cpuacct.usage
+134561622
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2drun.slice/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpuacct.usage_percpu
+51277029 73765700 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/tasks
+699
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cgroup.procs
+699
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpuacct.stat
+user 3
+system 4
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-logind.service/cpuacct.usage
+125042729
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-journal-flush.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-hwdb-update.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-random-seed.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-addon\x2dconfig.slice/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpuacct.usage_percpu
+138007139 49507529 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/tasks
+688
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cgroup.procs
+688
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpuacct.stat
+user 3
+system 7
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-networkd.service/cpuacct.usage
+187514668
+
+/sys/fs/cgroup/cpuacct/system.slice/cpuacct.stat
+user 2982058
+system 1787448
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpuacct.usage_percpu
+15789506 18217369 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/tasks
+674
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cgroup.procs
+674
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpuacct.stat
+user 0
+system 3
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-getty.slice/cpuacct.usage
+34006875
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpuacct.usage_percpu
+1118086 2906456 
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/proc-xen.mount/cpuacct.usage
+4024542
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/ldconfig.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpuacct.usage_percpu
+280919989 361583656 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/tasks
+556
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cgroup.procs
+556
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpuacct.stat
+user 14
+system 44
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udevd.service/cpuacct.usage
+642503645
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpuacct.usage_percpu
+1181933 2866039 
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/media.mount/cpuacct.usage
+4047972
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpuacct.usage_percpu
+55862947 79406230 
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/tasks
+731
+739
+741
+781
+786
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cgroup.procs
+731
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpuacct.stat
+user 6
+system 3
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/polkit.service/cpuacct.usage
+135269177
+
+/sys/fs/cgroup/cpuacct/system.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/kmod-static-nodes.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-trigger.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/usr.mount/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpuacct.usage_percpu
+2714448 418417 
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/sys-kernel-debug.mount/cpuacct.usage
+3132865
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpuacct.usage_percpu
+988945 2185863 
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/dev-hugepages.mount/cpuacct.usage
+3174808
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-done.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpuacct.usage_percpu
+236265213 380271441 
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/tasks
+695
+733
+734
+773
+775
+827
+5297
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cgroup.procs
+695
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.shares
+16
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpuacct.stat
+user 16
+system 5
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/locksmithd.service/cpuacct.usage
+616536654
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpuacct.usage_percpu
+38827516213 42446788974 
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/tasks
+874
+878
+879
+880
+881
+882
+890
+999
+1018
+1020
+1021
+1096
+1097
+1098
+1099
+1101
+1132
+1160
+1161
+1162
+1163
+1164
+1165
+1166
+1170
+1171
+1172
+1173
+1174
+1175
+1198
+5331
+5332
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cgroup.procs
+874
+1160
+1170
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpuacct.stat
+user 5818
+system 1488
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/docker.service/cpuacct.usage
+81274305187
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-udev-settle.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/systemd-update-utmp.service/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/cpuacct.usage
+47691690279207
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/tasks
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/system.slice/system-systemd\x2dfsck.slice/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/cgroup.sane_behavior
+0
+
+/sys/fs/cgroup/cpuacct/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/user.slice
+
+/sys/fs/cgroup/cpuacct/user.slice/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/user.slice/tasks
+
+/sys/fs/cgroup/cpuacct/user.slice/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.rt_runtime_us
+0
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/user.slice/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/user.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/user.slice/cpu.rt_period_us
+1000000
+
+/sys/fs/cgroup/cpuacct/user.slice/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/user.slice/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/cpuacct.usage
+47703170220347

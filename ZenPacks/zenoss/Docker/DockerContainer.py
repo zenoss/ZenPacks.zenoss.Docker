@@ -1,109 +1,41 @@
-from zope.component import adapts
-from zope.interface import implements
+##############################################################################
+#
+# Copyright (C) Zenoss, Inc. 2016, all rights reserved.
+#
+# This content is made available according to terms specified in
+# License.zenoss under the directory where your Zenoss product is installed.
+#
+##############################################################################
 
-from Products.ZenRelations.RelSchema import ToOne, ToMany, ToManyCont
-
-from Products.Zuul.catalog.paths import DefaultPathReporter, relPath
-from Products.Zuul.decorators import info
-from Products.Zuul.form import schema
-from Products.Zuul.infos import ProxyProperty
-from Products.Zuul.infos.component import ComponentInfo
-from Products.Zuul.interfaces.component import IComponentInfo
-from Products.Zuul.utils import ZuulMessageFactory as _t
-
-from . import CLASS_NAME, MODULE_NAME
-from .DockerComponent import DockerComponent
+# ZenPack Imports
+from . import schema
 
 
-class DockerContainer(DockerComponent):
-    meta_type = portal_type = 'DockerContainer'
+class DockerContainer(schema.DockerContainer):
+    """Model class for DockerContainer.
 
-    image = ""
-    command = ""
-    created = ""
-    container_state = ""
-    ports = ""
-    size = ""
-    size_used = ""
-    size_free = ""
-    size_used_percents = ""
+    Extends the definition of DockerContainer in zenpack.yaml.
 
-    _properties = DockerComponent._properties + (
-        {'id': 'image', 'label': 'Image', 'type': 'string'},
-        {'id': 'command', 'label': 'Command', 'type': 'string'},
-        {'id': 'created', 'label': 'Created', 'type': 'string'},
-        {'id': 'container_state', 'label': 'Container State',
-            'type': 'string'},
-        {'id': 'ports', 'label': 'Ports', 'type': 'string'},
-        {'id': 'size', 'label': 'Root FS Size', 'type': 'string'},
-        {'id': 'size_used', 'label': 'Root FS Used', 'type': 'string'},
-        {'id': 'size_free', 'label': 'Root FS Available', 'type': 'string'},
-        {'id': 'size_used_percents', 'label': 'Root FS Used %',
-            'type': 'string'},
-    )
-
-    _relations = DockerComponent._relations + (
-        ('docker_host', ToOne(
-            ToManyCont, 'Products.ZenModel.Device.Device',
-            'docker_containers')
-        ),
-    )
-
-    def device(self):
-        return self.docker_host()
-
-    def getStatus(self):
-        return not ("up" in self.container_state.lower())
-
-    def _old_docker(self):
-        return ("version 1.2" in self.device().docker_version)
-
-    def _coreos(self):
-        return ("CoreOS" in self.device().docker_version)
+    """
 
     def getRRDTemplates(self):
-        template = self.getRRDTemplateByName('DockerContainer')
-        if self._coreos():
-            template = self.getRRDTemplateByName('DockerContainerCoreOS')
+        """Return RRDTemplate list to bind to this component."""
+        monitor_status = self.zDockerMonitorContainerStatus
+        monitor_stats = self.zDockerMonitorContainerStats
+        monitor_size = self.zDockerMonitorContainerSize
 
-        if self._old_docker():
-            return [template]
-        return [template, self.getRRDTemplateByName('DockerContainerSize')]
+        templates = []
+        for template in super(DockerContainer, self).getRRDTemplates():
+            # Prefix matching is done to support the -replacement and
+            # -addition custom templates that may come from super.
+            if template.id.endswith("-Status") and not monitor_status:
+                continue
+            elif template.id.endswith("-Stats") and not monitor_stats:
+                continue
+            elif template.id.endswith("-Size") and not monitor_size:
+                continue
 
+            # Any templates that made it this far get used.
+            templates.append(template)
 
-class IDockerContainerInfo(IComponentInfo):
-    '''
-    API Info interface for DockerContainer.
-    '''
-
-    image = schema.TextLine(title=_t(u'Image'))
-    command = schema.TextLine(title=_t(u'Command'))
-    created = schema.TextLine(title=_t(u'Created'))
-    container_state = schema.TextLine(title=_t(u'Container State'))
-    ports = schema.TextLine(title=_t(u'Ports'))
-    size = schema.TextLine(title=_t(u'Root FS Size'))
-    size_used = schema.TextLine(title=_t(u'Root FS Used'))
-    size_free = schema.TextLine(title=_t(u'Root FS Available'))
-    size_used_percents = schema.TextLine(title=_t(u'Root FS Used %'))
-
-
-class DockerContainerInfo(ComponentInfo):
-    ''' API Info adapter factory for DockerContainer '''
-
-    implements(IDockerContainerInfo)
-    adapts(DockerContainer)
-
-    image = ProxyProperty('image')
-    command = ProxyProperty('command')
-    created = ProxyProperty('created')
-    container_state = ProxyProperty('container_state')
-    ports = ProxyProperty('ports')
-    size = ProxyProperty('size')
-    size_used = ProxyProperty('size_used')
-    size_free = ProxyProperty('size_free')
-    size_used_percents = ProxyProperty('size_used_percents')
-
-    @property
-    @info
-    def old_docker(self):
-        return self._object._old_docker()
+        return templates

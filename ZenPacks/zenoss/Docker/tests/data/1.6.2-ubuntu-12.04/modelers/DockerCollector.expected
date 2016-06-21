@@ -1,0 +1,31 @@
+# vim: ft=yaml
+command: "docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null"
+
+expected:
+  - docker_version: "Docker version 1.6.2, build 7c8fca2"
+
+  - relname: "docker_containers"
+    maps:
+      - id: "8527dc5f078078839dc0e9dbfeed68fda8e90daf83d7f6c17a7be64a83cc63fa"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "nginx"
+        image: "nginx:latest"
+        command: "\"nginx -g 'daemon off;'\""
+        created: "3 hours ago"
+        ports: "443/tcp, 0.0.0.0:8080->80/tcp, 0.0.0.0:8081->81/tcp"
+
+      - id: "9ffff877e5c702dde9583ff8f0d5cdc2a01bbb26fef7ac23e7140fd6f88fb69f"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "desperate_babbage"
+        image: "dkuffner/docker-stress:latest"
+        command: "\"stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M\""
+        created: "3 hours ago"
+        ports: ""
+
+      - id: "46ff00ea5094ffd48c5f1bbce0799e2ffce97554fdb086a8dfb8dac7b0f9fac3"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "determined_morse"
+        image: "hello-world:latest"
+        command: "\"/hello\""
+        created: "3 hours ago"
+        ports: ""
