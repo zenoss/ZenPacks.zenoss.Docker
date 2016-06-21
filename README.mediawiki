@@ -121,9 +121,9 @@ The ZenPack installs a dockerContainerStatus event class mapping into the /Statu
 
 When zDockerMonitorContainerStats is enabled, the statistics of each container will be collected once every five minutes by running the following commands.
 
-* /usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;
-* /usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;
-* /usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;
+* ''/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
+* ''/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
+* ''/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
 
 These three commands capture the cgroup CPU, memory, and IO usage respectively. They will work regardless of whether the cgroupfs or systemd driver are used.
 
@@ -273,6 +273,66 @@ built-in service impact capability for Docker Containers. The following service 
 * Device affects related Docker Containers.
 
 <br clear=all>
+
+== Usage ==
+
+To begin discovering and monitoring Docker containers you must start by deciding what kind of monitoring you want to perform. There are three configuration properties that will control how container monitoring is performed.
+
+* zDockerMonitorContainerStatus
+* zDockerMonitorContainerStats
+* zDockerMonitorContainerSize
+
+You can refer to the various container monitoring sections above to understand exactly what the implications of each of these properties are. By default only ''zDockerMonitorContainerStatus'' and ''zDockerMonitorContainerStats'' are enabled. This is due to a potential performance consideration when monitoring container sizes. See the note above in the ''Container Size Monitoring'' section.
+
+After setting these configuration properties to the desired values, you must enable the ''DockerCollector'' modeler plugin for the device class(es) or device(s) for which you want to discover running containers. One possibility would be to create a ''/Server/SSH/Linux/Docker'' device class, and add ''DockerCollector'' to the list of modeler plugins it will inherit from the ''/Server/SSH/Linux'' device class.
+
+=== SSH Configuration ===
+
+Docker container discovery and monitoring will occur by running commands on the monitored device with SSH. This SSH connectivity will use the same SSH configuration that is used for normal Linux device monitoring. The following configuration properties can be used to control SSH access.
+
+* zCommandUsername
+* zCommandPassword
+* zKeyPath
+* zCommandCommandTimeout
+
+See the ''Discovery'' section for more information on how ''zCommandUsername'', ''zCommandPassword'', and ''zKeyPath'' are used. See the ''Monitoring'' section for a special note on ''zCommandCommandTimeout''.
+
+=== sudo Configuration ===
+
+In addition to SSH access, this ZenPack executes specific commands via ''sudo'' both during discovery and monitoring. This means that ''sudo'' must be installed on the monitored system, and if ''zCommandUsername'' is not root, sudo must be configured to allow the user specified in ''zCommandUsername'' permission to run the following commands without specifying a password.
+
+;Discovery:
+* ''sudo docker ps -a --no-trunc''
+
+;If ''zDockerMonitorContainerStatus'' is enabled:
+* ''/usr/bin/env sudo docker ps -a --no-trunc''
+
+;If ''zDockerMonitorContainerSize'' is enabled:
+* ''/usr/bin/env sudo docker ps -a -s --no-trunc''
+
+;If ''zDockerMonitorContainerStats'' is enabled:
+* ''/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
+* ''/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
+* ''/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;''
+
+It is also important that sudo be configured to allow running commands without a tty. Specifically this means that a line such as the following in sudoers (''visudo'') can prevent discovery and monitoring.
+
+<source>
+Defaults requiretty
+</source>
+
+You can resolve this by disabling the requiretty option for all users by changing the above line to the following:
+
+<source>
+Defaults !requiretty
+</source>
+
+You can also selectively disable requiretty just for the user configured in Zenoss' ''zCommandUsername'' configuration property. Assuming that username was ''zenmonitor'', this is how that would look.
+
+<source>
+Defaults requiretty
+Defaults:zenmonitor !requiretty
+<source>
 
 == Installed Items ==
 
