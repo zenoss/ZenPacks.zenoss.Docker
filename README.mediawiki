@@ -334,6 +334,18 @@ Defaults requiretty
 Defaults:zenmonitor !requiretty
 <source>
 
+== Services ==
+
+This ZenPack requires the following services (daemons) to be running.
+
+;zenmodeler
+: Purpose: Modeling Docker version and containers.
+: Location: All collectors expected to be modeling Docker.
+
+;zencommand
+: Purpose: Monitoring Docker containers status, statistics, and size.
+: Location: All collectors expected to be monitoring Docker.
+
 == Installed Items ==
 
 Installing this ZenPack will add the following items to your Zenoss system.
