@@ -317,22 +317,22 @@ In addition to SSH access, this ZenPack executes specific commands via ''sudo'' 
 
 It is also important that sudo be configured to allow running commands without a tty. Specifically this means that a line such as the following in sudoers (''visudo'') can prevent discovery and monitoring.
 
-<source>
+<source lang="text">
 Defaults requiretty
 </source>
 
 You can resolve this by disabling the requiretty option for all users by changing the above line to the following:
 
-<source>
+<source lang="text">
 Defaults !requiretty
 </source>
 
 You can also selectively disable requiretty just for the user configured in Zenoss' ''zCommandUsername'' configuration property. Assuming that username was ''zenmonitor'', this is how that would look.
 
-<source>
+<source lang="text">
 Defaults requiretty
 Defaults:zenmonitor !requiretty
-<source>
+</source>
 
 == Services ==
 
