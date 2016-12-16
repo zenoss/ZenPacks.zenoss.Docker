@@ -10,7 +10,7 @@ zProperties:
 
   zDockerMonitorContainerStatus:
     type: boolean
-    default: true
+    default: false
 
   zDockerMonitorContainerSize:
     type: boolean
