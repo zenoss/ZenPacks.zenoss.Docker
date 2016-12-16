@@ -115,6 +115,8 @@ Containers with an "Up" or "Created" status will result in a clear event being c
 
 The ZenPack installs a dockerContainerStatus event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the dockerContainerStatus eventClassKey with a lower sequence number if you wish to handle these events differently.
 
+{{note}} Container status monitoring is disable by default because container down events will only auto-clear if the same container is restarted. If the container is left in a non-running state, or if is removed, its event must be manually cleared. If auto-clearing is important you may want to consider using Zenoss' normal process monitoring support to monitor the process(es) running within the container instead of monitoring the container.
+
 <br clear=all>
 
 ==== Container Statistics Monitoring ====
@@ -317,22 +319,22 @@ In addition to SSH access, this ZenPack executes specific commands via ''sudo'' 
 
 It is also important that sudo be configured to allow running commands without a tty. Specifically this means that a line such as the following in sudoers (''visudo'') can prevent discovery and monitoring.
 
-<source>
+<source lang="text">
 Defaults requiretty
 </source>
 
 You can resolve this by disabling the requiretty option for all users by changing the above line to the following:
 
-<source>
+<source lang="text">
 Defaults !requiretty
 </source>
 
 You can also selectively disable requiretty just for the user configured in Zenoss' ''zCommandUsername'' configuration property. Assuming that username was ''zenmonitor'', this is how that would look.
 
-<source>
+<source lang="text">
 Defaults requiretty
 Defaults:zenmonitor !requiretty
-<source>
+</source>
 
 == Services ==
 
@@ -375,6 +377,9 @@ Installing this ZenPack will add the following items to your Zenoss system.
 * DockerContainer (on related device)
 
 == Changes ==
+
+;2.0.1
+; Disable container status monitoring by default. (ZEN-24043)
 
 ;2.0.0
 * Transparently support cgroupfs and systemd cgroup drivers.
