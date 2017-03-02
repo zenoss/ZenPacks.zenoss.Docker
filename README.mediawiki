@@ -83,7 +83,7 @@ A clear event such as the following will be created if the above commands proper
 : docker_command: <docker command that resulted in an list of containers>
 : docker_output: <docker command output>
 
-The ZenPack installs a docker-ps-status event class mapping into hte /Status event class to handle these events by default. You can create an alternative mapping for the docker-ps-status eventClassKey with a lower sequence number if you wish th handle these events differently.
+The ZenPack installs a docker-ps-status event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the docker-ps-status eventClassKey with a lower sequence number if you wish th handle these events differently.
 
 ==== Container Status Monitoring ====
 
@@ -139,13 +139,13 @@ The following datapoints are parsed from the results of these commands.
 
 ;cpuacct_usage_user
 : Description: User time.
-: Provenance: Value of user in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a arte.
+: Provenance: Value of user in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a rate.
 : Units: ticks per second (works out to 0-100/sec rate)
 : Aliases: cpu_user__ticks
 
 ;cpuacct_usage_system
 : Description: System time.
-: Provenance: Value of system in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a arte.
+: Provenance: Value of system in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a rate.
 : Units: ticks per second (works out to 0-100/sec rate)
 : Aliases: cpu_system__ticks
 
@@ -377,6 +377,9 @@ Installing this ZenPack will add the following items to your Zenoss system.
 * DockerContainer (on related device)
 
 == Changes ==
+
+;2.0.2
+* Fix disabling of Dynamic View of non-Docker components. (ZPS-703)
 
 ;2.0.1
 ; Disable container status monitoring by default. (ZEN-24043)

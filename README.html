@@ -1,0 +1,520 @@
+<style>
+div.thumbnail {
+    clear: right;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 0px;
+    width: 320px;
+    font-size: small;
+    font-style: italic;
+}
+
+br.clear {
+    clear: right;
+}
+
+dd {
+    font-size: smaller;
+}
+</style>
+
+<h1 id="title">Docker ZenPack</h1>
+<p>This ZenPack provides support for monitoring <a href="https://www.docker.com/">Docker</a> containers running on Linux devices.</p>
+
+<p>Docker versions 1.6 through 1.11 are known to be supported as of June 20th, 2016.</p>
+
+<h2 id="releases">Releases</h2>
+<dl id="release-2.0.2">
+    <dt>Version 2.0.2 <a class="external" href="http://wiki.zenoss.org/download/zenpacks/ZenPacks.zenoss.Docker/2.0.2/ZenPacks.zenoss.Docker-2.0.2.egg" rel="nofollow">Download</a></dt>
+    <dd>Released: 2017-03-02</dd>
+    <dd>Compatible with Zenoss 4.2 - 5.2</dd>
+    <dd>No additional requirements.</dd>
+</dl>
+
+<dl id="release-1.1.0">
+    <dt>Version 1.1.0 <a class="external" href="http://wiki.zenoss.org/download/zenpacks/ZenPacks.zenoss.Docker/1.1.0/ZenPacks.zenoss.Docker-1.1.0.egg" rel="nofollow">Download</a></dt>
+    <dd>Released: 2015-04-15</dd>
+    <dd>Compatible with Zenoss 4.2 - 5.0</dd>
+    <dd>No additional requirements.</dd>
+</dl>
+
+<h2 id="contents">Contents</h2>
+<ol>
+    <li><a href="#features">Features</a>
+        <ol>
+            <li><a href="#discovery">Discovery</a></li>
+            <li><a href="#monitoring">Monitoring</a>
+                <ol>
+                    <li><a href="#docker-status-monitoring">Docker Status Monitoring</a></li>
+                    <li><a href="#container-status-monitoring">Container Status Monitoring</a></li>
+                    <li><a href="#container-statistics-monitoring">Container Statistics Monitoring</a></li>
+                </ol>
+            </li>
+            <li><a href="#service-impact">Service Impact</a></li>
+        </ol>
+    </li>
+    <li><a href="#usage">Usage</a>
+        <ol>
+            <li><a href="#ssh-configuration">SSH Configuration</a></li>
+            <li><a href="#sudo-configuration">sudo Configuration</a></li>
+        </ol>
+    </li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#installed-items">Installed Items</a></li>
+    <li><a href="#changes">Changes</a></li>
+</ol>
+
+<h2 id="features">Features</h2>
+<p>The features added by this ZenPack can be summarized as follows. They are each detailed further below.</p>
+
+<ul>
+    <li>Discovery and periodic remodeling of Docker containers.</li>
+    <li>Optional status and performance monitoring of Docker containers.</li>
+    <li>Service impact and root cause analysis. (Requires Zenoss Service Dynamics)</li>
+</ul>
+
+<h3 id="discovery">Discovery</h3>
+<p>The following components and properties will be automatically discovered when the <i>DockerCollector</i> modeler plugin is enabled for Linux devices running Docker.</p>
+
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_details.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_details.png"></a></div>
+<dl>
+    <dt>Docker Host (Linux Device)</dt>
+    <dd><b>Properties</b>: Docker Version</dd>
+    <dd><b>Relationships</b>: Docker Containers</dd>
+</dl>
+
+<dl>
+    <dt>Docker Container</dt>
+    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created</dd>
+</dl>
+
+<p>This information is obtained by running the following commands on the Linux device via SSH.</p>
+
+<ul>
+    <li>docker -v</li>
+    <li>sudo docker ps -a --no-trunc</li>
+</ul>
+
+<p>As with all SSH modeling, the <i>zCommandUsername</i>, <i>zCommandPassword</i>, and <i>zKeyPath</i> configuration properties are used to establish the SSH connection. For password authentication, zCommandUsername and zCommandPassword must be set. For public key authentication, zCommandUsername and zKeyPath must be set. The value of zCommandPassword will be used as the passphrase if the key file provided by zKeyPath requires a passphrase.</p>
+
+<p><strong>Note</strong>: The <i>DockerCollector</i> modeler plugin is not enabled by default for any device classes. Typically you would add it to the /Server/SSH/Linux device class so all Linux devices being monitoring via SSH will have any containers discovered. Alternatively you could create a /Server/SSH/Linux/Docker deviceclass under which you placed all of your Linux devices that operate as Docker hosts, and only add the <i>DockerCollector</i> modeler plugin for it.</p>
+
+<br class="clear">
+
+<h3 id="monitoring">Monitoring</h3>
+<p>Three types of monitoring are performed for all discovered Docker containers: Status, statistics, and size. The monitoring of each of these aspects has been separated so that you can choose which you are interested in monitoring more easily.</p>
+
+<p><strong>Note</strong>: The default value of <i>zCommandCommandTimeout</i> is 15 seconds. This may not be long enough for the monitoring commands detailed below to execute. It is recommended that this value be increased to 60 seconds if status and statistics monitoring are enabled. It is recommended that this value be increased to 600 seconds if size monitoring is enabled.
+
+<h4 id="docker-status-monitoring">Docker Status Monitoring</h4>
+<p>When either zDockerMonitorContainerStatus or zDockerMonitorContainerSize are enabled, the status of the docker daemon will be checked once per minute (for zDockerMonitorContainerStatus) or once every ten minutes (for zDockerMonitorContainerSize) by running one of the following commands respectively.</p>
+
+<ul>
+    <li>/usr/bin/env sudo docker ps -a --no-trunc</li>
+    <li>/usr/bin/env sudo docker ps -a -s --no-trunc</li>
+</ul>
+
+<p>An error event such as the following will be created if either of these commands results in an error instead of a list of containers.</p>
+
+<dl>
+    <dt>Docker Error Event</dt>
+    <dd><b>summary</b>: received unexpected output from docker ps</dd>
+    <dd><b>severity</b>: error (4)</dd>
+    <dd><b>eventClassKey</b>: docker-ps-status</dd>
+    <dd><b>eventKey</b>: docker-ps-status</dd>
+    <dd><b>component</b>: docker (unlinked)</dd>
+    <dd><b>device</b>: example-device-id</dd>
+    <dd><b>docker_command</b>: &lt;docker command that resulted in an error&gt;</dd>
+    <dd><b>docker_output</b>: &lt;docker command output&gt;</dd>
+</dl>
+
+<p>A clear event such as the following will be created if the above commands properly result in a list of containers.</p>
+
+<dl>
+    <dt>Docker Clear Event</dt>
+    <dd><b>summary</b>: received expected output from docker ps</dd>
+    <dd><b>severity</b>: clear (0)</dd>
+    <dd><b>eventClassKey</b>: docker-ps-status</dd>
+    <dd><b>eventKey</b>: docker-ps-status</dd>
+    <dd><b>component</b>: docker (unlinked)</dd>
+    <dd><b>device</b>: example-device-id</dd>
+    <dd><b>docker_command</b>: &lt;docker command that resulted in an list of containers&gt;</dd>
+    <dd><b>docker_output</b>: &lt;docker command output&gt;</dd>
+</dl>
+
+<p>The ZenPack installs a docker-ps-status event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the docker-ps-status eventClassKey with a lower sequence number if you wish th handle these events differently.</p>
+
+<h4 id="container-status-monitoring">Container Status Monitoring</h4>
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_events.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_events.png"></a></div>
+
+<p>When zDockerMonitorContainerStatus is enabled, the status of each container will be checked once per minute by running the following command.</p>
+
+<ul>
+    <li>/usr/bin/env sudo docker ps -a --no-trunc</li>
+</ul>
+
+<p>Containers with any status other than "Up" or "Created" will result in a critical event being created for the container with the following example fields.</p>
+
+<dl>
+    <dt>Clear Down Event</dt>
+    <dd><b>summary</b>: container status: exited (0) 31 minutes ago</dd>
+    <dd><b>severity</b>: critical (5)</dd>
+    <dd><b>eventClassKey</b>: dockerContainerStatus</dd>
+    <dd><b>eventKey</b>: dockerContainerStatus</dd>
+    <dd><b>component</b>: docker-container-id</dd>
+    <dd><b>device</b>: example-device-id</dd>
+</dl>
+
+<p>Containers with an "Up" or "Created" status will result in a clear event being created for the container with the following example fields.</p>
+
+<dl>
+    <dt>Container Up Event</dt>
+    <dd><b>summary</b>: container status: up</dd>
+    <dd><b>severity</b>: clear (0)</dd>
+    <dd><b>eventClassKey</b>: dockerContainerStatus</dd>
+    <dd><b>eventKey</b>: dockerContainerStatus</dd>
+    <dd><b>component</b>: docker-container-id</dd>
+    <dd><b>device</b>: example-device-id</dd>
+</dl>
+
+<p>The ZenPack installs a dockerContainerStatus event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the dockerContainerStatus eventClassKey with a lower sequence number if you wish to handle these events differently.</p>
+
+<p><strong>Note</strong>: Container status monitoring is disable by default because container down events will only auto-clear if the same container is restarted. If the container is left in a non-running state, or if is removed, its event must be manually cleared. If auto-clearing is important you may want to consider using Zenoss' normal process monitoring support to monitor the process(es) running within the container instead of monitoring the container.</p>
+
+<br class="clear">
+
+<h4 id="container-statistics-monitoring">Container Statistics Monitoring</h4>
+<p>When zDockerMonitorContainerStats is enabled, the statistics of each container will be collected once every five minutes by running the following commands.</p>
+
+<ul>
+    <li>/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</li>
+    <li>/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</li>
+    <li>/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</li>
+</ul>
+
+<p>These three commands capture the cgroup CPU, memory, and IO usage respectively. They will work regardless of whether the cgroupfs or systemd driver are used.</p>
+
+<p>The following datapoints are parsed from the results of these commands.</p>
+
+<dl>
+    <dt>cpuacct_usage</dt>
+    <dd><b>Description</b>: Total usage include user and system time.</dd>
+    <dd><b>Provenance</b>: Value of cpuacct.usage for container divided by number of CPUs found in cpuacct.usage_percpu, divided by 10,000,000 to convert from nanoseconds to centiseconds. Presented as a rate.</dd>
+    <dd><b>Units</b>: ticks per second (works out to a 0-100/sec rate)</dd>
+    <dd><b>Aliases</b>: cpu__ticks</dd>
+</dl>
+
+<dl>
+    <dt>cpuacct_usage_user</dt>
+    <dd><b>Description</b>: User time.</dd>
+    <dd><b>Provenance</b>: Value of user in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a rate.</dd>
+    <dd><b>Units</b>: ticks per second (works out to 0-100/sec rate)</dd>
+    <dd><b>Aliases</b>: cpu_user__ticks</dd>
+</dl>
+
+<dl>
+    <dt>cpuacct_usage_system</dt>
+    <dd><b>Description</b>: System time.</dd>
+    <dd><b>Provenance</b>: Value of system in cpuacct.stat divided by number of CPUs found in cpuacct.usage_percpu. Presented as a rate.</dd>
+    <dd><b>Units</b>: ticks per second (works out to 0-100/sec rate)</dd>
+    <dd><b>Aliases</b>: cpu_system__ticks</dd>
+</dl>
+
+<dl>
+    <dt>cpuacct_processes</dt>
+    <dd><b>Description</b>: Number of processes running in container.</dd>
+    <dd><b>Provenance</b>: Value in cgroup.procs for container.</dd>
+    <dd><b>Units</b>: process count</dd>
+</dl>
+
+<dl>
+    <dt>memory_limit</dt>
+    <dd><b>Description</b>: Memory usage limit for container. (n/a indicates no limit)</dd>
+    <dd><b>Provenance</b>: Value in memory.limit_in_bytes for container.</dd>
+    <dd><b>Units</b>: bytes or n/a</dd>
+</dl>
+
+<dl>
+    <dt>memory_usage</dt>
+    <dd><b>Description</b>: Memory usage for container.</dd>
+    <dd><b>Provenance</b>: Value in memory.usage_in_bytes for container.</dd>
+    <dd><b>Units</b>: bytes</dd>
+    <dd><b>Aliases</b>: mem_usage__bytes</dd>
+</dl>
+
+<dl>
+    <dt>blkio_bytes_total</dt>
+    <dd><b>Description</b>: Rate of IO read and write bytes for container.</dd>
+    <dd><b>Provenance</b>: Sum of total value in blkio.io_service_bytes_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: bytes per second</dd>
+</dl>
+
+<dl>
+    <dt>blkio_bytes_read</dt>
+    <dd><b>Description</b>: Rate of IO read bytes for container.</dd>
+    <dd><b>Provenance</b>: Sum of read value in blkio.io_service_bytes_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: bytes per second</dd>
+</dl>
+
+<dl>
+    <dt>blkio_bytes_write</dt>
+    <dd><b>Description</b>: Rate of IO write bytes bytes for a container.</dd>
+    <dd><b>Provenance</b>: Sum of write value in blkio.io_service_bytes_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: bytes per second</dd>
+</dl>
+
+<dl>
+    <dt>blkio_io_total</dt>
+    <dd><b>Description</b>: Rate of IO read and write operations for container.</dd>
+    <dd><b>Provenance</b>: Sum of total value in blkio.io_serviced_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: operations per second</dd>
+</dl>
+
+<dl>
+    <dt>blkio_io_read</dt>
+    <dd><b>Description</b>: Rate of IO read operations for container.</dd>
+    <dd><b>Provenance</b>: Sum of read value in blkio.io_serviced_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: operations per second</dd>
+</dl>
+
+<dl>
+    <dt>blkio_io_write</dt>
+    <dd><b>Description</b>: Rate of IO write operations for container.</dd>
+    <dd><b>Provenance</b>: Sum of write value in blkio.io_serviced_recursive and blkio.throttle.io_service_bytes. Presented as a rate.</dd>
+    <dd><b>Units</b>: operations per second</dd>
+</dl>
+
+<p>The following graphs are built using these datapoints.</p>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_cpu_usage.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_cpu_usage.png"></a></div>
+<dl>
+    <dt>CPU Usage (percent)</dt>
+    <dd>Total</dd>
+    <dd>User</dd>
+    <dd>System</dd>
+</dl>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_memory_usage.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_memory_usage.png"></a></div>
+<dl>
+    <dt>Memory Usage (bytes)</dt>
+    <dd>Limit</dd>
+    <dd>Used</dd>
+</dl>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_io_rate.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_io_rate.png"></a></div>
+<dl>
+    <dt>IO Rate (operations/sec)</dt>
+    <dd>Total</dd>
+    <dd>Read</dd>
+    <dd>Write</dd>
+</dl>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_io_throughput.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_io_throughput.png"></a></div>
+<dl>
+    <dt>IO Throughput (bytes/sec)</dt>
+    <dd>Total</dd>
+    <dd>Read</dd>
+    <dd>Write</dd>
+</dl>
+
+<br class="clear">
+
+<h4 id="container-size-monitoring">Container Size Monitoring</h4>
+<p>When zDockerMonitorContainerSize is enabled, the real size and virtual size of each container will be monitored once every ten minutes by running the following command.</p>
+
+<ul>
+    <li>/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null</li>
+</ul>
+
+<p><strong>Note</strong>: zDockerMonitorContainerSize is not enabled by default. The reason for this is that adding <i>-s</i> flag to <i>docker ps</i> can result in the command taking a very long time to run when many containers, or large containers are used. It is recommended that you attempt to run the command on your Docker hosts manually and see that it takes less than 10 minutes to execute before enabled zDockerMonitorContainerSize.</p>
+
+<p><strong>Note</strong>:Older versions of Docker only report real size, not virtual size. The exact version cut-off isn't known, but Docker 1.6.2 as known to not report virtual size.</p>
+
+<p>The following datapoints are parsed from the results of this command.</p>
+
+<dl>
+    <dt>size_size</dt>
+    <dd><b>Description</b>: Actual space used by this specific container.</dd>
+    <dd><b>Provenance</b>: First number in the SIZE column of ''docker ps -s'' converted to bytes.</dd>
+    <dd><b>Units</b>: bytes</dd>
+</dl>
+
+<dl>
+    <dt>size_size_virtual</dt>
+    <dd><b>Description</b>: Virtual size of container including image layers that may be shared with other containers.</dd>
+    <dd><b>Provenance</b>: Parenthetical number in the SIZE column of <i>docker ps -s</i> converted to bytes</dd>
+    <dd><b>Units</b>: bytes</dd>
+</dl>
+
+<p>The following graph is build using these datapoints.</p>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_storage_usage.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_storage_usage.png"></a></div>
+<dl>
+    <dt>Storage Usage</dt>
+    <dd>Size</dd>
+    <dd>Virtual Size</dd>
+</dl>
+
+<br class="clear">
+
+<h3 id="service-impact">Service Impact</h3>
+<p>When combined with the Zenoss Service Dynamics product, this ZenPack adds built-in service impact capability for Docker Containers. The following service impact relationships are automatically added. These will be included in any services containing one or more of the explicitly mentioned entities.</p>
+
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_dynamicview.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_dynamicview.png"></a></div>
+<dl>
+    <dt>Service Impact Relationships</dt>
+    <dd>Device affects related Docker Containers.</dd>
+</dl>
+
+<br class="clear">
+
+<h2 id="usage">Usage</h2>
+<p>To begin discovering and monitoring Docker containers you must start by deciding what kind of monitoring you want to perform. There are three configuration properties that will control how container monitoring is performed.</p>
+
+<ul>
+    <li>zDockerMonitorContainerStatus</li>
+    <li>zDockerMonitorContainerStats</li>
+    <li>zDockerMonitorContainerSize</li>
+</ul>
+
+<p>You can refer to the various container monitoring sections above to understand exactly what the implications of each of these properties are. By default only <i>zDockerMonitorContainerStatus</i> and <i>zDockerMonitorContainerStats</i> are enabled. This is due to a potential performance consideration when monitoring container sizes. See the note above in the <a href="#container-size-monitoring">Container Size Monitoring</a> section.</p>
+
+<p>After setting these configuration properties to the desired values, you must enable the <i>DockerCollector</i> modeler plugin for the device class(es) or device(s) for which you want to discover running containers. One possibility would be to create a <i>/Server/SSH/Linux/Docker</i> device class, and add <i>DockerCollector</i> to the list of modeler plugins it will inherit from the <i>/Server/SSH/Linux</i> device class.</p>
+
+<h3 id="ssh-configuration">SSH Configuration</h3>
+<p>Docker container discovery and monitoring will occur by running commands on the monitored device with SSH. This SSH connectivity will use the same SSH configuration that is used for normal Linux device monitoring. The following configuration properties can be used to control SSH access.</p>
+
+<ul>
+    <li>zCommandUsername</li>
+    <li>zCommandPassword</li>
+    <li>zKeyPath</li>
+    <li>zCommandCommandTimeout</li>
+</ul>
+
+<p>See the <i>Discovery</i> section for more information on how <i>zCommandUsername</i>, <i>zCommandPassword</i>, and <i>zKeyPath</i> are used. See the <a href="#monitoring">Monitoring</a> section for a special note on <i>zCommandCommandTimeout</i>.
+
+<h3 id="sudo-configuration">sudo Configuration</h3>
+<p>In addition to SSH access, this ZenPack executes specific commands via <i>sudo</i> both during discovery and monitoring. This means that <i>sudo</i> must be installed on the monitored system, and if <i>zCommandUsername</i> is not root, sudo must be configured to allow the user specified in <i>zCommandUsername</i> permission to run the following commands without specifying a password.</p>
+
+<dl>
+    <dt>Discovery:</dt>
+    <dd>sudo docker ps -a --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If zDockerMonitorContainerStatus is enabled:</dt>
+    <dd>/usr/bin/env sudo docker ps -a --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If zDockerMonitorContainerSize is enabled:</dt>
+    <dd>/usr/bin/env sudo docker ps -a -s --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If <i>zDockerMonitorContainerStats</i> is enabled:</dt>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+</dl>
+
+<p>It is also important that sudo be configured to allow running commands without a tty. Specifically this means that a line such as the following in sudoers (<i>visudo</i>) can prevent discovery and monitoring.</p>
+
+<pre>
+Defaults requiretty
+</pre>
+
+<p>You can resolve this by disabling the requiretty option for all users by changing the above line to the following:</p>
+
+<pre>
+Defaults !requiretty
+</pre>
+
+<p>You can also selectively disable requiretty just for the user configured in Zenoss' <i>zCommandUsername</i> configuration property. Assuming that username was <i>zenmonitor</i>, this is how that would look.</p>
+
+<pre>
+Defaults requiretty
+Defaults:zenmonitor !requiretty
+</pre>
+
+<h2 id="services">Services</h2>
+<p>This ZenPack requires the following services (daemons) to be running.</p>
+
+<dl>
+    <dt>zenmodeler</dt>
+    <dd><b>Purpose</b>: Modeling Docker version and containers.</dd>
+    <dd><b>Location</b>: All collectors expected to be modeling Docker.</dd>
+</dl>
+
+<dl>
+    <dt>zencommand</dt>
+    <dd><b>Purpose</b>: Monitoring Docker containers status, statistics, and size.</dd>
+    <dd><b>Location</b>: All collectors expected to be monitoring Docker.</dd>
+</dl>
+
+<h2 id="installed-items">Installed Items</h2>
+<p>Installing this ZenPack will add the following items to your Zenoss system.</p>
+
+<br class="clear">
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_configuration_properties.png"><img src="/sites/default/files/zenpack/Docker/Docker_configuration_properties.png"></a></div>
+
+<dl>
+    <dt>Configuration Properties</dt>
+    <dd>zDockerMonitorContainerStatus</dd>
+    <dd>zDockerMonitorContainerStats</dd>
+    <dd>zDockerMonitorContainerSize</dd>
+</dl>
+
+<dl>
+    <dt>Modeler Plugins</dt>
+    <dd>DockerCollector</dd>
+</dl>
+
+<dl>
+    <dt>Monitoring Templates</dt>
+    <dd>DockerContainer-Status (/Devices)</dd>
+    <dd>DockerContainer-Stats (/Devices)</dd>
+    <dd>DockerContainer-Size (/Devices)</dd>
+</dl>
+
+<dl>
+    <dt>Event Class Mappings</dt>
+    <dd>docker-ps-status (/Status)</dd>
+    <dd>dockerContainerStatus (/Status)</dd>
+</dl>
+
+<dl>
+    <dt>Component Types</dt>
+    <dd>DockerContainer (on related device)</dd>
+</dl>
+
+<h2 id="changes">Changes</h2>
+
+<h3 id="changes-2.0.2">2.0.2</h3>
+<ul>
+    <li>Fix disabling of Dynamic View of non-Docker components. (ZPS-703)</li>
+</ul>
+
+<h3 id="changes-2.0.1">2.0.1</h3>
+<ul>
+    <li>Disable container status monitoring by default. (ZEN-24043)</li>
+</ul>
+
+<h3 id="changes-2.0.0">2.0.0</h3>
+<ul>
+    <li>Transparently support cgroupfs and systemd cgroup drivers.</li>
+    <li>Add zDockerMonitor(Status|Stats|Size) configuration properties.</li>
+    <li>Replace root file system monitoring with Docker's container size monitoring.</li>
+    <li>Drop support for Docker versions earlier than 1.6.</li>
+    <li>Support Dynamic View.</li>
+</ul>
+
+<h3 id="changes-1.0.0">1.0.0</h3>
+<ul>
+    <li>Initial release.</li>
+</ul>

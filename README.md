@@ -1,4 +1,4 @@
 ZenPacks.zenoss.Docker
 =========================
 
-http://wiki.zenoss.org/ZenPack:Docker
+https://www.zenoss.com/product/zenpacks/docker
