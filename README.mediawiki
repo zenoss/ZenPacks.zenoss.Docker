@@ -378,6 +378,8 @@ Installing this ZenPack will add the following items to your Zenoss system.
 
 == Changes ==
 
+;2.0.2
+
 ;2.0.1
 ; Disable container status monitoring by default. (ZEN-24043)
 
