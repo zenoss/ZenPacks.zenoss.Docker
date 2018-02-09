@@ -1,0 +1,1514 @@
+
+/sys/fs/cgroup/cpuacct/
+
+/sys/fs/cgroup/cpuacct/cpuacct.usage_percpu
+132158307272 128891745812 
+
+/sys/fs/cgroup/cpuacct/tasks
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+32
+33
+34
+46
+47
+48
+49
+84
+85
+86
+87
+88
+92
+100
+156
+157
+187
+192
+211
+216
+244
+255
+439
+448
+453
+455
+462
+464
+465
+476
+477
+478
+479
+480
+481
+482
+493
+494
+495
+603
+1371
+1409
+1410
+1411
+1412
+1413
+1414
+1415
+1416
+1417
+1418
+1419
+1420
+1421
+1422
+1423
+1424
+1434
+1465
+1480
+1481
+1482
+1585
+1587
+1588
+1589
+1590
+1591
+1592
+1593
+1600
+1601
+1602
+1603
+1604
+1605
+1606
+1608
+1609
+1621
+1622
+1633
+1641
+1642
+1645
+1660
+1661
+1672
+1673
+1674
+1675
+1677
+1683
+1699
+1702
+1703
+1742
+1743
+1744
+1746
+1749
+1781
+1782
+1783
+1784
+1785
+1786
+1787
+1788
+1789
+1791
+1792
+1803
+1804
+1805
+1806
+1807
+1808
+1809
+1811
+1812
+1813
+1827
+1828
+1829
+1830
+1831
+1832
+1833
+1835
+1836
+1837
+1841
+1851
+1858
+1860
+1861
+1862
+1863
+1864
+1865
+1866
+1867
+1868
+1869
+1872
+1888
+1890
+1891
+1892
+1893
+1899
+1902
+1903
+1904
+1906
+1907
+1915
+1916
+1919
+1924
+1925
+1926
+1928
+1929
+1933
+1936
+1937
+1938
+1955
+1966
+1980
+1984
+1985
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2017
+2032
+2033
+2039
+2040
+2041
+2042
+2043
+2044
+2046
+2047
+2051
+2052
+2062
+2073
+2083
+2085
+2090
+2091
+2092
+2093
+2094
+2095
+2096
+2097
+2099
+2100
+2112
+2129
+2130
+2174
+2175
+2176
+2177
+2178
+2180
+2181
+2182
+2183
+2187
+2198
+2219
+2220
+2237
+2238
+2239
+2240
+2241
+2242
+2244
+2245
+2249
+2250
+2260
+2329
+2330
+2331
+2332
+2333
+2334
+2335
+2337
+2338
+2351
+2364
+2539
+2540
+2541
+2542
+2543
+2544
+2545
+2547
+2548
+2549
+2561
+2568
+2570
+2574
+2578
+2593
+2594
+2595
+2596
+2597
+2598
+2600
+2601
+2605
+2616
+2624
+3925
+4059
+4060
+6166
+6409
+8315
+11974
+13874
+14346
+16329
+16569
+16571
+16572
+16579
+16580
+16581
+16615
+16630
+16631
+16634
+
+/sys/fs/cgroup/cpuacct/cgroup.procs
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+32
+33
+34
+46
+47
+48
+49
+84
+85
+86
+87
+88
+92
+100
+156
+157
+187
+192
+211
+216
+244
+255
+439
+448
+453
+455
+462
+464
+465
+476
+477
+478
+479
+480
+481
+482
+603
+1371
+1409
+1415
+1585
+1600
+1633
+1641
+1642
+1645
+1660
+1661
+1672
+1783
+1804
+1829
+1861
+1888
+1919
+1996
+2039
+2090
+2174
+2237
+2329
+2540
+2593
+6166
+6409
+8315
+11974
+13874
+14346
+16329
+16569
+16571
+16572
+16579
+16580
+16581
+16615
+16630
+16631
+16635
+
+/sys/fs/cgroup/cpuacct/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/release_agent
+
+
+/sys/fs/cgroup/cpuacct/docker
+
+/sys/fs/cgroup/cpuacct/docker/cpuacct.usage_percpu
+3510544126 2924094809 
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpuacct.usage_percpu
+3510544126 2924094809 
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/tasks
+1616
+1626
+1627
+1628
+1629
+1630
+1631
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cgroup.procs
+1616
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpuacct.stat
+user 534
+system 64
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cpuacct.usage
+6434638935
+
+/sys/fs/cgroup/cpuacct/docker/tasks
+
+/sys/fs/cgroup/cpuacct/docker/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/docker/cpu.shares
+1024
+
+/sys/fs/cgroup/cpuacct/docker/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/docker/cpuacct.stat
+user 534
+system 64
+
+/sys/fs/cgroup/cpuacct/docker/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/docker/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/docker/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/docker/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/docker/cpuacct.usage
+6434638935
+
+/sys/fs/cgroup/cpuacct/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/cpuacct.stat
+user 9295
+system 3696
+
+/sys/fs/cgroup/cpuacct/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/cgroup.sane_behavior
+0
+
+/sys/fs/cgroup/cpuacct/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods
+
+/sys/fs/cgroup/cpuacct/kubepods/cpuacct.usage_percpu
+69906789951 67913654519 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpuacct.usage_percpu
+69906789951 67913654519 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpuacct.usage_percpu
+4974995128 5020464457 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpu.shares
+204
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpuacct.stat
+user 245
+system 122
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpuacct.usage_percpu
+4970291073 5019620464 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/tasks
+2193
+2202
+2203
+2204
+2205
+2206
+2209
+2210
+2211
+2213
+2214
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cgroup.procs
+2193
+2202
+2203
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpu.shares
+204
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpuacct.stat
+user 245
+system 122
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cpuacct.usage
+9989911537
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpuacct.usage_percpu
+4704055 843993 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/tasks
+1889
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cgroup.procs
+1889
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cpuacct.usage
+5548048
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cpuacct.usage
+9995459585
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpuacct.usage_percpu
+2569793551 2451949937 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpuacct.usage_percpu
+5901576 1393899 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/tasks
+1917
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cgroup.procs
+1917
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cpuacct.usage
+7295475
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpuacct.stat
+user 97
+system 130
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpuacct.usage_percpu
+2563891975 2450556038 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/tasks
+2254
+2265
+2266
+2267
+2268
+2269
+2270
+2274
+2302
+2504
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cgroup.procs
+2254
+2265
+2266
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpuacct.stat
+user 96
+system 130
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cpuacct.usage
+5014448013
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cpuacct.usage
+5021743488
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpuacct.usage_percpu
+7309803585 7151510685 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpuacct.stat
+user 156
+system 103
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpuacct.usage_percpu
+7302841217 7150835474 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/tasks
+2107
+2117
+2118
+2119
+2120
+2121
+2123
+2124
+2125
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cgroup.procs
+2107
+2117
+2118
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpuacct.stat
+user 156
+system 102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cpuacct.usage
+14453676691
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpuacct.usage_percpu
+6962368 675211 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/tasks
+1846
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cgroup.procs
+1846
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cpuacct.usage
+7637579
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cpuacct.usage
+14461377181
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpu.shares
+819
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpuacct.usage_percpu
+2624021238 2647064677 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpuacct.usage_percpu
+3459718 853692 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/tasks
+1945
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cgroup.procs
+1945
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cpuacct.usage
+4313410
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpuacct.stat
+user 51
+system 100
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpuacct.usage_percpu
+2620561520 2646210985 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/tasks
+2346
+2356
+2357
+2358
+2359
+2360
+2361
+2362
+2363
+2368
+2984
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cgroup.procs
+2346
+2356
+2357
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpuacct.stat
+user 51
+system 100
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cpuacct.usage
+5266772505
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cpuacct.usage
+5271085915
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpuacct.stat
+user 3479
+system 1067
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpuacct.usage_percpu
+504524737 429376095 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpuacct.usage_percpu
+503783732 426118532 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/tasks
+2610
+2621
+2622
+2623
+2626
+3262
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cgroup.procs
+2610
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpu.shares
+51
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpuacct.stat
+user 76
+system 4
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cpuacct.usage
+929902264
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpu.shares
+51
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpuacct.usage_percpu
+741005 3257563 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/tasks
+2556
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cgroup.procs
+2556
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cpuacct.usage
+3998568
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpuacct.stat
+user 76
+system 4
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cpuacct.usage
+933900832
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpuacct.usage_percpu
+26473256730 26589002693 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpuacct.usage_percpu
+26473139563 26584010869 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/tasks
+2012
+2022
+2023
+2024
+2025
+2026
+2030
+2377
+2378
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cgroup.procs
+2012
+2022
+2023
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpuacct.stat
+user 394
+system 185
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cpuacct.usage
+53057229091
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpuacct.usage_percpu
+117167 4991824 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/tasks
+1799
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cgroup.procs
+1799
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cpuacct.usage
+5108991
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpu.shares
+102
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpuacct.stat
+user 394
+system 185
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cpuacct.usage
+53062427243
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/cpuacct.usage
+137824036794
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpuacct.usage_percpu
+25451798540 23625694291 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpuacct.usage_percpu
+543330 3751485 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/tasks
+1822
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cgroup.procs
+1822
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cpuacct.usage
+4294815
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpu.shares
+153
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpuacct.usage_percpu
+25451255210 23621942806 
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/tasks
+2057
+2066
+2067
+2068
+2069
+2070
+2075
+2076
+2077
+2088
+2089
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cgroup.procs
+2057
+2066
+2067
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpu.shares
+153
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpuacct.stat
+user 2456
+system 420
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cpuacct.usage
+49073198016
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpuacct.stat
+user 2456
+system 420
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cpuacct.usage
+49077492831
+
+/sys/fs/cgroup/cpuacct/kubepods/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/cpu.shares
+2048
+
+/sys/fs/cgroup/cpuacct/kubepods/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpuacct.usage_percpu
+0 0 
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/tasks
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cgroup.procs
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpu.shares
+2
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpu.cfs_quota_us
+-1
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpuacct.stat
+user 0
+system 0
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/besteffort/cpuacct.usage
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/cpuacct.stat
+user 3479
+system 1067
+
+/sys/fs/cgroup/cpuacct/kubepods/cpu.stat
+nr_periods 0
+nr_throttled 0
+throttled_time 0
+
+/sys/fs/cgroup/cpuacct/kubepods/cgroup.clone_children
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/cpu.cfs_period_us
+100000
+
+/sys/fs/cgroup/cpuacct/kubepods/notify_on_release
+0
+
+/sys/fs/cgroup/cpuacct/kubepods/cpuacct.usage
+137824834149
+
+/sys/fs/cgroup/cpuacct/cpuacct.usage
+261222341130
