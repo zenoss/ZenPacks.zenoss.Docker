@@ -1,0 +1,2945 @@
+
+/sys/fs/cgroup/memory/
+
+/sys/fs/cgroup/memory/memory.pressure_level
+
+/sys/fs/cgroup/memory/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/tasks
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+32
+33
+34
+46
+47
+48
+49
+84
+85
+86
+87
+88
+92
+100
+156
+157
+187
+192
+211
+216
+244
+255
+439
+448
+453
+455
+462
+464
+465
+476
+477
+478
+479
+480
+481
+482
+493
+494
+495
+603
+1371
+1409
+1410
+1411
+1412
+1413
+1414
+1415
+1416
+1417
+1418
+1419
+1420
+1421
+1422
+1423
+1424
+1434
+1465
+1480
+1481
+1482
+1585
+1587
+1588
+1589
+1590
+1591
+1592
+1593
+1600
+1601
+1602
+1603
+1604
+1605
+1606
+1608
+1609
+1621
+1622
+1633
+1641
+1642
+1645
+1660
+1661
+1672
+1673
+1674
+1675
+1677
+1683
+1699
+1702
+1703
+1742
+1743
+1744
+1746
+1749
+1781
+1782
+1783
+1784
+1785
+1786
+1787
+1788
+1789
+1791
+1792
+1803
+1804
+1805
+1806
+1807
+1808
+1809
+1811
+1812
+1813
+1827
+1828
+1829
+1830
+1831
+1832
+1833
+1835
+1836
+1837
+1841
+1851
+1858
+1860
+1861
+1862
+1863
+1864
+1865
+1866
+1867
+1868
+1869
+1872
+1888
+1890
+1891
+1892
+1893
+1899
+1902
+1903
+1904
+1906
+1907
+1915
+1916
+1919
+1924
+1925
+1926
+1928
+1929
+1933
+1936
+1937
+1938
+1955
+1966
+1980
+1984
+1985
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2017
+2032
+2033
+2039
+2040
+2041
+2042
+2043
+2044
+2046
+2047
+2051
+2052
+2062
+2073
+2083
+2085
+2090
+2091
+2092
+2093
+2094
+2095
+2096
+2097
+2099
+2100
+2112
+2129
+2130
+2174
+2175
+2176
+2177
+2178
+2180
+2181
+2182
+2183
+2187
+2198
+2219
+2220
+2237
+2238
+2239
+2240
+2241
+2242
+2244
+2245
+2249
+2250
+2260
+2329
+2330
+2331
+2332
+2333
+2334
+2335
+2337
+2338
+2351
+2364
+2539
+2540
+2541
+2542
+2543
+2544
+2545
+2547
+2548
+2549
+2561
+2568
+2570
+2574
+2578
+2593
+2594
+2595
+2596
+2597
+2598
+2600
+2601
+2605
+2616
+2624
+3925
+4059
+4060
+6166
+6409
+8315
+11974
+13874
+14346
+16329
+16569
+16571
+16572
+16579
+16580
+16581
+16615
+16958
+16959
+16964
+
+/sys/fs/cgroup/memory/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/cgroup.procs
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+32
+33
+34
+46
+47
+48
+49
+84
+85
+86
+87
+88
+92
+100
+156
+157
+187
+192
+211
+216
+244
+255
+439
+448
+453
+455
+462
+464
+465
+476
+477
+478
+479
+480
+481
+482
+603
+1371
+1409
+1415
+1585
+1600
+1633
+1641
+1642
+1645
+1660
+1661
+1672
+1783
+1804
+1829
+1861
+1888
+1919
+1996
+2039
+2090
+2174
+2237
+2329
+2540
+2593
+6166
+6409
+8315
+11974
+13874
+14346
+16329
+16569
+16571
+16572
+16579
+16580
+16581
+16615
+16958
+16959
+16966
+
+/sys/fs/cgroup/memory/release_agent
+
+
+/sys/fs/cgroup/memory/memory.usage_in_bytes
+2278891520
+
+/sys/fs/cgroup/memory/docker
+
+/sys/fs/cgroup/memory/docker/memory.pressure_level
+
+/sys/fs/cgroup/memory/docker/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/docker/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.pressure_level
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/tasks
+1616
+1626
+1627
+1628
+1629
+1630
+1631
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cgroup.procs
+1616
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.usage_in_bytes
+12410880
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.force_empty
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.max_usage_in_bytes
+24043520
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.numa_stat
+total=3030 N0=3030
+file=161 N0=161
+anon=2869 N0=2869
+unevictable=0 N0=0
+hierarchical_total=3030 N0=3030
+hierarchical_file=161 N0=161
+hierarchical_anon=2869 N0=2869
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/notify_on_release
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.stat
+cache 659456
+rss 11751424
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 97788
+pgpgout 94758
+pgfault 189461
+pgmajfault 5
+inactive_anon 0
+active_anon 11751424
+inactive_file 32768
+active_file 626688
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+total_cache 659456
+total_rss 11751424
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 97788
+total_pgpgout 94758
+total_pgfault 189461
+total_pgmajfault 5
+total_inactive_anon 0
+total_active_anon 11751424
+total_inactive_file 32768
+total_active_file 626688
+total_unevictable 0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/cgroup.event_control
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/docker/3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/docker/tasks
+
+/sys/fs/cgroup/memory/docker/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/docker/cgroup.procs
+
+/sys/fs/cgroup/memory/docker/memory.usage_in_bytes
+12410880
+
+/sys/fs/cgroup/memory/docker/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/docker/memory.force_empty
+
+/sys/fs/cgroup/memory/docker/memory.max_usage_in_bytes
+24043520
+
+/sys/fs/cgroup/memory/docker/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=3030 N0=3030
+hierarchical_file=161 N0=161
+hierarchical_anon=2869 N0=2869
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/docker/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/docker/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/docker/notify_on_release
+0
+
+/sys/fs/cgroup/memory/docker/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+total_cache 659456
+total_rss 11751424
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 97788
+total_pgpgout 94758
+total_pgfault 189461
+total_pgmajfault 5
+total_inactive_anon 0
+total_active_anon 11751424
+total_inactive_file 32768
+total_active_file 626688
+total_unevictable 0
+
+/sys/fs/cgroup/memory/docker/cgroup.event_control
+
+/sys/fs/cgroup/memory/docker/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/docker/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/memory.force_empty
+
+/sys/fs/cgroup/memory/memory.max_usage_in_bytes
+337915904
+
+/sys/fs/cgroup/memory/memory.numa_stat
+total=476917 N0=476917
+file=451720 N0=451720
+anon=25197 N0=25197
+unevictable=0 N0=0
+hierarchical_total=556367 N0=556367
+hierarchical_file=456804 N0=456804
+hierarchical_anon=99563 N0=99563
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/cgroup.sane_behavior
+0
+
+/sys/fs/cgroup/memory/notify_on_release
+0
+
+/sys/fs/cgroup/memory/memory.stat
+cache 1851174912
+rss 102301696
+rss_huge 0
+mapped_file 335421440
+dirty 753664
+writeback 0
+pgpgin 1940998
+pgpgout 1464075
+pgfault 3798982
+pgmajfault 1014
+inactive_anon 311296
+active_anon 102891520
+inactive_file 1033129984
+active_file 817115136
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+total_cache 1871998976
+total_rss 406904832
+total_rss_huge 0
+total_mapped_file 335421440
+total_dirty 823296
+total_writeback 0
+total_pgpgin 2202441
+total_pgpgout 1647090
+total_pgfault 4326468
+total_pgmajfault 1019
+total_inactive_anon 311296
+total_active_anon 407494656
+total_inactive_file 1042124800
+total_active_file 828944384
+total_unevictable 0
+
+/sys/fs/cgroup/memory/cgroup.event_control
+
+/sys/fs/cgroup/memory/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods
+
+/sys/fs/cgroup/memory/kubepods/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.usage_in_bytes
+43880448
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.max_usage_in_bytes
+49831936
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=10713 N0=10713
+hierarchical_file=3298 N0=3298
+hierarchical_anon=7415 N0=7415
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 13508608
+total_rss 30371840
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 4096
+total_writeback 0
+total_pgpgin 13995
+total_pgpgout 4304
+total_pgfault 11320
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 30371840
+total_inactive_file 8007680
+total_active_file 5500928
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/tasks
+2193
+2202
+2203
+2204
+2205
+2206
+2209
+2210
+2211
+2213
+2214
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cgroup.procs
+2193
+2202
+2203
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.usage_in_bytes
+43839488
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.max_usage_in_bytes
+49790976
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.numa_stat
+total=10703 N0=10703
+file=3298 N0=3298
+anon=7405 N0=7405
+unevictable=0 N0=0
+hierarchical_total=10703 N0=10703
+hierarchical_file=3298 N0=3298
+hierarchical_anon=7405 N0=7405
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.stat
+cache 13508608
+rss 30330880
+rss_huge 0
+mapped_file 0
+dirty 4096
+writeback 0
+pgpgin 13902
+pgpgout 4221
+pgfault 11215
+pgmajfault 0
+inactive_anon 0
+active_anon 30330880
+inactive_file 8007680
+active_file 5500928
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 13508608
+total_rss 30330880
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 4096
+total_writeback 0
+total_pgpgin 13902
+total_pgpgout 4221
+total_pgfault 11215
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 30330880
+total_inactive_file 8007680
+total_active_file 5500928
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/tasks
+1889
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cgroup.procs
+1889
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.usage_in_bytes
+40960
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.max_usage_in_bytes
+475136
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.numa_stat
+total=10 N0=10
+file=0 N0=0
+anon=10 N0=10
+unevictable=0 N0=0
+hierarchical_total=10 N0=10
+hierarchical_file=0 N0=0
+hierarchical_anon=10 N0=10
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.stat
+cache 0
+rss 40960
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 93
+pgpgout 83
+pgfault 105
+pgmajfault 0
+inactive_anon 0
+active_anon 40960
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 40960
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 93
+total_pgpgout 83
+total_pgfault 105
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 40960
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod0db13284a988626a3691585593cee6fa/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.usage_in_bytes
+8482816
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/tasks
+1917
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cgroup.procs
+1917
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.usage_in_bytes
+36864
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.max_usage_in_bytes
+1142784
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.numa_stat
+total=9 N0=9
+file=0 N0=0
+anon=9 N0=9
+unevictable=0 N0=0
+hierarchical_total=9 N0=9
+hierarchical_file=0 N0=0
+hierarchical_anon=9 N0=9
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.stat
+cache 0
+rss 36864
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 254
+pgpgout 245
+pgfault 399
+pgmajfault 0
+inactive_anon 0
+active_anon 36864
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 36864
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 254
+total_pgpgout 245
+total_pgfault 399
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 36864
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.max_usage_in_bytes
+9359360
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=2071 N0=2071
+hierarchical_file=8 N0=8
+hierarchical_anon=2063 N0=2063
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/tasks
+2254
+2265
+2266
+2267
+2268
+2269
+2270
+2274
+2302
+2504
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cgroup.procs
+2254
+2265
+2266
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.usage_in_bytes
+8445952
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.max_usage_in_bytes
+9322496
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.numa_stat
+total=2062 N0=2062
+file=8 N0=8
+anon=2054 N0=2054
+unevictable=0 N0=0
+hierarchical_total=2062 N0=2062
+hierarchical_file=8 N0=8
+hierarchical_anon=2054 N0=2054
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.stat
+cache 32768
+rss 8413184
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 76073
+pgpgout 74011
+pgfault 238721
+pgmajfault 0
+inactive_anon 0
+active_anon 8413184
+inactive_file 0
+active_file 32768
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 32768
+total_rss 8413184
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 76073
+total_pgpgout 74011
+total_pgfault 238721
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 8413184
+total_inactive_file 0
+total_active_file 32768
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 32768
+total_rss 8450048
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 76327
+total_pgpgout 74256
+total_pgfault 239120
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 8450048
+total_inactive_file 0
+total_active_file 32768
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podbe7ce701e54caaf75dcc19fcdc7eb5bb/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.usage_in_bytes
+9539584
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.max_usage_in_bytes
+9973760
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=2329 N0=2329
+hierarchical_file=7 N0=7
+hierarchical_anon=2322 N0=2322
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/tasks
+2107
+2117
+2118
+2119
+2120
+2121
+2123
+2124
+2125
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cgroup.procs
+2107
+2117
+2118
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.usage_in_bytes
+9498624
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.max_usage_in_bytes
+9932800
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.numa_stat
+total=2319 N0=2319
+file=7 N0=7
+anon=2312 N0=2312
+unevictable=0 N0=0
+hierarchical_total=2319 N0=2319
+hierarchical_file=7 N0=7
+hierarchical_anon=2312 N0=2312
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.stat
+cache 28672
+rss 9469952
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 2531
+pgpgout 212
+pgfault 3619
+pgmajfault 0
+inactive_anon 0
+active_anon 9469952
+inactive_file 4096
+active_file 24576
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 28672
+total_rss 9469952
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 2531
+total_pgpgout 212
+total_pgfault 3619
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 9469952
+total_inactive_file 4096
+total_active_file 24576
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 28672
+total_rss 9510912
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 2781
+total_pgpgout 452
+total_pgfault 4004
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 9510912
+total_inactive_file 4096
+total_active_file 24576
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/tasks
+1846
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cgroup.procs
+1846
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.usage_in_bytes
+40960
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.max_usage_in_bytes
+1110016
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.numa_stat
+total=10 N0=10
+file=0 N0=0
+anon=10 N0=10
+unevictable=0 N0=0
+hierarchical_total=10 N0=10
+hierarchical_file=0 N0=0
+hierarchical_anon=10 N0=10
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.stat
+cache 0
+rss 40960
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 250
+pgpgout 240
+pgfault 385
+pgmajfault 0
+inactive_anon 0
+active_anon 40960
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 40960
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 250
+total_pgpgout 240
+total_pgfault 385
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 40960
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podcae1661ea6d72df63c1db473df0cfab8/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.usage_in_bytes
+313270272
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.usage_in_bytes
+10768384
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/tasks
+1945
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cgroup.procs
+1945
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.usage_in_bytes
+40960
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.max_usage_in_bytes
+561152
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.numa_stat
+total=10 N0=10
+file=0 N0=0
+anon=10 N0=10
+unevictable=0 N0=0
+hierarchical_total=10 N0=10
+hierarchical_file=0 N0=0
+hierarchical_anon=10 N0=10
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.stat
+cache 0
+rss 40960
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 115
+pgpgout 105
+pgfault 134
+pgmajfault 0
+inactive_anon 0
+active_anon 40960
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 40960
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 115
+total_pgpgout 105
+total_pgfault 134
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 40960
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.max_usage_in_bytes
+10895360
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=2629 N0=2629
+hierarchical_file=422 N0=422
+hierarchical_anon=2207 N0=2207
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/tasks
+2346
+2356
+2357
+2358
+2359
+2360
+2361
+2362
+2363
+2368
+2984
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cgroup.procs
+2346
+2356
+2357
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.usage_in_bytes
+10727424
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.max_usage_in_bytes
+10854400
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.numa_stat
+total=2619 N0=2619
+file=422 N0=422
+anon=2197 N0=2197
+unevictable=0 N0=0
+hierarchical_total=2619 N0=2619
+hierarchical_file=422 N0=422
+hierarchical_anon=2197 N0=2197
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.stat
+cache 1728512
+rss 8998912
+rss_huge 0
+mapped_file 0
+dirty 4096
+writeback 0
+pgpgin 3204
+pgpgout 585
+pgfault 3152
+pgmajfault 0
+inactive_anon 0
+active_anon 8998912
+inactive_file 950272
+active_file 778240
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 1728512
+total_rss 8998912
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 4096
+total_writeback 0
+total_pgpgin 3204
+total_pgpgout 585
+total_pgfault 3152
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 8998912
+total_inactive_file 950272
+total_active_file 778240
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 1728512
+total_rss 9039872
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 4096
+total_writeback 0
+total_pgpgin 3319
+total_pgpgout 690
+total_pgfault 3286
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 9039872
+total_inactive_file 950272
+total_active_file 778240
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podd291a7c4584f864ad771c279f501226b/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.max_usage_in_bytes
+314781696
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=76420 N0=76420
+hierarchical_file=4923 N0=4923
+hierarchical_anon=71497 N0=71497
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 20164608
+total_rss 292851712
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 8192
+total_writeback 0
+total_pgpgin 163655
+total_pgpgout 88257
+total_pgfault 338025
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 292851712
+total_inactive_file 8962048
+total_active_file 11202560
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/tasks
+2610
+2621
+2622
+2623
+2626
+3262
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cgroup.procs
+2610
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.usage_in_bytes
+7766016
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.max_usage_in_bytes
+10743808
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.numa_stat
+total=1896 N0=1896
+file=4 N0=4
+anon=1892 N0=1892
+unevictable=0 N0=0
+hierarchical_total=1896 N0=1896
+hierarchical_file=4 N0=4
+hierarchical_anon=1892 N0=1892
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.stat
+cache 16384
+rss 7749632
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 2716
+pgpgout 820
+pgfault 4230
+pgmajfault 0
+inactive_anon 0
+active_anon 7749632
+inactive_file 0
+active_file 16384
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 16384
+total_rss 7749632
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 2716
+total_pgpgout 820
+total_pgfault 4230
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 7749632
+total_inactive_file 0
+total_active_file 16384
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.usage_in_bytes
+7802880
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/tasks
+2556
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cgroup.procs
+2556
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.usage_in_bytes
+36864
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.max_usage_in_bytes
+524288
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.numa_stat
+total=9 N0=9
+file=0 N0=0
+anon=9 N0=9
+unevictable=0 N0=0
+hierarchical_total=9 N0=9
+hierarchical_file=0 N0=0
+hierarchical_anon=9 N0=9
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.stat
+cache 0
+rss 36864
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 97
+pgpgout 88
+pgfault 111
+pgmajfault 0
+inactive_anon 0
+active_anon 36864
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 36864
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 97
+total_pgpgout 88
+total_pgfault 111
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 36864
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.max_usage_in_bytes
+10780672
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=1905 N0=1905
+hierarchical_file=4 N0=4
+hierarchical_anon=1901 N0=1901
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 16384
+total_rss 7786496
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 2813
+total_pgpgout 908
+total_pgfault 4341
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 7786496
+total_inactive_file 0
+total_active_file 16384
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/podc568bedb-0d13-11e8-b83e-0267931fa8b6/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/tasks
+2012
+2022
+2023
+2024
+2025
+2026
+2030
+2377
+2378
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cgroup.procs
+2012
+2022
+2023
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.usage_in_bytes
+42954752
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.max_usage_in_bytes
+47067136
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.numa_stat
+total=10456 N0=10456
+file=41 N0=41
+anon=10415 N0=10415
+unevictable=0 N0=0
+hierarchical_total=10456 N0=10456
+hierarchical_file=41 N0=41
+hierarchical_anon=10415 N0=10415
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.stat
+cache 167936
+rss 42659840
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 12197
+pgpgout 1741
+pgfault 14999
+pgmajfault 0
+inactive_anon 0
+active_anon 42659840
+inactive_file 0
+active_file 167936
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 167936
+total_rss 42659840
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 12197
+total_pgpgout 1741
+total_pgfault 14999
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 42659840
+total_inactive_file 0
+total_active_file 167936
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/tasks
+1799
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cgroup.procs
+1799
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.usage_in_bytes
+40960
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.max_usage_in_bytes
+557056
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.numa_stat
+total=10 N0=10
+file=0 N0=0
+anon=10 N0=10
+unevictable=0 N0=0
+hierarchical_total=10 N0=10
+hierarchical_file=0 N0=0
+hierarchical_anon=10 N0=10
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.stat
+cache 0
+rss 40960
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 89
+pgpgout 79
+pgfault 103
+pgmajfault 0
+inactive_anon 0
+active_anon 40960
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 40960
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 89
+total_pgpgout 79
+total_pgfault 103
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 40960
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.usage_in_bytes
+42995712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.max_usage_in_bytes
+47108096
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=10466 N0=10466
+hierarchical_file=41 N0=41
+hierarchical_anon=10425 N0=10425
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 167936
+total_rss 42700800
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 12286
+total_pgpgout 1820
+total_pgfault 15102
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 42700800
+total_inactive_file 0
+total_active_file 167936
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod13b92a993591a89c5e20f9facf926675/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/tasks
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/tasks
+1822
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cgroup.procs
+1822
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.usage_in_bytes
+40960
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.max_usage_in_bytes
+643072
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.numa_stat
+total=10 N0=10
+file=0 N0=0
+anon=10 N0=10
+unevictable=0 N0=0
+hierarchical_total=10 N0=10
+hierarchical_file=0 N0=0
+hierarchical_anon=10 N0=10
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.stat
+cache 0
+rss 40960
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 108
+pgpgout 98
+pgfault 128
+pgmajfault 0
+inactive_anon 0
+active_anon 40960
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 40960
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 108
+total_pgpgout 98
+total_pgfault 128
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 40960
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.usage_in_bytes
+189800448
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/tasks
+2057
+2066
+2067
+2068
+2069
+2070
+2075
+2076
+2077
+2088
+2089
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cgroup.procs
+2057
+2066
+2067
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.usage_in_bytes
+189759488
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.max_usage_in_bytes
+197603328
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.numa_stat
+total=46297 N0=46297
+file=1143 N0=1143
+anon=45154 N0=45154
+unevictable=0 N0=0
+hierarchical_total=46297 N0=46297
+hierarchical_file=1143 N0=1143
+hierarchical_anon=45154 N0=45154
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.stat
+cache 4681728
+rss 184950784
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 52026
+pgpgout 5729
+pgfault 60724
+pgmajfault 0
+inactive_anon 0
+active_anon 184950784
+inactive_file 0
+active_file 4681728
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 4681728
+total_rss 184950784
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 52026
+total_pgpgout 5729
+total_pgfault 60724
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 184950784
+total_inactive_file 0
+total_active_file 4681728
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.max_usage_in_bytes
+197644288
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=46307 N0=46307
+hierarchical_file=1143 N0=1143
+hierarchical_anon=45164 N0=45164
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 4681728
+total_rss 184991744
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 52134
+total_pgpgout 5827
+total_pgfault 60852
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 184991744
+total_inactive_file 0
+total_active_file 4681728
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/burstable/pod94d22b056814f1dd76157ab3970e3bd3/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/tasks
+
+/sys/fs/cgroup/memory/kubepods/memory.limit_in_bytes
+3949813760
+
+/sys/fs/cgroup/memory/kubepods/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/memory.usage_in_bytes
+313270272
+
+/sys/fs/cgroup/memory/kubepods/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.pressure_level
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.use_hierarchy
+1
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.swappiness
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/tasks
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/besteffort/cgroup.procs
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.usage_in_bytes
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.failcnt
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.max_usage_in_bytes
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=0 N0=0
+hierarchical_file=0 N0=0
+hierarchical_anon=0 N0=0
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 0
+total_rss 0
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_pgpgin 0
+total_pgpgout 0
+total_pgfault 0
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 0
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/besteffort/memory.soft_limit_in_bytes
+9223372036854771712
+
+/sys/fs/cgroup/memory/kubepods/memory.force_empty
+
+/sys/fs/cgroup/memory/kubepods/memory.max_usage_in_bytes
+314781696
+
+/sys/fs/cgroup/memory/kubepods/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=76420 N0=76420
+hierarchical_file=4923 N0=4923
+hierarchical_anon=71497 N0=71497
+hierarchical_unevictable=0 N0=0
+
+/sys/fs/cgroup/memory/kubepods/cgroup.clone_children
+0
+
+/sys/fs/cgroup/memory/kubepods/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+
+/sys/fs/cgroup/memory/kubepods/notify_on_release
+0
+
+/sys/fs/cgroup/memory/kubepods/memory.stat
+cache 0
+rss 0
+rss_huge 0
+mapped_file 0
+dirty 0
+writeback 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 3949813760
+total_cache 20164608
+total_rss 292851712
+total_rss_huge 0
+total_mapped_file 0
+total_dirty 8192
+total_writeback 0
+total_pgpgin 163655
+total_pgpgout 88257
+total_pgfault 338025
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 292851712
+total_inactive_file 8962048
+total_active_file 11202560
+total_unevictable 0
+
+/sys/fs/cgroup/memory/kubepods/cgroup.event_control
+
+/sys/fs/cgroup/memory/kubepods/memory.move_charge_at_immigrate
+0
+
+/sys/fs/cgroup/memory/kubepods/memory.soft_limit_in_bytes
+9223372036854771712
