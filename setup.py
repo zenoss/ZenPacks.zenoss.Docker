@@ -2,13 +2,13 @@
 # or saved.  Do not modify them directly here.
 # NB: PACKAGES is deprecated
 NAME = "ZenPacks.zenoss.Docker"
-VERSION = "2.0.2"
+VERSION = "2.0.3"
 AUTHOR = "Zenoss"
 LICENSE = ""
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.zenoss']
 PACKAGES = ['ZenPacks', 'ZenPacks.zenoss', 'ZenPacks.zenoss.Docker']
-INSTALL_REQUIRES = []
-COMPAT_ZENOSS_VERS = ">=4.2"
+INSTALL_REQUIRES = ["ZenPacks.zenoss.ZenPackLib"]
+COMPAT_ZENOSS_VERS = ">=4.2.5"
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
 # Zenoss will not overwrite any changes you make below here.

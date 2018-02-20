@@ -224,9 +224,9 @@ class cgroupfs(CommandParser):
 
         path_regex = (
             r'^/sys/fs/cgroup/{datasource_id}'
-            r'/(?:docker/|system\.slice/docker-)'
+            r'.*'
             r'{component_id}'
-            r'(:?\.scope)?'
+            r'(?:\.scope)?'
             r'/(?P<filename>{filenames})$'
             ).format(
                 datasource_id=datasource_id,

@@ -1,0 +1,93 @@
+# vim: ft=yaml
+command: '/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf \"\n%p\n" -exec cat {} 2>/dev/null \;'
+
+values:
+  4f2e3c742f4f1d54fbe3eb86d378627a96c59bd05c1f8c4f867eb2060be0171f:
+    usage: 46
+    usage_user: 38
+    usage_system: 2
+    processes: 2
+
+  91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042:
+    usage: 263
+    usage_user: 25
+    usage_system: 50
+    processes: 4
+
+  3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806:
+    usage: 250
+    usage_user: 48
+    usage_system: 65
+    processes: 4
+
+  ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f:
+    usage: 499
+    usage_user: 122
+    usage_system: 61
+    processes: 4
+
+  c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05:
+    usage: 722
+    usage_user: 78
+    usage_system: 51
+    processes: 4
+
+  cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d:
+    usage: 2453
+    usage_user: 1228
+    usage_system: 210
+    processes: 4
+
+  9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a:
+    usage: 2652
+    usage_user: 197
+    usage_system: 92
+    processes: 4
+
+  bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a:
+    usage: 0
+    usage_user: 0
+    usage_system: 0
+    processes: 2
+
+  3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821:
+    usage: 321
+    usage_user: 267
+    usage_system: 32
+    processes: 2
