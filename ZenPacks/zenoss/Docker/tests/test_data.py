@@ -220,7 +220,7 @@ def comparable_from_actual(actual):
     if isinstance(actual, ObjectMap):
         comparable = {}
         for k, v in actual.__dict__.items():
-            if k in {"_attrs"}:
+            if k in {"_attrs", "plugin_name"}:
                 pass  # drop these all of the time
             elif not v and k in {"classname", "compname"}:
                 pass  # drop these if the value is falsey
@@ -234,6 +234,8 @@ def comparable_from_actual(actual):
         for k, v in actual.__dict__.items():
             if k == "maps":
                 comparable[k] = comparable_from_actual(v)
+            elif k in ("plugin_name"):
+                pass  # drop these all of the time
             elif not v and k in ("classname", "compname", "parentId"):
                 pass  # drop these if the value is falsey
             else:
