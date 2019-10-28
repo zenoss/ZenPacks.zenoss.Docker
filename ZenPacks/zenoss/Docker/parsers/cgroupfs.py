@@ -178,9 +178,15 @@ class cgroupfs(CommandParser):
 
     createDefaultEventUsingExitCode = False
 
+    def dataForParser(self, context, dp):
+        return {
+            'cgroup_path': getattr(context, 'cgroup_path', '/sys/fs/cgroup'),
+        }
+
     def processResults(self, cmd, result):
         # Sort the output into a more accessible data structure.
-        data = self.dataFromLines(cmd.ds, cmd.component, cmd.result.output)
+        cgroup_path = cmd.points[0].data.get('cgroup_path', '/sys/fs/cgroup')
+        data = self.dataFromLines(cmd.ds, cmd.component, cmd.result.output, cgroup_path)
 
         # Extract values from the data.
         values = self.valuesFromData(data, cmd.ds)
@@ -199,7 +205,7 @@ class cgroupfs(CommandParser):
         else:
             return {}
 
-    def dataFromLines(self, datasource_id, component_id, output):
+    def dataFromLines(self, datasource_id, component_id, output, cgroup_path):
         """Return a useful data structure given command output.
 
         Example args:
@@ -223,12 +229,13 @@ class cgroupfs(CommandParser):
             return {}
 
         path_regex = (
-            r'^/sys/fs/cgroup/{datasource_id}'
+            r'^{cgroup_path}/{datasource_id}'
             r'.*'
             r'{component_id}'
             r'(?:\.scope)?'
             r'/(?P<filename>{filenames})$'
             ).format(
+                cgroup_path=cgroup_path,
                 datasource_id=datasource_id,
                 component_id=component_id,
                 filenames="|".join(processor_files))
@@ -246,7 +253,7 @@ class cgroupfs(CommandParser):
                 # Start of a new file we care about.
                 filename = match.group("filename")
 
-            elif line.startswith("/sys/fs/cgroup/"):
+            elif line.startswith(cgroup_path):
                 # Start of a new file we don't care about.
                 filename = None
 
