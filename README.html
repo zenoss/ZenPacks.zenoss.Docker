@@ -88,7 +88,7 @@ dd {
 
 <dl>
     <dt>Docker Container</dt>
-    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created</dd>
+    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created, CGroup Path</dd>
 </dl>
 
 <p>This information is obtained by running the following commands on the Linux device via SSH.</p>
@@ -96,6 +96,7 @@ dd {
 <ul>
     <li>docker -v</li>
     <li>sudo docker ps -a --no-trunc</li>
+    <li>cat /proc/self/mountinfo</li>
 </ul>
 
 <p>As with all SSH modeling, the <i>zCommandUsername</i>, <i>zCommandPassword</i>, and <i>zKeyPath</i> configuration properties are used to establish the SSH connection. For password authentication, zCommandUsername and zCommandPassword must be set. For public key authentication, zCommandUsername and zKeyPath must be set. The value of zCommandPassword will be used as the passphrase if the key file provided by zKeyPath requires a passphrase.</p>

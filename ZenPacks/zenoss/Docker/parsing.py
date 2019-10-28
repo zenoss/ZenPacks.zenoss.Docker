@@ -19,6 +19,10 @@ class MissingColumnsError(Exception):
         self.data = data
 
 
+class CgroupPathNotFound(Exception):
+    pass
+
+
 def rows_from_output(output, expected_columns=None):
     """Return list of table row dicts given command output.
 
@@ -66,3 +70,27 @@ def rows_from_output(output, expected_columns=None):
             for column, (start, end) in column_indexes.items()})
 
     return rows
+
+
+def cgroup_path_from_output(output):
+    """Return mounted path to cgroup given the content of /proc/self/mountinfo.
+
+    Raises CgroupPathNotFound if the path to cgroup is not found in the file.
+    """
+    lines = output.strip().splitlines()
+    if not lines:
+        raise CgroupPathNotFound()
+
+    try:
+        for line in lines:
+            fields = line.split(' ')
+            if 'cgroup' in fields[4]:
+                mount_path = fields[4]
+                index = mount_path.find('cgroup')
+                mount_path = mount_path[:index] + 'cgroup'
+
+                return mount_path
+    except IndexError:
+        pass
+
+    raise CgroupPathNotFound()

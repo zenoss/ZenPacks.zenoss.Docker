@@ -1,0 +1,4 @@
+CONTAINER ID                                                       IMAGE                    COMMAND                                          CREATED             STATUS                   PORTS               NAMES
+9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29   nginx                    "nginx -g 'daemon off;'"                         4 hours ago         Up 4 hours               80/tcp              stupefied_visvesvaraya
+f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1   dkuffner/docker-stress   "stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M"   4 hours ago         Up 4 hours                                   stupefied_borg
+7e081dcf254830f76ef7c92cb6d9dbfd6ddb4ac16be8fc3b03bb12f7f4156e25   hello-world              "/hello"                                         4 hours ago         Exited (0) 4 hours ago                       nervous_mendeleev

@@ -1,5 +1,5 @@
 # vim: ft=yaml
-command: "docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null"
+command: "docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null ; echo __SPLIT__ ; cat /proc/self/mountinfo 2>/dev/null"
 
 expected:
   - docker_version: "Docker version 1.13.1, build 092cba3"
@@ -13,6 +13,7 @@ expected:
         command: "\"/usr/bin/dns-controller --watch-ingress=false --dns=gossip --gossip-seed=127.0.0.1:3999 --zone=*/* -v=2\""
         created: "40 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "91bd7d905685984cb986156636c87c2cc45bf75a2fa4a341e6f876ffae154a68"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -21,6 +22,7 @@ expected:
         command: "\"/pause\""
         created: "41 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "ce56193cdac7a26e9ec80e8099b1033819c50705627a1247672eb64a4f4bc042"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -29,6 +31,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/etcd 2>&1 | /bin/tee -a /var/log/etcd.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "3aa35b7f84789c681444430fb22cf0591b126b610774a84c828f6b632d5ae806"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -37,6 +40,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/kube-proxy --cluster-cidr=100.96.0.0/11 --conntrack-max-per-core=131072 --hostname-override=ip-172-20-54-17.ec2.internal --kubeconfig=/var/lib/kube-proxy/kubeconfig --master=https://127.0.0.1 --oom-score-adj=-998 --resource-container=\\\"\\\" --v=2 2>&1 | /usr/bin/tee -a /var/log/kube-proxy.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "ae1b68661a64df089501c1f455eec44c07ae891d5272d02c98fe63bec9a1475f"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -45,6 +49,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/etcd 2>&1 | /bin/tee -a /var/log/etcd.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "c699903676052404e0ba754eb7f43c21e36b6833568bbd0f42191ba4ca8bcb05"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -53,6 +58,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/kube-scheduler --kubeconfig=/var/lib/kube-scheduler/kubeconfig --leader-elect=true --v=2 2>&1 | /bin/tee -a /var/log/kube-scheduler.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "cff2a01ebe258d4a77bb2f037ec6a323f5518250e937797df2190bf42ed6d53d"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -61,6 +67,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/kube-apiserver --address=127.0.0.1 --admission-control=Initializers,NamespaceLifecycle,LimitRanger,ServiceAccount,PersistentVolumeLabel,DefaultStorageClass,DefaultTolerationSeconds,NodeRestriction,Priority,ResourceQuota --allow-privileged=true --anonymous-auth=false --apiserver-count=1 --authorization-mode=AlwaysAllow --basic-auth-file=/srv/kubernetes/basic_auth.csv --client-ca-file=/srv/kubernetes/ca.crt --cloud-provider=aws --etcd-servers-overrides=/events#http://127.0.0.1:4002 --etcd-servers=http://127.0.0.1:4001 --insecure-port=8080 --kubelet-preferred-address-types=InternalIP,Hostname,ExternalIP --proxy-client-cert-file=/srv/kubernetes/apiserver-aggregator.cert --proxy-client-key-file=/srv/kubernetes/apiserver-aggregator.key --requestheader-allowed-names=aggregator --requestheader-client-ca-file=/srv/kubernetes/apiserver-aggregator-ca.cert --requestheader-extra-headers-prefix=X-Remote-Extra- --requestheader-group-headers=X-Remote-Group --requestheader-username-headers=X-Remote-User --secure-port=443 --service-cluster-ip-range=100.64.0.0/13 --storage-backend=etcd2 --tls-cert-file=/srv/kubernetes/server.cert --tls-private-key-file=/srv/kubernetes/server.key --token-auth-file=/srv/kubernetes/known_tokens.csv --v=2 2>&1 | /bin/tee -a /var/log/kube-apiserver.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "9d2919d80e851414e1fb63f395e2b91b7a5a97117122a819d9d25bdcfdd8e77a"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -69,6 +76,7 @@ expected:
         command: "\"/bin/sh -c '/usr/local/bin/kube-controller-manager --allocate-node-cidrs=true --attach-detach-reconcile-sync-period=1m0s --cloud-provider=aws --cluster-cidr=100.96.0.0/11 --cluster-name=cluther-kops.k8s.local --cluster-signing-cert-file=/srv/kubernetes/ca.crt --cluster-signing-key-file=/srv/kubernetes/ca.key --configure-cloud-routes=true --kubeconfig=/var/lib/kube-controller-manager/kubeconfig --leader-elect=true --root-ca-file=/srv/kubernetes/ca.crt --service-account-private-key-file=/srv/kubernetes/server.key --use-service-account-credentials=true --v=2 2>&1 | /bin/tee -a /var/log/kube-controller-manager.log'\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "bc96cba9431214475a6df4449a92cb4fc6597f562e42f1747973881bd7d24c4f"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -77,6 +85,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "9243cbcb485b8a22b06f728512757109e7f56e664b5e3829f9e2320083480b55"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -85,6 +94,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "09d24a0e2e8b1126baec2e56d2ac38385b1b2b86e33b9057b23f09d24e88280e"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -93,6 +103,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "01bf0e1a8259b3566551fa291111fc6eff7be7f8e6b4cf35d20e8a239ca33729"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -101,6 +112,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "843aa491210d9c36cef53b3ace9a971d9fcca0179853e4506b1862e51a36637a"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -109,6 +121,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "dd9bd5fbd9cb9d537b16205884fe992a6eecccdfd4c5110204b7c3a87c17816a"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -117,6 +130,7 @@ expected:
         command: "\"/pause\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"
 
       - id: "3ff9816e10c63f71da516aa931130848fd1ce7b4b75f4e71a872b8e12e27b821"
         modname: "ZenPacks.zenoss.Docker.DockerContainer"
@@ -125,3 +139,4 @@ expected:
         command: "\"/usr/bin/protokube --channels=s3://cluther-kops-k8s-local-state-store/cluther-kops.k8s.local/addons/bootstrap-channel.yaml --cloud=aws --containerized=true --dns-internal-suffix=internal.cluther-kops.k8s.local --dns=gossip --etcd-image=gcr.io/google_containers/etcd:2.2.1 --initialize-rbac=true --master=true --v=4\""
         created: "42 minutes ago"
         ports: ""
+        cgroup_path: "/sys/fs/cgroup"

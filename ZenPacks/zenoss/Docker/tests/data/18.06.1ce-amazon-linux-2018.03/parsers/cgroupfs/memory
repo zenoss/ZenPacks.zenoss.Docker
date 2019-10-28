@@ -1,0 +1,869 @@
+
+/cgroup/memory/
+
+/cgroup/memory/cgroup.procs
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2308
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2564
+2573
+2574
+2586
+2600
+2631
+2640
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5254
+6842
+6844
+9139
+9170
+10199
+10251
+10575
+10627
+10727
+10729
+10730
+10732
+10755
+10756
+10847
+11007
+12182
+17133
+17134
+17136
+
+/cgroup/memory/memory.use_hierarchy
+0
+
+/cgroup/memory/memory.kmem.tcp.usage_in_bytes
+0
+
+/cgroup/memory/memory.soft_limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/cgroup.sane_behavior
+0
+
+/cgroup/memory/memory.force_empty
+
+/cgroup/memory/memory.pressure_level
+
+/cgroup/memory/memory.move_charge_at_immigrate
+0
+
+/cgroup/memory/memory.memsw.failcnt
+0
+
+/cgroup/memory/memory.kmem.tcp.max_usage_in_bytes
+0
+
+/cgroup/memory/memory.max_usage_in_bytes
+0
+
+/cgroup/memory/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+oom_kill 0
+
+/cgroup/memory/memory.stat
+cache 255475712
+rss 76410880
+rss_huge 0
+shmem 65536
+mapped_file 117256192
+dirty 0
+writeback 0
+swap 0
+pgpgin 1219924
+pgpgout 1138897
+pgfault 2457987
+pgmajfault 1352
+inactive_anon 53248
+active_anon 76398592
+inactive_file 90808320
+active_file 164601856
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 265818112
+total_rss 177504256
+total_rss_huge 0
+total_shmem 69632
+total_mapped_file 123854848
+total_dirty 0
+total_writeback 0
+total_swap 0
+total_pgpgin 109644277
+total_pgpgout 109536044
+total_pgfault 110872291
+total_pgmajfault 1425
+total_inactive_anon 57344
+total_active_anon 177491968
+total_inactive_file 94781440
+total_active_file 170967040
+total_unevictable 0
+
+/cgroup/memory/memory.kmem.slabinfo
+
+/cgroup/memory/docker
+
+/cgroup/memory/docker/cgroup.procs
+
+/cgroup/memory/docker/memory.use_hierarchy
+0
+
+/cgroup/memory/docker/memory.kmem.tcp.usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.soft_limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/memory.force_empty
+
+/cgroup/memory/docker/memory.pressure_level
+
+/cgroup/memory/docker/memory.move_charge_at_immigrate
+0
+
+/cgroup/memory/docker/memory.memsw.failcnt
+0
+
+/cgroup/memory/docker/memory.kmem.tcp.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+oom_kill 0
+
+/cgroup/memory/docker/memory.stat
+cache 0
+rss 0
+rss_huge 0
+shmem 0
+mapped_file 0
+dirty 0
+writeback 0
+swap 0
+pgpgin 0
+pgpgout 0
+pgfault 0
+pgmajfault 0
+inactive_anon 0
+active_anon 0
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 0
+total_rss 0
+total_rss_huge 0
+total_shmem 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_swap 0
+total_pgpgin 0
+total_pgpgout 0
+total_pgfault 0
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 0
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/cgroup/memory/docker/memory.kmem.slabinfo
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.procs
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.use_hierarchy
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.tcp.usage_in_bytes
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.soft_limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.force_empty
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.pressure_level
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.move_charge_at_immigrate
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.memsw.failcnt
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.tcp.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.max_usage_in_bytes
+271507456
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+oom_kill 0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.stat
+cache 0
+rss 112025600
+rss_huge 0
+shmem 0
+mapped_file 0
+dirty 0
+writeback 0
+swap 0
+pgpgin 107739264
+pgpgout 107711914
+pgfault 107737917
+pgmajfault 0
+inactive_anon 0
+active_anon 112025600
+inactive_file 0
+active_file 0
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 0
+total_rss 112025600
+total_rss_huge 0
+total_shmem 0
+total_mapped_file 0
+total_dirty 0
+total_writeback 0
+total_swap 0
+total_pgpgin 107739264
+total_pgpgout 107711914
+total_pgfault 107737917
+total_pgmajfault 0
+total_inactive_anon 0
+total_active_anon 112025600
+total_inactive_file 0
+total_active_file 0
+total_unevictable 0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.slabinfo
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+kmalloc-8              0      0      8  512    1 : tunables    0    0    0 : slabdata      0      0      0
+inode_cache           26     26    608   26    4 : tunables    0    0    0 : slabdata      1      1      0
+ovl_inode             23     23    688   23    4 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-512           32     32    512   32    4 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-256           32     32    256   32    2 : tunables    0    0    0 : slabdata      1      1      0
+mqueue_inode_cache      0      0    960   34    8 : tunables    0    0    0 : slabdata      0      0      0
+pid                    0      0    128   32    1 : tunables    0    0    0 : slabdata      0      0      0
+signal_cache          32     32   1024   32    8 : tunables    0    0    0 : slabdata      1      1      0
+sighand_cache         15     15   2112   15    8 : tunables    0    0    0 : slabdata      1      1      0
+files_cache           23     23    704   23    4 : tunables    0    0    0 : slabdata      1      1      0
+task_struct           21     21   9664    3    8 : tunables    0    0    0 : slabdata      7      7      0
+sock_inode_cache      69     69    704   23    4 : tunables    0    0    0 : slabdata      3      3      0
+mm_struct             16     16   2048   16    8 : tunables    0    0    0 : slabdata      1      1      0
+radix_tree_node       28     28    584   28    4 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-1024          32     32   1024   32    8 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-192           21     21    192   21    1 : tunables    0    0    0 : slabdata      1      1      0
+shmem_inode_cache     46     46    712   23    4 : tunables    0    0    0 : slabdata      2      2      0
+kmalloc-64             0      0     64   64    1 : tunables    0    0    0 : slabdata      0      0      0
+proc_inode_cache      48     48    680   24    4 : tunables    0    0    0 : slabdata      2      2      0
+dentry               105    105    192   21    1 : tunables    0    0    0 : slabdata      5      5      0
+cred_jar             105    105    192   21    1 : tunables    0    0    0 : slabdata      5      5      0
+vm_area_struct       320    320    200   20    1 : tunables    0    0    0 : slabdata     16     16      0
+anon_vma             184    184     88   46    1 : tunables    0    0    0 : slabdata      4      4      0
+anon_vma_chain       384    384     64   64    1 : tunables    0    0    0 : slabdata      6      6      0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.swappiness
+60
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.memsw.max_usage_in_bytes
+271507456
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.numa_stat
+total=28931 N0=28931
+file=0 N0=0
+anon=28931 N0=28931
+unevictable=0 N0=0
+hierarchical_total=28931 N0=28931
+hierarchical_file=0 N0=0
+hierarchical_anon=28931 N0=28931
+hierarchical_unevictable=0 N0=0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.failcnt
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.max_usage_in_bytes
+2498560
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.usage_in_bytes
+120766464
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/tasks
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.memsw.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.failcnt
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.event_control
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.tcp.failcnt
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.memsw.usage_in_bytes
+126533632
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/notify_on_release
+0
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.usage_in_bytes
+2187264
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/memory.kmem.tcp.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.clone_children
+0
+
+/cgroup/memory/docker/memory.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/memory.swappiness
+60
+
+/cgroup/memory/docker/memory.memsw.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.numa_stat
+total=0 N0=0
+file=0 N0=0
+anon=0 N0=0
+unevictable=0 N0=0
+hierarchical_total=0 N0=0
+hierarchical_file=0 N0=0
+hierarchical_anon=0 N0=0
+hierarchical_unevictable=0 N0=0
+
+/cgroup/memory/docker/memory.kmem.failcnt
+0
+
+/cgroup/memory/docker/memory.kmem.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.usage_in_bytes
+0
+
+/cgroup/memory/docker/tasks
+
+/cgroup/memory/docker/memory.memsw.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/memory.failcnt
+0
+
+/cgroup/memory/docker/cgroup.event_control
+
+/cgroup/memory/docker/memory.kmem.tcp.failcnt
+0
+
+/cgroup/memory/docker/memory.kmem.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/memory.memsw.usage_in_bytes
+0
+
+/cgroup/memory/docker/notify_on_release
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.procs
+10276
+10337
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.use_hierarchy
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.tcp.usage_in_bytes
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.soft_limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.force_empty
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.pressure_level
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.move_charge_at_immigrate
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.memsw.failcnt
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.tcp.max_usage_in_bytes
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.max_usage_in_bytes
+12464128
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.oom_control
+oom_kill_disable 0
+under_oom 0
+oom_kill 0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.stat
+cache 12288
+rss 1581056
+rss_huge 0
+shmem 4096
+mapped_file 4096
+dirty 0
+writeback 0
+swap 0
+pgpgin 4089
+pgpgout 3700
+pgfault 2771
+pgmajfault 0
+inactive_anon 4096
+active_anon 1581056
+inactive_file 8192
+active_file 0
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 12288
+total_rss 1581056
+total_rss_huge 0
+total_shmem 4096
+total_mapped_file 4096
+total_dirty 0
+total_writeback 0
+total_swap 0
+total_pgpgin 4089
+total_pgpgout 3700
+total_pgfault 2771
+total_pgmajfault 0
+total_inactive_anon 4096
+total_active_anon 1581056
+total_inactive_file 8192
+total_active_file 0
+total_unevictable 0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.slabinfo
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+kmalloc-16           256    256     16  256    1 : tunables    0    0    0 : slabdata      1      1      0
+ext4_inode_cache      30     30   1088   30    8 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-8              0      0      8  512    1 : tunables    0    0    0 : slabdata      0      0      0
+inode_cache           26     26    608   26    4 : tunables    0    0    0 : slabdata      1      1      0
+ovl_inode             69     69    688   23    4 : tunables    0    0    0 : slabdata      3      3      0
+kmalloc-512           32     32    512   32    4 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-256           32     32    256   32    2 : tunables    0    0    0 : slabdata      1      1      0
+mqueue_inode_cache      0      0    960   34    8 : tunables    0    0    0 : slabdata      0      0      0
+pid                    0      0    128   32    1 : tunables    0    0    0 : slabdata      0      0      0
+signal_cache          32     32   1024   32    8 : tunables    0    0    0 : slabdata      1      1      0
+sighand_cache         15     15   2112   15    8 : tunables    0    0    0 : slabdata      1      1      0
+files_cache           23     23    704   23    4 : tunables    0    0    0 : slabdata      1      1      0
+task_struct            9      9   9664    3    8 : tunables    0    0    0 : slabdata      3      3      0
+sock_inode_cache      69     69    704   23    4 : tunables    0    0    0 : slabdata      3      3      0
+mm_struct             16     16   2048   16    8 : tunables    0    0    0 : slabdata      1      1      0
+radix_tree_node       56     56    584   28    4 : tunables    0    0    0 : slabdata      2      2      0
+kmalloc-1024          32     32   1024   32    8 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-192           21     21    192   21    1 : tunables    0    0    0 : slabdata      1      1      0
+shmem_inode_cache     46     46    712   23    4 : tunables    0    0    0 : slabdata      2      2      0
+kmalloc-64             0      0     64   64    1 : tunables    0    0    0 : slabdata      0      0      0
+proc_inode_cache      48     48    680   24    4 : tunables    0    0    0 : slabdata      2      2      0
+dentry               189    189    192   21    1 : tunables    0    0    0 : slabdata      9      9      0
+cred_jar             105    105    192   21    1 : tunables    0    0    0 : slabdata      5      5      0
+vm_area_struct       240    240    200   20    1 : tunables    0    0    0 : slabdata     12     12      0
+anon_vma              92     92     88   46    1 : tunables    0    0    0 : slabdata      2      2      0
+anon_vma_chain       192    192     64   64    1 : tunables    0    0    0 : slabdata      3      3      0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.swappiness
+60
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.memsw.max_usage_in_bytes
+12464128
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.numa_stat
+total=389 N0=389
+file=2 N0=2
+anon=387 N0=387
+unevictable=0 N0=0
+hierarchical_total=389 N0=389
+hierarchical_file=2 N0=2
+hierarchical_anon=387 N0=387
+hierarchical_unevictable=0 N0=0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.failcnt
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.max_usage_in_bytes
+937984
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.usage_in_bytes
+2437120
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/tasks
+10276
+10337
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.memsw.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.failcnt
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.event_control
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.tcp.failcnt
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.memsw.usage_in_bytes
+2437120
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/notify_on_release
+0
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.usage_in_bytes
+843776
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/memory.kmem.tcp.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.clone_children
+0
+
+/cgroup/memory/docker/memory.kmem.usage_in_bytes
+0
+
+/cgroup/memory/docker/memory.kmem.tcp.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/docker/cgroup.clone_children
+0
+
+/cgroup/memory/memory.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/memory.swappiness
+60
+
+/cgroup/memory/memory.memsw.max_usage_in_bytes
+0
+
+/cgroup/memory/memory.numa_stat
+total=81027 N0=81027
+file=62356 N0=62356
+anon=18671 N0=18671
+unevictable=0 N0=0
+hierarchical_total=122243 N0=122243
+hierarchical_file=64880 N0=64880
+hierarchical_anon=57363 N0=57363
+hierarchical_unevictable=0 N0=0
+
+/cgroup/memory/memory.kmem.failcnt
+0
+
+/cgroup/memory/memory.kmem.max_usage_in_bytes
+0
+
+/cgroup/memory/memory.usage_in_bytes
+506519552
+
+/cgroup/memory/tasks
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2283
+2297
+2298
+2299
+2305
+2307
+2308
+2309
+2310
+2311
+2312
+2313
+2314
+2315
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2548
+2564
+2573
+2574
+2586
+2600
+2631
+2634
+2635
+2636
+2637
+2638
+2639
+2640
+2641
+2642
+2643
+2644
+2645
+2646
+2648
+2649
+2650
+2652
+2653
+2654
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5142
+5254
+6842
+6844
+9139
+9170
+10199
+10200
+10201
+10202
+10203
+10204
+10251
+10253
+10254
+10260
+10261
+10262
+10263
+10265
+10266
+10329
+10330
+10357
+10575
+10576
+10577
+10578
+10579
+10580
+10627
+10630
+10631
+10636
+10637
+10639
+10640
+10641
+10642
+10727
+10729
+10730
+10732
+10755
+10756
+10829
+10847
+10866
+10879
+11007
+12182
+17133
+17134
+17253
+
+/cgroup/memory/memory.memsw.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/memory.failcnt
+0
+
+/cgroup/memory/cgroup.event_control
+
+/cgroup/memory/memory.kmem.tcp.failcnt
+0
+
+/cgroup/memory/memory.kmem.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/memory.memsw.usage_in_bytes
+506519552
+
+/cgroup/memory/notify_on_release
+0
+
+/cgroup/memory/release_agent
+
+
+/cgroup/memory/memory.kmem.usage_in_bytes
+0
+
+/cgroup/memory/memory.kmem.tcp.limit_in_bytes
+9223372036854771712
+
+/cgroup/memory/cgroup.clone_children
+0
