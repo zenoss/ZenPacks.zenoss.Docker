@@ -41,6 +41,7 @@ class DockerCollector(CommandPlugin):
     command = command_from_commands(
         "docker -v",
         "sudo docker ps -a --no-trunc",
+        "cat /proc/self/mountinfo",
         )
 
     def process(self, device, results, log):
@@ -82,6 +83,12 @@ class DockerCollector(CommandPlugin):
             log.info("%s: no docker containers found", device.id)
             return maps
 
+        try:
+            cgroup_path = parsing.cgroup_path_from_output(results[2])
+        except parsing.CgroupPathNotFound:
+            log.info("%s: no cgroup path found. The default value '/sys/fs/cgroup' is set", device.id)
+            cgroup_path = "/sys/fs/cgroup"
+
         for row in rows:
             rm.append(
                 self.objectMap({
@@ -91,6 +98,7 @@ class DockerCollector(CommandPlugin):
                     "command": row["COMMAND"],
                     "created": row["CREATED"],
                     "ports": row["PORTS"],
+                    "cgroup_path": cgroup_path,
                     }))
 
         log.info("%s: found %s Docker containers", device.id, len(rm.maps))

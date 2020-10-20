@@ -27,12 +27,12 @@ from ZenPacks.zenoss.Docker import parsing
 # Some Docker versions show real and virtual size. Others only show real.
 SIZE_MATCHERS = [
     re.compile(
-        r'(?P<real_num>[\d\.]+) (?P<real_units>\S+) '
-        r'\(virtual (?P<virt_num>[\d\.]+) (?P<virt_units>\S+)\)'
+        r'(?P<real_num>[\d\.]+)\s?(?P<real_units>\S+) '
+        r'\(virtual (?P<virt_num>[\d\.]+)\s?(?P<virt_units>\S+)\)'
         ).match,
 
     re.compile(
-        r'(?P<real_num>[\d\.]+) (?P<real_units>\S+)'
+        r'(?P<real_num>[\d\.]+)\s?(?P<real_units>\S+)'
         ).match,
     ]
 

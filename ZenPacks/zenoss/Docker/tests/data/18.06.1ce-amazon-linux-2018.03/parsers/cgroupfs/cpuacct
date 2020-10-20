@@ -1,0 +1,491 @@
+
+/cgroup/cpuacct/
+
+/cgroup/cpuacct/cgroup.procs
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2308
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2564
+2573
+2574
+2586
+2600
+2631
+2640
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5254
+6842
+6844
+9139
+9170
+10199
+10251
+10575
+10627
+10727
+10729
+10730
+10732
+10755
+10756
+10847
+11007
+12182
+16928
+16929
+16931
+
+/cgroup/cpuacct/cgroup.sane_behavior
+0
+
+/cgroup/cpuacct/cpuacct.usage_percpu_sys
+2649981399 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker
+
+/cgroup/cpuacct/docker/cgroup.procs
+
+/cgroup/cpuacct/docker/cpuacct.usage_percpu_sys
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.procs
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_percpu_sys
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_percpu
+1520972272112 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.stat
+user 94432
+system 57926
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage
+1520978369481
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/tasks
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_sys
+0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_all
+cpu user system
+0 1520981116945 0
+1 0 0
+2 0 0
+3 0 0
+4 0 0
+5 0 0
+6 0 0
+7 0 0
+8 0 0
+9 0 0
+10 0 0
+11 0 0
+12 0 0
+13 0 0
+14 0 0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_percpu_user
+1520983966750 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/notify_on_release
+0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.clone_children
+0
+
+/cgroup/cpuacct/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cpuacct.usage_user
+1520990081610
+
+/cgroup/cpuacct/docker/cpuacct.usage_percpu
+1531174366618 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/cpuacct.stat
+user 95067
+system 58313
+
+/cgroup/cpuacct/docker/cpuacct.usage
+1531178466104
+
+/cgroup/cpuacct/docker/tasks
+
+/cgroup/cpuacct/docker/cpuacct.usage_sys
+0
+
+/cgroup/cpuacct/docker/cpuacct.usage_all
+cpu user system
+0 1531184244759 0
+1 0 0
+2 0 0
+3 0 0
+4 0 0
+5 0 0
+6 0 0
+7 0 0
+8 0 0
+9 0 0
+10 0 0
+11 0 0
+12 0 0
+13 0 0
+14 0 0
+
+/cgroup/cpuacct/docker/cpuacct.usage_percpu_user
+1531187338515 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/notify_on_release
+0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.procs
+10276
+10337
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_percpu_sys
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_percpu
+38425634 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.stat
+user 2
+system 2
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage
+38425634
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/tasks
+10276
+10337
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_sys
+0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_all
+cpu user system
+0 38425634 0
+1 0 0
+2 0 0
+3 0 0
+4 0 0
+5 0 0
+6 0 0
+7 0 0
+8 0 0
+9 0 0
+10 0 0
+11 0 0
+12 0 0
+13 0 0
+14 0 0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_percpu_user
+38425634 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/notify_on_release
+0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.clone_children
+0
+
+/cgroup/cpuacct/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cpuacct.usage_user
+38425634
+
+/cgroup/cpuacct/docker/cgroup.clone_children
+0
+
+/cgroup/cpuacct/docker/cpuacct.usage_user
+1531217438142
+
+/cgroup/cpuacct/cpuacct.usage_percpu
+1567978114989 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/cpuacct.stat
+user 96880
+system 59376
+
+/cgroup/cpuacct/cpuacct.usage
+1567982117819
+
+/cgroup/cpuacct/tasks
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2283
+2297
+2298
+2299
+2305
+2307
+2308
+2309
+2310
+2311
+2312
+2313
+2314
+2315
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2548
+2564
+2573
+2574
+2586
+2600
+2631
+2634
+2635
+2636
+2637
+2638
+2639
+2640
+2641
+2642
+2643
+2644
+2645
+2646
+2648
+2649
+2650
+2652
+2653
+2654
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5142
+5254
+6842
+6844
+9139
+9170
+10199
+10200
+10201
+10202
+10203
+10204
+10251
+10253
+10254
+10260
+10261
+10262
+10263
+10265
+10266
+10329
+10330
+10357
+10575
+10576
+10577
+10578
+10579
+10580
+10627
+10630
+10631
+10636
+10637
+10639
+10640
+10641
+10642
+10727
+10729
+10730
+10732
+10755
+10756
+10829
+10847
+10866
+10879
+11007
+12182
+16928
+16929
+16976
+
+/cgroup/cpuacct/cpuacct.usage_sys
+2650791935
+
+/cgroup/cpuacct/cpuacct.usage_all
+cpu user system
+0 1565339287422 2650820916
+1 0 0
+2 0 0
+3 0 0
+4 0 0
+5 0 0
+6 0 0
+7 0 0
+8 0 0
+9 0 0
+10 0 0
+11 0 0
+12 0 0
+13 0 0
+14 0 0
+
+/cgroup/cpuacct/cpuacct.usage_percpu_user
+1565343268577 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+/cgroup/cpuacct/notify_on_release
+0
+
+/cgroup/cpuacct/release_agent
+
+
+/cgroup/cpuacct/cgroup.clone_children
+0
+
+/cgroup/cpuacct/cpuacct.usage_user
+1565355177773

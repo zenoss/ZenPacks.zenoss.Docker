@@ -316,6 +316,11 @@ def parser_check_fn(parser_name, datasource, device, components, output, expecte
 
         results = ParsedResults()
 
+        if 'amazon-linux' in device:
+            cgroup_path = '/cgroup'
+        else:
+            cgroup_path = '/sys/fs/cgroup'
+
         for component in components:
             cmd = Object()
             cmd.device = device
@@ -330,7 +335,7 @@ def parser_check_fn(parser_name, datasource, device, components, output, expecte
                 point = Object()
                 point.id = dp
                 point.component = component
-                point.data = parser.dataForParser(Context(component), None)
+                point.data = parser.dataForParser(Context(cgroup_path), None)
                 point.expected = v
                 cmd.points.append(point)
 

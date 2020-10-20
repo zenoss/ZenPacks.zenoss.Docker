@@ -1,0 +1,9 @@
+# vim: ft=yaml
+command: '/usr/bin/env sudo find /cgroup/cpuacct/ -printf \"\n%p\n" -exec cat {} 2>/dev/null \;'
+
+values:
+  f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1:
+    usage: 10139
+    usage_user: 6295
+    usage_system: 3861
+    processes: 16
