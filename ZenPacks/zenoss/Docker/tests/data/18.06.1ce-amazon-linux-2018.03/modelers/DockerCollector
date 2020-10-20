@@ -1,0 +1,34 @@
+Docker version 18.06.1-ce, build e68fc7a215d7133c34aa18e3b72b4a21fd0c6136
+__SPLIT__
+CONTAINER ID                                                       IMAGE                    COMMAND                                          CREATED              STATUS                          PORTS               NAMES
+9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29   nginx                    "nginx -g 'daemon off;'"                         2 minutes ago        Up 2 minutes                    80/tcp              stupefied_visvesvaraya
+f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1   dkuffner/docker-stress   "stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M"   About a minute ago   Up About a minute                                   stupefied_borg
+7e081dcf254830f76ef7c92cb6d9dbfd6ddb4ac16be8fc3b03bb12f7f4156e25   hello-world              "/hello"                                         About a minute ago   Exited (0) About a minute ago                       nervous_mendeleev
+__SPLIT__
+16 22 0:4 / /proc rw,relatime - proc proc rw
+17 22 0:16 / /sys rw,relatime - sysfs sysfs rw
+18 22 0:6 / /dev rw,relatime - devtmpfs devtmpfs rw,size=494068k,nr_inodes=123517,mode=755
+19 18 0:17 / /dev/pts rw,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=000
+20 18 0:18 / /dev/shm rw,relatime - tmpfs tmpfs rw
+22 0 202:1 / / rw,noatime - ext4 /dev/xvda1 rw,data=ordered
+23 19 0:20 / /dev/pts rw,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=000
+24 16 0:21 / /proc/sys/fs/binfmt_misc rw,relatime - binfmt_misc none rw
+25 22 0:22 / /cgroup/blkio rw,relatime - cgroup cgroup rw,blkio
+26 22 0:23 / /cgroup/cpu rw,relatime - cgroup cgroup rw,cpu
+27 22 0:24 / /cgroup/cpuacct rw,relatime - cgroup cgroup rw,cpuacct
+28 22 0:25 / /cgroup/cpuset rw,relatime - cgroup cgroup rw,cpuset
+29 22 0:26 / /cgroup/devices rw,relatime - cgroup cgroup rw,devices
+30 22 0:27 / /cgroup/freezer rw,relatime - cgroup cgroup rw,freezer
+31 22 0:28 / /cgroup/hugetlb rw,relatime - cgroup cgroup rw,hugetlb
+32 22 0:29 / /cgroup/memory rw,relatime - cgroup cgroup rw,memory
+33 22 0:30 / /cgroup/perf_event rw,relatime - cgroup cgroup rw,perf_event
+34 22 202:1 /var/lib/docker /var/lib/docker rw,noatime shared:1 - ext4 /dev/xvda1 rw,data=ordered
+35 34 0:31 / /var/lib/docker/overlay2/fe1d688843307b17217b1887eed30acec1cf364c40552d8cc45976b505f00a6c/merged rw,relatime shared:2 - overlay overlay rw,lowerdir=/var/lib/docker/overlay2/l/B5AME62WRR3XWAN26UXD3A6FFS:/var/lib/docker/overlay2/l/BHAZVX24RPM6XRIGGZQ7FJCC5A:/var/lib/docker/overlay2/l/RJNN6NVLOGOD6HTPLB4DCNQPV2:/var/lib/docker/overlay2/l/QUW3G7Y22XC3MDQBTC4CRTGJKX,upperdir=/var/lib/docker/overlay2/fe1d688843307b17217b1887eed30acec1cf364c40552d8cc45976b505f00a6c/diff,workdir=/var/lib/docker/overlay2/fe1d688843307b17217b1887eed30acec1cf364c40552d8cc45976b505f00a6c/work
+41 34 0:32 / /var/lib/docker/containers/5f8651935c9eab2b475d0715d7002609ab00ba4b988ce050eeb32288ff4bcb0d/mounts/shm rw,nosuid,nodev,noexec,relatime shared:3 - tmpfs shm rw,size=65536k
+85 22 0:3 net:[4026532223] /var/run/docker/netns/48a15b33ded5 rw - nsfs nsfs rw
+44 34 0:42 / /var/lib/docker/overlay2/11a3bd92b94a570ee184bb2946a657253c2c4983f4820f5ed78a6a97677721f4/merged rw,relatime shared:4 - overlay overlay rw,lowerdir=/var/lib/docker/overlay2/l/FPSM4UGTBMMTOJX4BLY7SMZHTN:/var/lib/docker/overlay2/l/ZKFHAFPWI3MOW4G3SRTRXQFKNE:/var/lib/docker/overlay2/l/L34I663S672ZJCAM2AOWI3JICT:/var/lib/docker/overlay2/l/CVIZUVGUMBANTUOV5UEBIBPYSF:/var/lib/docker/overlay2/l/DOQX3GUE2QKSGG2CVJDNAGQ7NZ,upperdir=/var/lib/docker/overlay2/11a3bd92b94a570ee184bb2946a657253c2c4983f4820f5ed78a6a97677721f4/diff,workdir=/var/lib/docker/overlay2/11a3bd92b94a570ee184bb2946a657253c2c4983f4820f5ed78a6a97677721f4/work
+86 34 0:43 / /var/lib/docker/containers/3846d9be5e4702deeddb97ecd41515f7bc9a3fa33264ae6559abaa252e7fd9e6/mounts/shm rw,nosuid,nodev,noexec,relatime shared:5 - tmpfs shm rw,size=65536k
+133 22 0:3 net:[4026532286] /var/run/docker/netns/4a5725e945c1 rw - nsfs nsfs rw
+89 34 0:53 / /var/lib/docker/overlay2/adb8ea96ffef79209243fa992226e3fc4e5a7c4505417f39eb826ad507723665/merged rw,relatime shared:6 - overlay overlay rw,lowerdir=/var/lib/docker/overlay2/l/GPBPTVNLUO7P76M2IOGVSPM7F5:/var/lib/docker/overlay2/l/IIOKR5KW4DDD3DK7YOYHIS6UZS:/var/lib/docker/overlay2/l/5WUN5KRR3KVLCJQTWH2IQHMBD3:/var/lib/docker/overlay2/l/5XMTC57JYTEKP46UAJXAXY67AR:/var/lib/docker/overlay2/l/55IAUI3VRTILRYNKXWXOTYU56H:/var/lib/docker/overlay2/l/S6QJC534PNYYD3CH6COIF7E5F2:/var/lib/docker/overlay2/l/H5XEHPETPZ3S43JC2YA3GQD3KQ:/var/lib/docker/overlay2/l/WAGJ5XEIUKAR6UTC4UPD6AZWBX,upperdir=/var/lib/docker/overlay2/adb8ea96ffef79209243fa992226e3fc4e5a7c4505417f39eb826ad507723665/diff,workdir=/var/lib/docker/overlay2/adb8ea96ffef79209243fa992226e3fc4e5a7c4505417f39eb826ad507723665/work
+134 34 0:54 / /var/lib/docker/containers/3ce402084602ad3b23ed4917006aed3103c37dd49628505a9cf960dae6554988/mounts/shm rw,nosuid,nodev,noexec,relatime shared:7 - tmpfs shm rw,size=65536k
+184 22 0:3 net:[4026532349] /var/run/docker/netns/b937d47da2f0 rw - nsfs nsfs rw

@@ -1,0 +1,437 @@
+
+/cgroup/blkio/
+
+/cgroup/blkio/cgroup.procs
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2308
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2564
+2573
+2574
+2586
+2600
+2631
+2640
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5254
+6842
+6844
+9139
+9170
+10199
+10251
+10575
+10627
+10727
+10729
+10730
+10732
+10755
+10756
+10847
+11007
+12182
+17770
+18413
+18414
+18416
+
+/cgroup/blkio/blkio.throttle.read_iops_device
+
+/cgroup/blkio/blkio.throttle.io_service_bytes
+202:16 Read 2174976
+202:16 Write 0
+202:16 Sync 2174976
+202:16 Async 0
+202:16 Total 2174976
+202:0 Read 249074176
+202:0 Write 43974656
+202:0 Sync 276120064
+202:0 Async 16928768
+202:0 Total 293048832
+Total 295223808
+
+/cgroup/blkio/cgroup.sane_behavior
+0
+
+/cgroup/blkio/blkio.throttle.write_iops_device
+
+/cgroup/blkio/docker
+
+/cgroup/blkio/docker/cgroup.procs
+
+/cgroup/blkio/docker/blkio.throttle.read_iops_device
+
+/cgroup/blkio/docker/blkio.throttle.io_service_bytes
+202:0 Read 0
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 0
+202:0 Total 0
+Total 0
+
+/cgroup/blkio/docker/blkio.throttle.write_iops_device
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.procs
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.read_iops_device
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.io_service_bytes
+202:0 Read 0
+202:0 Write 4009984
+202:0 Sync 1318912
+202:0 Async 2691072
+202:0 Total 4009984
+Total 4009984
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.write_iops_device
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.reset_stats
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.read_bps_device
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.write_bps_device
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/tasks
+10659
+10707
+10708
+10709
+10710
+10711
+10712
+10713
+10714
+10715
+10716
+10717
+10718
+10719
+10720
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/notify_on_release
+0
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/cgroup.clone_children
+0
+
+/cgroup/blkio/docker/f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1/blkio.throttle.io_serviced
+202:0 Read 0
+202:0 Write 979
+202:0 Sync 322
+202:0 Async 657
+202:0 Total 979
+Total 979
+
+/cgroup/blkio/docker/blkio.reset_stats
+
+/cgroup/blkio/docker/blkio.throttle.read_bps_device
+
+/cgroup/blkio/docker/blkio.throttle.write_bps_device
+
+/cgroup/blkio/docker/tasks
+
+/cgroup/blkio/docker/notify_on_release
+0
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.procs
+10276
+10337
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.read_iops_device
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.io_service_bytes
+Total 0
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.write_iops_device
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.reset_stats
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.read_bps_device
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.write_bps_device
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/tasks
+10276
+10337
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/notify_on_release
+0
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/cgroup.clone_children
+0
+
+/cgroup/blkio/docker/9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29/blkio.throttle.io_serviced
+Total 0
+
+/cgroup/blkio/docker/cgroup.clone_children
+0
+
+/cgroup/blkio/docker/blkio.throttle.io_serviced
+202:0 Read 0
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 0
+202:0 Total 0
+Total 0
+
+/cgroup/blkio/blkio.reset_stats
+
+/cgroup/blkio/blkio.throttle.read_bps_device
+
+/cgroup/blkio/blkio.throttle.write_bps_device
+
+/cgroup/blkio/tasks
+1
+2
+4
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+159
+160
+161
+163
+164
+165
+166
+167
+169
+521
+524
+653
+659
+755
+802
+1432
+1454
+1455
+1458
+1463
+1511
+1532
+1533
+1578
+1906
+1915
+1967
+2129
+2232
+2274
+2282
+2283
+2297
+2298
+2299
+2305
+2307
+2308
+2309
+2310
+2311
+2312
+2313
+2314
+2315
+2334
+2352
+2373
+2404
+2439
+2532
+2543
+2548
+2564
+2573
+2574
+2586
+2600
+2631
+2634
+2635
+2636
+2637
+2638
+2639
+2640
+2641
+2642
+2643
+2644
+2645
+2646
+2648
+2649
+2650
+2652
+2653
+2654
+2787
+2792
+2796
+2801
+2805
+2808
+2812
+5142
+5254
+6842
+6844
+9139
+9170
+10199
+10200
+10201
+10202
+10203
+10204
+10251
+10253
+10254
+10260
+10261
+10262
+10263
+10265
+10266
+10329
+10330
+10357
+10575
+10576
+10577
+10578
+10579
+10580
+10627
+10630
+10631
+10636
+10637
+10639
+10640
+10641
+10642
+10727
+10729
+10730
+10732
+10755
+10756
+10829
+10847
+10866
+10879
+11007
+12182
+17770
+18413
+18414
+18460
+
+/cgroup/blkio/notify_on_release
+0
+
+/cgroup/blkio/release_agent
+
+
+/cgroup/blkio/cgroup.clone_children
+0
+
+/cgroup/blkio/blkio.throttle.io_serviced
+202:16 Read 99
+202:16 Write 0
+202:16 Sync 99
+202:16 Async 0
+202:16 Total 99
+202:0 Read 7898
+202:0 Write 8138
+202:0 Sync 14221
+202:0 Async 1815
+202:0 Total 16036
+Total 16135

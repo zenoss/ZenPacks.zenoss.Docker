@@ -1,0 +1,27 @@
+# vim: ft=yaml
+command: "/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null"
+
+events:
+  - device: "18.06.1ce-amazon-linux-2018.03"
+    component: "docker"
+    summary: "received expected output from docker ps"
+    severity: 0
+    eventClassKey: "docker-ps-status"
+    eventKey: "docker-ps-status"
+    docker_command: "/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null"
+    docker_output: |
+      CONTAINER ID                                                       IMAGE                    COMMAND                                          CREATED             STATUS                   PORTS               NAMES                    SIZE
+      9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29   nginx                    "nginx -g 'daemon off;'"                         2 hours ago         Up 2 hours               80/tcp              stupefied_visvesvaraya   2B (virtual 126MB)
+      f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1   dkuffner/docker-stress   "stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M"   2 hours ago         Up 2 hours                                   stupefied_borg           0B (virtual 370MB)
+      7e081dcf254830f76ef7c92cb6d9dbfd6ddb4ac16be8fc3b03bb12f7f4156e25   hello-world              "/hello"                                         2 hours ago         Exited (0) 2 hours ago                       nervous_mendeleev        0B (virtual 1.84kB)
+
+  - device: "18.06.1ce-amazon-linux-2018.03"
+    component: "9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29"
+    summary: "container status: up 2 hours"
+    severity: 0
+    eventClassKey: "dockerContainerStatus"
+    eventKey: "dockerContainerStatus"
+
+values:
+  9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29:
+    size: 2

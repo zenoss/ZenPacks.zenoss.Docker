@@ -25,10 +25,10 @@ dd {
 
 <h2 id="releases">Releases</h2>
 
-<dl id="release-2.0.3">
-    <dt>Version 2.0.3 <a class="external" href="http://wiki.zenoss.org/download/zenpacks/ZenPacks.zenoss.Docker/2.0.3/ZenPacks.zenoss.Docker-2.0.3.egg" rel="nofollow">Download</a></dt>
-    <dd>Released: 2018-02-20</dd>
-    <dd>Compatible with Zenoss 4.2.5 - 6.1</dd>
+<dl id="release-2.0.5">
+    <dt>Version 2.0.5 <a class="external" href="http://wiki.zenoss.org/download/zenpacks/ZenPacks.zenoss.Docker/2.0.5/ZenPacks.zenoss.Docker-2.0.5.egg" rel="nofollow">Download</a></dt>
+    <dd>Released: 2020-10-20</dd>
+    <dd>Compatible with Zenoss Zenoss Cloud, 6.4</dd>
     <dd>Requires:
         <a href="/product/zenpacks/zenpacklib">ZenPackLib ZenPack</a>
     </dd>
@@ -88,7 +88,7 @@ dd {
 
 <dl>
     <dt>Docker Container</dt>
-    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created</dd>
+    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created, CGroup Path</dd>
 </dl>
 
 <p>This information is obtained by running the following commands on the Linux device via SSH.</p>
@@ -96,6 +96,7 @@ dd {
 <ul>
     <li>docker -v</li>
     <li>sudo docker ps -a --no-trunc</li>
+    <li>cat /proc/self/mountinfo</li>
 </ul>
 
 <p>As with all SSH modeling, the <i>zCommandUsername</i>, <i>zCommandPassword</i>, and <i>zKeyPath</i> configuration properties are used to establish the SSH connection. For password authentication, zCommandUsername and zCommandPassword must be set. For public key authentication, zCommandUsername and zKeyPath must be set. The value of zCommandPassword will be used as the passphrase if the key file provided by zKeyPath requires a passphrase.</p>
@@ -497,6 +498,21 @@ Defaults:zenmonitor !requiretty
 </dl>
 
 <h2 id="changes">Changes</h2>
+
+<h3 id="changes-2.0.5">2.0.5</h3>
+<ul>
+    <li>Docker Size and Virtual Size are now parsed correctly (ZPS-7037)</li>
+    <li>Updated regex data parsing for better compatibility with differing linux distributions (ZPS-7037)</li>
+    <li>Fix monitoring on linux that have custom cgroup (ZPS-3483)</li>
+    <li>Zenoss Cloud, Zenoss Resource Manager 6.4.1 and Zenoss Resource Manager 6.5.0</li>
+</ul>
+
+<h3 id="changes-2.0.4">2.0.4</h3>
+<ul>
+    <li>Ignore the new plugin_name attribute in datamaps</li>
+    <li>Tested with Zenoss 5.3.3. 6.1.0, and 6.1.1</li>
+</ul>
+
 
 <h3 id="changes-2.0.3">2.0.3</h3>
 <ul>

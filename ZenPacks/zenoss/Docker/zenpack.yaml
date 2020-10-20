@@ -28,7 +28,7 @@ device_classes:
           cpuacct:
             type: COMMAND
             usessh: true
-            commandTemplate: '/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
             parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
             component: ${here/id}
             eventClass: /Ignore
@@ -63,7 +63,7 @@ device_classes:
           memory:
             type: COMMAND
             usessh: true
-            commandTemplate: '/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
             parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
             component: ${here/id}
             eventClass: /Ignore
@@ -101,7 +101,7 @@ device_classes:
           blkio:
             type: COMMAND
             usessh: true
-            commandTemplate: '/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
             parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
             component: ${here/id}
             eventClass: /Ignore
@@ -271,6 +271,11 @@ classes:
       ports:
         label: Ports
         order: 4.04
+
+      cgroup_path:
+        label: CGroup Path
+        order: 4.05
+        default: /sys/fs/cgroup
 
     monitoring_templates:
       - DockerContainer
