@@ -1,0 +1,57 @@
+podman version 2.2.1
+__SPLIT__
+CONTAINER ID                                                      IMAGE                            COMMAND               CREATED       STATUS           PORTS                     NAMES
+64a1a549610f6f0c044c081cb776cb028256186266625139e26117f2423c5c29  docker.io/library/nginx:latest   nginx -g daemon off;  25 hours ago  Up 25 hours ago  0.0.0.0:5000->80/tcp      nginx
+17766f5a544a7ce654f33a8f60a7d3e54561601711db9c99b80ac7e5654be570  docker.io/library/redis:latest   redis-server          26 hours ago  Up 26 hours ago  127.0.0.1:6379->6379/tcp  redis_1
+7bfaca957cbb7d47ac7c55ae285777e4b91044e2eb813407910f61d6fa24b3c0  docker.io/library/centos:latest  bash                  2 days ago    Up 7 hours ago                             frosty_bell
+__SPLIT__
+21 96 0:21 / /sys rw,nosuid,nodev,noexec,relatime shared:2 - sysfs sysfs rw
+22 96 0:4 / /proc rw,nosuid,nodev,noexec,relatime shared:25 - proc proc rw
+23 96 0:6 / /dev rw,nosuid shared:21 - devtmpfs devtmpfs rw,size=34881508k,nr_inodes=8720377,mode=755
+24 21 0:7 / /sys/kernel/security rw,nosuid,nodev,noexec,relatime shared:3 - securityfs securityfs rw
+25 23 0:22 / /dev/shm rw,nosuid,nodev shared:22 - tmpfs tmpfs rw
+26 23 0:23 / /dev/pts rw,nosuid,noexec,relatime shared:23 - devpts devpts rw,gid=5,mode=620,ptmxmode=000
+27 96 0:24 / /run rw,nosuid,nodev shared:24 - tmpfs tmpfs rw,mode=755
+28 21 0:25 / /sys/fs/cgroup ro,nosuid,nodev,noexec shared:4 - tmpfs tmpfs ro,mode=755
+29 28 0:26 / /sys/fs/cgroup/systemd rw,nosuid,nodev,noexec,relatime shared:5 - cgroup cgroup rw,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd
+30 21 0:27 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime shared:17 - pstore pstore rw
+31 21 0:28 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime shared:18 - bpf bpf rw,mode=700
+32 28 0:29 / /sys/fs/cgroup/net_cls,net_prio rw,nosuid,nodev,noexec,relatime shared:6 - cgroup cgroup rw,net_cls,net_prio
+33 28 0:30 / /sys/fs/cgroup/blkio rw,nosuid,nodev,noexec,relatime shared:7 - cgroup cgroup rw,blkio
+34 28 0:31 / /sys/fs/cgroup/rdma rw,nosuid,nodev,noexec,relatime shared:8 - cgroup cgroup rw,rdma
+35 28 0:32 / /sys/fs/cgroup/perf_event rw,nosuid,nodev,noexec,relatime shared:9 - cgroup cgroup rw,perf_event
+36 28 0:33 / /sys/fs/cgroup/freezer rw,nosuid,nodev,noexec,relatime shared:10 - cgroup cgroup rw,freezer
+37 28 0:34 / /sys/fs/cgroup/devices rw,nosuid,nodev,noexec,relatime shared:11 - cgroup cgroup rw,devices
+38 28 0:35 / /sys/fs/cgroup/hugetlb rw,nosuid,nodev,noexec,relatime shared:12 - cgroup cgroup rw,hugetlb
+39 28 0:36 / /sys/fs/cgroup/cpu,cpuacct rw,nosuid,nodev,noexec,relatime shared:13 - cgroup cgroup rw,cpu,cpuacct
+40 28 0:37 / /sys/fs/cgroup/cpuset rw,nosuid,nodev,noexec,relatime shared:14 - cgroup cgroup rw,cpuset
+41 28 0:38 / /sys/fs/cgroup/pids rw,nosuid,nodev,noexec,relatime shared:15 - cgroup cgroup rw,pids
+42 28 0:39 / /sys/fs/cgroup/memory rw,nosuid,nodev,noexec,relatime shared:16 - cgroup cgroup rw,memory
+43 21 0:12 / /sys/kernel/tracing rw,relatime shared:19 - tracefs none rw
+92 21 0:40 / /sys/kernel/config rw,relatime shared:20 - configfs configfs rw
+96 0 8:1 / / rw,relatime shared:1 - ext2 /dev/sda1 rw
+20 22 0:20 / /proc/sys/fs/binfmt_misc rw,relatime shared:26 - autofs systemd-1 rw,fd=42,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14539
+44 21 0:8 / /sys/kernel/debug rw,relatime shared:27 - debugfs debugfs rw
+45 23 0:19 / /dev/mqueue rw,relatime shared:28 - mqueue mqueue rw
+46 23 0:42 / /dev/hugepages rw,relatime shared:29 - hugetlbfs hugetlbfs rw,pagesize=2M
+47 21 0:43 / /sys/fs/fuse/connections rw,relatime shared:30 - fusectl fusectl rw
+112 96 253:3 / /tmp rw,relatime shared:61 - ext4 /dev/mapper/rhel_resmgr--65x--tb4-tmp rw
+115 96 253:1 / /opt/serviced/var/backups rw,relatime shared:63 - ext2 /dev/mapper/rhel_resmgr--65x--tb4-opt_serviced_var_backups rw
+118 96 253:2 / /opt/serviced/var/isvcs rw,relatime shared:65 - ext2 /dev/mapper/rhel_resmgr--65x--tb4-opt_serviced_var_isvcs rw
+256 96 0:44 / /var/lib/nfs/rpc_pipefs rw,relatime shared:101 - rpc_pipefs sunrpc rw
+579 27 0:46 / /run/user/42 rw,nosuid,nodev,relatime shared:314 - tmpfs tmpfs rw,size=6982116k,mode=700,uid=42,gid=42
+551 27 0:24 /netns /run/netns rw,nosuid,nodev shared:24 - tmpfs tmpfs rw,mode=755
+523 96 8:1 /var/lib/containers/storage/overlay /var/lib/containers/storage/overlay rw,relatime - ext2 /dev/sda1 rw
+509 551 0:3 net:[4026532632] /run/netns/cni-41faa83f-fce7-e26a-3e3d-bc5020021456 rw shared:271 - nsfs nsfs rw
+510 27 0:3 net:[4026532632] /run/netns/cni-41faa83f-fce7-e26a-3e3d-bc5020021456 rw shared:271 - nsfs nsfs rw
+508 96 0:47 / /var/lib/containers/storage/overlay-containers/17766f5a544a7ce654f33a8f60a7d3e54561601711db9c99b80ac7e5654be570/userdata/shm rw,nosuid,nodev,noexec,relatime shared:286 - tmpfs shm rw,size=64000k
+580 523 0:48 / /var/lib/containers/storage/overlay/601dd6873b6e57beaaa2e67b98d6ce374eea84cf08dff981a375e20210e5da91/merged rw,nodev,relatime - overlay overlay rw,lowerdir=/var/lib/containers/storage/overlay/l/I2YP57I5BACFVIMR6AQ2POUHDC:/var/lib/containers/storage/overlay/l/XKFS6M3ZWQD4Y3IWZCKRUIVOBI:/var/lib/containers/storage/overlay/l/L7DKQ6E6IMX7U7LLGNWVNOMQV3:/var/lib/containers/storage/overlay/l/AYMSRL7UWKH3BSP6DD54USEPR5:/var/lib/containers/storage/overlay/l/ZK2LXD7BSWGBOQW3KBOQBR3BY7:/var/lib/containers/storage/overlay/l/O3WWA5D4RCD4YAYT4MALZWL6V3,upperdir=/var/lib/containers/storage/overlay/601dd6873b6e57beaaa2e67b98d6ce374eea84cf08dff981a375e20210e5da91/diff,workdir=/var/lib/containers/storage/overlay/601dd6873b6e57beaaa2e67b98d6ce374eea84cf08dff981a375e20210e5da91/work,metacopy=on
+603 96 0:73 / /var/lib/containers/storage/overlay-containers/64a1a549610f6f0c044c081cb776cb028256186266625139e26117f2423c5c29/userdata/shm rw,nosuid,nodev,noexec,relatime shared:339 - tmpfs shm rw,size=64000k
+697 523 0:74 / /var/lib/containers/storage/overlay/05835d508daae338935b8c30f0fcf8af83fc2b0fcdb00961ea335532b6ae8f31/merged rw,nodev,relatime - overlay overlay rw,lowerdir=/var/lib/containers/storage/overlay/l/26VAJHEAZWJ2JXRVDNDZMMIS6Z:/var/lib/containers/storage/overlay/l/SZYO6TMPZ7VSMH75OTMBWADGOR:/var/lib/containers/storage/overlay/l/LOW3OJRCBOEQKFWR34XOVTP7S2:/var/lib/containers/storage/overlay/l/JSEVOSFBUB74SYAN2H2WZRFSON:/var/lib/containers/storage/overlay/l/VFUIYQHT7PC3T7LO75KLMNPPKS:/var/lib/containers/storage/overlay/l/WZL5LXOCX7JC35L5K5EQOHLXZT,upperdir=/var/lib/containers/storage/overlay/05835d508daae338935b8c30f0fcf8af83fc2b0fcdb00961ea335532b6ae8f31/diff,workdir=/var/lib/containers/storage/overlay/05835d508daae338935b8c30f0fcf8af83fc2b0fcdb00961ea335532b6ae8f31/work,metacopy=on
+705 551 0:3 net:[4026532871] /run/netns/cni-fc31417e-d0fe-b11e-4e59-2b37040cf202 rw shared:347 - nsfs nsfs rw
+706 27 0:3 net:[4026532871] /run/netns/cni-fc31417e-d0fe-b11e-4e59-2b37040cf202 rw shared:347 - nsfs nsfs rw
+492 27 0:45 / /run/user/0 rw,nosuid,nodev,relatime shared:262 - tmpfs tmpfs rw,size=6982116k,mode=700
+601 96 0:57 / /var/lib/containers/storage/overlay-containers/7bfaca957cbb7d47ac7c55ae285777e4b91044e2eb813407910f61d6fa24b3c0/userdata/shm rw,nosuid,nodev,noexec,relatime shared:301 - tmpfs shm rw,size=64000k
+634 551 0:3 net:[4026532797] /run/netns/cni-a7956b08-ad7e-516f-d5b0-cf1fadb3a33c rw shared:309 - nsfs nsfs rw
+635 27 0:3 net:[4026532797] /run/netns/cni-a7956b08-ad7e-516f-d5b0-cf1fadb3a33c rw shared:309 - nsfs nsfs rw
+664 523 0:58 / /var/lib/containers/storage/overlay/bec1217d656503c2bda450d4be20ef08937c6ac33dd2765514ddaaf92e047b6b/merged rw,nodev,relatime - overlay overlay rw,lowerdir=/var/lib/containers/storage/overlay/l/I5OHY6CAGW3UQ6L63WJZMZDZGS,upperdir=/var/lib/containers/storage/overlay/bec1217d656503c2bda450d4be20ef08937c6ac33dd2765514ddaaf92e047b6b/diff,workdir=/var/lib/containers/storage/overlay/bec1217d656503c2bda450d4be20ef08937c6ac33dd2765514ddaaf92e047b6b/work,metacopy=on
