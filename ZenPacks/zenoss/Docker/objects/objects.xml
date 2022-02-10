@@ -23,5 +23,29 @@ docker-ps-status
 <property type="string" id="example" mode="w" >
 received unexpected output from docker ps
 </property>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'instances', 'podman-ps-status') -->
+</object>
+<object id='/zport/dmd/Events/Status/instances/podmanContainerStatus' module='Products.ZenEvents.EventClassInst' class='EventClassInst'>
+<property type="string" id="eventClassKey" mode="w" >
+podmanContainerStatus
+</property>
+<property type="int" id="sequence" mode="w" >
+1001
+</property>
+<property type="string" id="example" mode="w" >
+container status: exited (0) 48 minutes ago
+</property>
+</object>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'instances', 'podman-ps-status') -->
+<object id='/zport/dmd/Events/Status/instances/podman-ps-status' module='Products.ZenEvents.EventClassInst' class='EventClassInst'>
+<property type="string" id="eventClassKey" mode="w" >
+podman-ps-status
+</property>
+<property type="int" id="sequence" mode="w" >
+1001
+</property>
+<property type="string" id="example" mode="w" >
+received unexpected output from podman ps
+</property>
 </object>
 </objects>
