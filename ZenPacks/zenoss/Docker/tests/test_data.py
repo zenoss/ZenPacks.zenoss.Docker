@@ -323,7 +323,8 @@ def parser_check_fn(parser_name, datasource, device, components, output, expecte
 
         for component in components:
             cmd = Object()
-            cmd.device = device
+            cmd.deviceConfig = Object()
+            cmd.deviceConfig.device = device
             cmd.ds = datasource
             cmd.command = expected.get("command", "")
             cmd.component = component

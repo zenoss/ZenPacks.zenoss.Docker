@@ -64,7 +64,7 @@ class ps(CommandParser):
 
         engine_type = 'podman' if 'podman' in cmd.command else 'docker'
         ps_event = {
-            "device": cmd.device,
+            "device": cmd.deviceConfig.device,
             "component": "{}".format(engine_type),
             "eventKey": "{}-ps-status".format(engine_type),
             "eventClassKey": "{}-ps-status".format(engine_type),
@@ -105,7 +105,7 @@ class ps(CommandParser):
                 severity = ZenEventClasses.Critical
 
             result.events.append({
-                "device": cmd.device,
+                "device": cmd.deviceConfig.device,
                 "component": cmd.component,
                 "summary": "container status: {}".format(status),
                 "eventKey": "{}ContainerStatus".format(engine_type),
