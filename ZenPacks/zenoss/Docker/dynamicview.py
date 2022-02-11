@@ -33,8 +33,11 @@ class DeviceRelationsProvider(BaseRelationsProvider):
         device = self._adapted
 
         if type in (TAG_ALL, TAG_IMPACTS):
-            if not device.aqBaseHasAttr("docker_containers"):
+            if not device.aqBaseHasAttr("docker_containers") and not device.aqBaseHasAttr("podman_containers"):
                 return
 
             for container in device.docker_containers():
+                yield self.constructRelationTo(container, TAG_IMPACTS)
+
+            for container in device.podman_containers():
                 yield self.constructRelationTo(container, TAG_IMPACTS)
