@@ -1,0 +1,34 @@
+# vim: ft=yaml
+command: "podman -v 2>/dev/null ; echo __SPLIT__ ; sudo podman ps -a --no-trunc 2>/dev/null ; echo __SPLIT__ ; cat /proc/self/mountinfo 2>/dev/null"
+
+expected:
+  - podman_version: "podman version 2.2.1"
+
+  - relname: "podman_containers"
+    maps:
+      - id: '64a1a549610f6f0c044c081cb776cb028256186266625139e26117f2423c5c29'
+        image: 'docker.io/library/nginx:latest'
+        modname: 'ZenPacks.zenoss.Docker.PodmanContainer'
+        ports: '0.0.0.0:5000->80/tcp'
+        title: 'nginx'
+        command: 'nginx -g daemon off;'
+        created: '25 hours ago'
+        cgroup_path: '/sys/fs/cgroup'
+
+      - id: "17766f5a544a7ce654f33a8f60a7d3e54561601711db9c99b80ac7e5654be570"
+        modname: "ZenPacks.zenoss.Docker.PodmanContainer"
+        title: "redis_1"
+        image: "docker.io/library/redis:latest"
+        command: "redis-server"
+        created: "26 hours ago"
+        ports: "127.0.0.1:6379->6379/tcp"
+        cgroup_path: "/sys/fs/cgroup"
+
+      - id: "7bfaca957cbb7d47ac7c55ae285777e4b91044e2eb813407910f61d6fa24b3c0"
+        modname: "ZenPacks.zenoss.Docker.PodmanContainer"
+        title: "frosty_bell"
+        image: "docker.io/library/centos:latest"
+        command: "bash"
+        created: "2 days ago"
+        ports: ""
+        cgroup_path: "/sys/fs/cgroup"

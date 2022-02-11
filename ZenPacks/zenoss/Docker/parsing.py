@@ -7,7 +7,7 @@
 #
 ##############################################################################
 
-"""Parsing helpers for docker command line output."""
+"""Parsing helpers for docker and podman command line output."""
 
 import re
 

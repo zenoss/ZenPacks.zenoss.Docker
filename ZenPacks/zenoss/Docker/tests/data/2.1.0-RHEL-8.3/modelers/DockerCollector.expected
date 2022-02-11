@@ -1,0 +1,34 @@
+# vim: ft=yaml
+command: "docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null ; echo __SPLIT__ ; cat /proc/self/mountinfo 2>/dev/null"
+
+expected:
+  - docker_version: "Docker version 18.06.1-ce, build e68fc7a215d7133c34aa18e3b72b4a21fd0c6136"
+
+  - relname: "docker_containers"
+    maps:
+      - id: "9cefe1ce7e8cbe2092fef631d682f014c6084ced751e33cb55c2668e3194fa29"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "stupefied_visvesvaraya"
+        image: "nginx"
+        command: "\"nginx -g 'daemon off;'\""
+        created: "2 minutes ago"
+        ports: "80/tcp"
+        cgroup_path: "/cgroup"
+
+      - id: "f542eaf2d796970859757a8a4450e5c0ef1b4a9c3507d63c93b02fb4a9542af1"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "stupefied_borg"
+        image: "dkuffner/docker-stress"
+        command: "\"stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M\""
+        created: "About a minute ago"
+        ports: ""
+        cgroup_path: "/cgroup"
+
+      - id: "7e081dcf254830f76ef7c92cb6d9dbfd6ddb4ac16be8fc3b03bb12f7f4156e25"
+        modname: "ZenPacks.zenoss.Docker.DockerContainer"
+        title: "nervous_mendeleev"
+        image: "hello-world"
+        command: "\"/hello\""
+        created: "About a minute ago"
+        ports: ""
+        cgroup_path: "/cgroup"

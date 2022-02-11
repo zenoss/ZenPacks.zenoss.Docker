@@ -1,0 +1,4747 @@
+
+/sys/fs/cgroup/blkio/
+
+/sys/fs/cgroup/blkio/blkio.throttle.io_serviced
+202:16 Read 55
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 55
+202:16 Total 55
+202:0 Read 2041
+202:0 Write 81089
+202:0 Sync 36455
+202:0 Async 46675
+202:0 Total 83130
+Total 83185
+
+/sys/fs/cgroup/blkio/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.time
+
+/sys/fs/cgroup/blkio/tasks
+1
+2
+3
+5
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+27
+28
+37
+39
+41
+42
+105
+113
+323
+324
+355
+378
+379
+383
+489
+490
+606
+607
+845
+1023
+5394
+9512
+13621
+13630
+
+/sys/fs/cgroup/blkio/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/cgroup.procs
+1
+2
+3
+5
+7
+8
+9
+10
+11
+12
+13
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+27
+28
+37
+39
+41
+42
+105
+113
+323
+324
+355
+378
+379
+383
+489
+490
+606
+607
+845
+1023
+5394
+9512
+13621
+13630
+
+/sys/fs/cgroup/blkio/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/release_agent
+
+
+/sys/fs/cgroup/blkio/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/blkio.leaf_weight
+1000
+
+/sys/fs/cgroup/blkio/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/blkio.weight_device
+
+/sys/fs/cgroup/blkio/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/blkio.throttle.io_service_bytes
+202:16 Read 1531904
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 1531904
+202:16 Total 1531904
+202:0 Read 54159360
+202:0 Write 5573840896
+202:0 Sync 152711168
+202:0 Async 5475289088
+202:0 Total 5628000256
+Total 5629532160
+
+/sys/fs/cgroup/blkio/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.io_serviced
+202:0 Read 72
+202:0 Write 1
+202:0 Sync 1
+202:0 Async 72
+202:0 Total 73
+Total 73
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.io_service_bytes
+202:0 Read 1827328
+202:0 Write 512
+202:0 Sync 512
+202:0 Async 1827328
+202:0 Total 1827840
+Total 1827840
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/boot.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.io_serviced
+202:16 Read 0
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 0
+202:16 Total 0
+202:0 Read 0
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 0
+202:0 Total 0
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.io_serviced
+202:0 Read 49
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 49
+202:0 Total 49
+Total 49
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/tasks
+682
+684
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/cgroup.procs
+682
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.io_service_bytes
+202:0 Read 1327104
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 1327104
+202:0 Total 1327104
+Total 1327104
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dbus.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.io_serviced
+202:0 Read 183
+202:0 Write 20
+202:0 Sync 20
+202:0 Async 183
+202:0 Total 203
+Total 203
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/tasks
+680
+814
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.weight
+100
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/cgroup.procs
+680
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.io_service_bytes
+202:0 Read 10518528
+202:0 Write 81920
+202:0 Sync 81920
+202:0 Async 10518528
+202:0 Total 10600448
+Total 10600448
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/update-engine.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sshd-keygen.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-catalog-update.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-vconsole-setup.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tasks
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.io_serviced
+202:0 Read 737
+202:0 Write 5
+202:0 Sync 5
+202:0 Async 737
+202:0 Total 742
+Total 742
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/tasks
+858
+861
+862
+13623
+13625
+13629
+13637
+16052
+16282
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/cgroup.procs
+858
+861
+862
+13623
+13625
+13629
+13637
+16052
+16287
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.io_service_bytes
+202:0 Read 46309376
+202:0 Write 24576
+202:0 Sync 24576
+202:0 Async 46309376
+202:0 Total 46333952
+Total 46333952
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-sshd.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.io_serviced
+202:0 Read 188
+202:0 Write 1
+202:0 Sync 0
+202:0 Async 189
+202:0 Total 189
+Total 189
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/tasks
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.io_service_bytes
+202:0 Read 11792384
+202:0 Write 4096
+202:0 Sync 0
+202:0 Async 11796480
+202:0 Total 11796480
+Total 11796480
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-system\x2dcloudinit.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-fsck-root.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/-.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/tmp.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.io_serviced
+202:0 Read 0
+202:0 Write 17177
+202:0 Sync 17177
+202:0 Async 0
+202:0 Total 17177
+Total 17177
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/tasks
+1068
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1090
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cgroup.procs
+1068
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1090
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.io_service_bytes
+202:0 Read 0
+202:0 Write 70356992
+202:0 Sync 70356992
+202:0 Async 0
+202:0 Total 70356992
+Total 70356992
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-1f109b4ae4c60446f095673ca370f414f569dc771587d72de8be200abcbeef46.scope/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysusers.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/tasks
+1177
+1184
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cgroup.procs
+1177
+1184
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker-22ae15131bc5091f9fe3e7f2a111b32a64cc7efa80cf7f4e5e0532e5b258d4d5.scope/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.io_serviced
+202:0 Read 1
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 1
+202:0 Total 1
+Total 1
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/tasks
+672
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/cgroup.procs
+672
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.io_service_bytes
+202:0 Read 28672
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 28672
+202:0 Total 28672
+Total 28672
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-serial\x2dgetty.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.io_serviced
+202:0 Read 39
+202:0 Write 139
+202:0 Sync 139
+202:0 Async 39
+202:0 Total 178
+Total 178
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/tasks
+503
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/cgroup.procs
+503
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.io_service_bytes
+202:0 Read 1413120
+202:0 Write 569344
+202:0 Sync 569344
+202:0 Async 1413120
+202:0 Total 1982464
+Total 1982464
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journald.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-sysctl.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.io_serviced
+202:0 Read 22
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 22
+202:0 Total 22
+Total 22
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/tasks
+717
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/cgroup.procs
+717
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.io_service_bytes
+202:0 Read 811008
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 811008
+202:0 Total 811008
+Total 811008
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-resolved.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.io_serviced
+202:0 Read 5
+202:0 Write 1
+202:0 Sync 1
+202:0 Async 5
+202:0 Total 6
+Total 6
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.io_service_bytes
+202:0 Read 17408
+202:0 Write 4096
+202:0 Sync 4096
+202:0 Async 17408
+202:0 Total 21504
+Total 21504
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr-share-oem.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/audit-rules.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-mqueue.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-tmpfiles-setup-dev.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/xenserver-pv-version.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.io_serviced
+202:0 Read 266
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 266
+202:0 Total 266
+Total 266
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/tasks
+644
+721
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/cgroup.procs
+644
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.io_service_bytes
+202:0 Read 303104
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 303104
+202:0 Total 303104
+Total 303104
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-timesyncd.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/tasks
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2drun.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.io_serviced
+202:0 Read 22
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 22
+202:0 Total 22
+Total 22
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/tasks
+699
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/cgroup.procs
+699
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.io_service_bytes
+202:0 Read 1003520
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 1003520
+202:0 Total 1003520
+Total 1003520
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-logind.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-journal-flush.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-hwdb-update.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-random-seed.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.io_service_bytes
+202:16 Read 0
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 0
+202:16 Total 0
+202:0 Read 0
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 0
+202:0 Total 0
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/tasks
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-addon\x2dconfig.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.io_serviced
+202:0 Read 33
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 33
+202:0 Total 33
+Total 33
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/tasks
+688
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/cgroup.procs
+688
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.io_service_bytes
+202:0 Read 1064960
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 1064960
+202:0 Total 1064960
+Total 1064960
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-networkd.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.io_serviced
+202:0 Read 2
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 2
+202:0 Total 2
+Total 2
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/tasks
+674
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/cgroup.procs
+674
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.io_service_bytes
+202:0 Read 20480
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 20480
+202:0 Total 20480
+Total 20480
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-getty.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.io_serviced
+202:0 Read 36
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 36
+202:0 Total 36
+Total 36
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.io_service_bytes
+202:0 Read 147456
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 147456
+202:0 Total 147456
+Total 147456
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/proc-xen.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/ldconfig.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.io_serviced
+202:16 Read 54
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 54
+202:16 Total 54
+202:0 Read 590
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 590
+202:0 Total 590
+Total 644
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/tasks
+556
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/cgroup.procs
+556
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.io_service_bytes
+202:16 Read 1527808
+202:16 Write 0
+202:16 Sync 0
+202:16 Async 1527808
+202:16 Total 1527808
+202:0 Read 24095232
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 24095232
+202:0 Total 24095232
+Total 25623040
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udevd.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.io_serviced
+202:0 Read 4
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 4
+202:0 Total 4
+Total 4
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.io_service_bytes
+202:0 Read 49152
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 49152
+202:0 Total 49152
+Total 49152
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/media.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.io_serviced
+202:0 Read 152
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 152
+202:0 Total 152
+Total 152
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/tasks
+731
+739
+741
+781
+786
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/cgroup.procs
+731
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.io_service_bytes
+202:0 Read 8232960
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 8232960
+202:0 Total 8232960
+Total 8232960
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/polkit.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/kmod-static-nodes.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-trigger.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/usr.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/sys-kernel-debug.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.io_serviced
+202:0 Read 1
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 1
+202:0 Total 1
+Total 1
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/tasks
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.io_service_bytes
+202:0 Read 4096
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 4096
+202:0 Total 4096
+Total 4096
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/dev-hugepages.mount/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-done.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.io_serviced
+202:0 Read 162
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 162
+202:0 Total 162
+Total 162
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/tasks
+695
+733
+734
+773
+775
+827
+5297
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/cgroup.procs
+695
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.io_service_bytes
+202:0 Read 10174464
+202:0 Write 0
+202:0 Sync 0
+202:0 Async 10174464
+202:0 Total 10174464
+Total 10174464
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/locksmithd.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.io_serviced
+202:0 Read 574
+202:0 Write 129
+202:0 Sync 87
+202:0 Async 616
+202:0 Total 703
+Total 703
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/tasks
+874
+878
+879
+880
+881
+882
+890
+999
+1018
+1020
+1021
+1096
+1097
+1098
+1099
+1101
+1132
+1160
+1161
+1162
+1163
+1164
+1165
+1166
+1170
+1171
+1172
+1173
+1174
+1175
+1198
+5331
+5332
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/cgroup.procs
+874
+1160
+1170
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.io_service_bytes
+202:0 Read 37859328
+202:0 Write 667648
+202:0 Sync 495616
+202:0 Async 38031360
+202:0 Total 38526976
+Total 38526976
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/docker.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-udev-settle.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/tasks
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/systemd-update-utmp.service/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.time
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/tasks
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/system.slice/system-systemd\x2dfsck.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/cgroup.sane_behavior
+0
+
+/sys/fs/cgroup/blkio/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/blkio.sectors
+
+/sys/fs/cgroup/blkio/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_service_bytes_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_serviced_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.time
+
+/sys/fs/cgroup/blkio/user.slice/tasks
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_serviced
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.reset_stats
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_wait_time
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.weight
+1000
+
+/sys/fs/cgroup/blkio/user.slice/cgroup.procs
+
+/sys/fs/cgroup/blkio/user.slice/blkio.leaf_weight_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.read_iops_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_merged_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.write_bps_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.leaf_weight
+500
+
+/sys/fs/cgroup/blkio/user.slice/blkio.sectors_recursive
+
+/sys/fs/cgroup/blkio/user.slice/blkio.weight_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_service_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.write_iops_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_service_bytes
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/cgroup.clone_children
+0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_wait_time_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/notify_on_release
+0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_service_time
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.time_recursive
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_merged
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.throttle.read_bps_device
+
+/sys/fs/cgroup/blkio/user.slice/blkio.sectors
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_queued
+Total 0
+
+/sys/fs/cgroup/blkio/user.slice/blkio.io_queued_recursive
+Total 0
+
+/sys/fs/cgroup/blkio/blkio.io_queued_recursive
+Total 0

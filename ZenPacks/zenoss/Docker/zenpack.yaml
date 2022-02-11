@@ -16,6 +16,18 @@ zProperties:
     type: boolean
     default: false
 
+  zPodmanMonitorContainerStats:
+    type: boolean
+    default: true
+
+  zPodmanMonitorContainerStatus:
+    type: boolean
+    default: false
+
+  zPodmanMonitorContainerSize:
+    type: boolean
+    default: false
+
 
 device_classes:
   /:
@@ -248,6 +260,192 @@ device_classes:
                 dpName: size_size_virtual
                 format: "%7.2lf%s"
 
+      PodmanContainer-Stats:
+        description: "Podman container statistics monitoring using cgroupfs via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.PodmanContainer
+
+        datasources:
+          cpuacct:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+
+            datapoints:
+              usage:
+                rrdtype: DERIVE
+                rrdmin: 0
+                aliases:
+                  cpu__ticks: ""
+
+              usage_user:
+                rrdtype: DERIVE
+                rrdmin: 0
+                aliases:
+                  cpu_user__ticks: ""
+
+              usage_system:
+                rrdtype: DERIVE
+                rrdmin: 0
+                aliases:
+                  cpu_system__ticks: ""
+
+              processes: GAUGE_MIN_
+
+          memory:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+
+            datapoints:
+              limit: GAUGE_MIN_0
+
+              usage:
+                rrdmin: 0
+                aliases:
+                  mem_usage__bytes: ""
+
+          blkio:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo find ${here/cgroup_path}/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;'
+            parser: ZenPacks.zenoss.Docker.parsers.cgroupfs
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+
+            datapoints:
+              bytes_total: DERIVE_MIN_0
+              bytes_read: DERIVE_MIN_0
+              bytes_write: DERIVE_MIN_0
+              io_total: DERIVE_MIN_0
+              io_read: DERIVE_MIN_0
+              io_write: DERIVE_MIN_0
+
+        graphs:
+          CPU Usage:
+            units: percent
+            miny: 0
+            maxy: 100
+
+            graphpoints:
+              Total:
+                dpName: cpuacct_usage
+                format: "%7.2lf%%"
+
+              User:
+                dpName: cpuacct_usage_user
+                format: "%7.2lf%%"
+
+              System:
+                dpName: cpuacct_usage_system
+                format: "%7.2lf%%"
+
+          Memory Usage:
+            units: bytes
+            miny: 0
+            base: true
+
+            graphpoints:
+              Limit:
+                dpName: memory_limit
+                format: "%7.2lf%s"
+
+              Used:
+                dpName: memory_usage
+                format: "%7.2lf%s"
+
+          IO Rate:
+            units: operations/sec
+            miny: 0
+
+            graphpoints:
+              Total:
+                dpName: blkio_io_total
+                format: "%7.2lf%s"
+
+              Read:
+                dpName: blkio_io_read
+                format: "%7.2lf%s"
+
+              Write:
+                dpName: blkio_io_write
+                format: "%7.2lf%s"
+
+          IO Throughput:
+            units: bytes/sec
+            miny: 0
+            base: true
+
+            graphpoints:
+              Total:
+                dpName: blkio_bytes_total
+                format: "%7.2lf%s"
+
+              Read:
+                dpName: blkio_bytes_read
+                format: "%7.2lf%s"
+
+              Write:
+                dpName: blkio_bytes_write
+                format: "%7.2lf%s"
+
+      PodmanContainer-Status:
+        description: "Podman container status monitoring using \"podman ps\" via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.PodmanContainer
+
+        datasources:
+          status:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo podman ps -a --no-trunc 2>/dev/null'
+            parser: ZenPacks.zenoss.Docker.parsers.ps
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+            cycletime: 60
+
+      PodmanContainer-Size:
+        description: "Podman container size monitoring using \"podman ps -s\" via SSH."
+        targetPythonClass: ZenPacks.zenoss.Docker.PodmanContainer
+
+        datasources:
+          size:
+            type: COMMAND
+            usessh: true
+            commandTemplate: '/usr/bin/env sudo podman ps -a -s --no-trunc 2>/dev/null'
+            parser: ZenPacks.zenoss.Docker.parsers.ps
+            component: ${here/id}
+            eventClass: /Ignore
+            severity: Clear
+            cycletime: 600
+
+            datapoints:
+              size: GAUGE_MIN_0
+              size_virtual: GAUGE_MIN_0
+
+        graphs:
+          Storage Usage:
+            units: bytes
+            miny: 0
+            base: true
+
+            graphpoints:
+              Size:
+                dpName: size_size
+                format: "%7.2lf%s"
+
+              Virtual Size:
+                dpName: size_size_virtual
+                format: "%7.2lf%s"
+
 
 classes:
   DockerContainer:
@@ -290,5 +488,39 @@ classes:
       impacted_by:
         - docker_host
 
+  PodmanContainer:
+    base: [ zenpacklib.Component ]
+    label: Podman Container
+    order: 2
+
+    properties:
+      image:
+        label: Image
+        order: 4.01
+
+      command:
+        label: Command
+        order: 4.02
+
+      created:
+        label: Created
+        order: 4.03
+
+      ports:
+        label: Ports
+        order: 4.04
+
+      cgroup_path:
+        label: CGroup Path
+        order: 4.05
+        default: /sys/fs/cgroup
+
+    monitoring_templates:
+      - PodmanContainer
+      - PodmanContainer-Status
+      - PodmanContainer-Stats
+      - PodmanContainer-Size
+
 class_relationships:
+  - Products.ZenModel.Device.Device(podman_containers) 1:MC (podman_host)PodmanContainer
   - Products.ZenModel.Device.Device(docker_containers) 1:MC (docker_host)DockerContainer
