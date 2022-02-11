@@ -7,7 +7,7 @@
 #
 ##############################################################################
 
-"""cgroupfs parser for Docker container performance data.
+"""cgroupfs parser for Docker and Podman container performance data.
 
 See tests for examples of the commands and their output.
 

@@ -15,7 +15,7 @@ from Products.Zuul.infos import ProxyProperty
 from Products.Zuul.infos.device import DeviceInfo
 from Products.Zuul.interfaces import IDeviceInfo
 
-# Patch docker_version property onto Device and its IInfo/Info.
+# Patch docker_version and podman_version properties onto Device and its IInfo/Info.
 Device.docker_version = ""
 Device.podman_version = ""
 Device._properties = Device._properties + ({

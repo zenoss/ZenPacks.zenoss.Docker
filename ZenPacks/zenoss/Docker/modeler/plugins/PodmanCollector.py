@@ -1,13 +1,13 @@
 ##############################################################################
 #
-# Copyright (C) Zenoss, Inc. 2016, all rights reserved.
+# Copyright (C) Zenoss, Inc. 2022, all rights reserved.
 #
 # This content is made available according to terms specified in
 # License.zenoss under the directory where your Zenoss product is installed.
 #
 ##############################################################################
 
-"""Collects information about Docker Containers."""
+"""Collects information about Podman Containers."""
 
 from Products.DataCollector.plugins.CollectorPlugin import CommandPlugin
 from Products.DataCollector.plugins.DataMaps import ObjectMap
@@ -30,13 +30,12 @@ class PodmanCollector(CommandPlugin):
     def process(self, device, results, log):
         log.info('Collecting podman containers for device %s' % device.id)
         # Change results into a list of of results. One element per command.
-        log.debug('Podman collector full command: %s' % results)
-        # Split commands into list of commands
+
         results = results_from_result(results)
-        log.debug('Podman collector list commands: %s' % results)
+
         maps = []
 
-        # Map device "docker_version" property.
+        # Map device "podman_version" property.
         if results[0].startswith("podman version"):
             log.info("%s: %s", device.id, results[0])
             maps.append(ObjectMap({'podman_version': results[0]}))

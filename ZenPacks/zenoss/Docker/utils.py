@@ -7,7 +7,7 @@
 #
 ##############################################################################
 
-"""Additional function for pocker commands output parsing."""
+"""Additional function for docker and podman commands output parsing."""
 
 
 def command_from_commands(*commands):

@@ -7,7 +7,7 @@
 #
 ##############################################################################
 
-"""Test cases for DockerContainer module."""
+"""Test cases for PodmanContainer module."""
 
 from .. import zenpacklib
 
@@ -15,7 +15,7 @@ zenpacklib.enableTesting()
 
 
 class getRRDTemplatesTests(zenpacklib.TestCase):
-    """Tests for DockerContainer.getRRDTemplates."""
+    """Tests for PodmanContainer.getRRDTemplates."""
 
     def afterSetUp(self):
         """Setup for tests in this TestCase."""
