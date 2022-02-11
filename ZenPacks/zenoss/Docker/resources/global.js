@@ -15,6 +15,13 @@ Ext.onReady(function(){
             fieldLabel: _t('Docker Version'),
             permission: 'Manage Device'
         });
+        descriptionpanel.addField({
+            id: 'podman_version-view',
+            xtype: 'displayfield',
+            name: 'podman_version',
+            fieldLabel: _t('Podman Version'),
+            permission: 'Manage Device'
+        });
 
     });
 });

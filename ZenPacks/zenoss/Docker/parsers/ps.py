@@ -7,7 +7,7 @@
 #
 ##############################################################################
 
-"""docker ps parser for Docker container performance data.
+"""docker ps parser for Docker and Podman container performance data.
 
 See tests for examples of the commands and their output.
 
@@ -62,13 +62,14 @@ class ps(CommandParser):
     def processResults(self, cmd, result):
         point_map = {p.id: p for p in cmd.points}
 
+        engine_type = 'podman' if 'podman' in cmd.command else 'docker'
         ps_event = {
             "device": cmd.device,
-            "component": "docker",
-            "eventKey": "docker-ps-status",
-            "eventClassKey": "docker-ps-status",
-            "docker_command": cmd.command,
-            "docker_output": cmd.result.output,
+            "component": "{}".format(engine_type),
+            "eventKey": "{}-ps-status".format(engine_type),
+            "eventClassKey": "{}-ps-status".format(engine_type),
+            "{}_command".format(engine_type): cmd.command,
+            "{}_output".format(engine_type): cmd.result.output,
             }
 
         try:
@@ -81,7 +82,7 @@ class ps(CommandParser):
 
         except Exception:
             self.sendEventOnce(result, dict({
-                "summary": "received unexpected output from docker ps",
+                "summary": "received unexpected output from {} ps".format(engine_type),
                 "severity": ZenEventClasses.Error,
                 }, **ps_event))
 
@@ -89,7 +90,7 @@ class ps(CommandParser):
 
         else:
             self.sendEventOnce(result, dict({
-                "summary": "received expected output from docker ps",
+                "summary": "received expected output from {} ps".format(engine_type),
                 "severity": ZenEventClasses.Clear,
                 }, **ps_event))
 
@@ -107,8 +108,8 @@ class ps(CommandParser):
                 "device": cmd.device,
                 "component": cmd.component,
                 "summary": "container status: {}".format(status),
-                "eventKey": "dockerContainerStatus",
-                "eventClassKey": "dockerContainerStatus",
+                "eventKey": "{}ContainerStatus".format(engine_type),
+                "eventClassKey": "{}ContainerStatus".format(engine_type),
                 "severity": severity,
                 })
 
@@ -118,7 +119,6 @@ class ps(CommandParser):
                     match = matcher(row.get("SIZE", ""))
                     if match:
                         match_gd = match.groupdict()
-
                         size_dp = point_map.get("size")
                         if size_dp:
                             real_num = match_gd.get("real_num")
