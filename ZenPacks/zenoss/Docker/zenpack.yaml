@@ -521,6 +521,13 @@ classes:
       - PodmanContainer-Stats
       - PodmanContainer-Size
 
+    dynamicview_group: Podman Containers
+    dynamicview_views: [ service_view ]
+    dynamicview_weight: 35
+    dynamicview_relations:
+      impacted_by:
+        - podman_host
+
 class_relationships:
   - Products.ZenModel.Device.Device(podman_containers) 1:MC (podman_host)PodmanContainer
   - Products.ZenModel.Device.Device(docker_containers) 1:MC (docker_host)DockerContainer
