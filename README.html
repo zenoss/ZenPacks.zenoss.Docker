@@ -19,11 +19,20 @@ dd {
 </style>
 
 <h1 id="title">Docker ZenPack</h1>
-<p>This ZenPack provides support for monitoring <a href="https://www.docker.com/">Docker</a> containers running on Linux devices.</p>
+<p>This ZenPack provides support for monitoring <a href="https://www.docker.com/">Docker</a> and <a href="https://podman.io">Podman</a> containers running on Linux devices.</p>
 
-<p>Docker versions 1.6 through 1.11 are known to be supported as of June 20th, 2016.</p>
+<p>Docker versions through 20.10.2 and Podman versions through 3.4.2 are known to be supported in Docker ZenPack as of Feb, 2022.</p>
 
 <h2 id="releases">Releases</h2>
+
+<dl id="release-2.1.0">
+    <dt>Version 2.1.0 <a class="external" rel="nofollow">Download</a></dt>
+    <dd>Released: </dd>
+    <dd>Compatible with </dd>
+    <dd>Requires:
+        <a href="/product/zenpacks/zenpacklib">ZenPackLib ZenPack</a>
+    </dd>
+</dl>
 
 <dl id="release-2.0.5">
     <dt>Version 2.0.5 <a class="external" href="http://wiki.zenoss.org/download/zenpacks/ZenPacks.zenoss.Docker/2.0.5/ZenPacks.zenoss.Docker-2.0.5.egg" rel="nofollow">Download</a></dt>
@@ -49,6 +58,7 @@ dd {
             <li><a href="#monitoring">Monitoring</a>
                 <ol>
                     <li><a href="#docker-status-monitoring">Docker Status Monitoring</a></li>
+                    <li><a href="#podman-status-monitoring">Podman Status Monitoring</a></li>
                     <li><a href="#container-status-monitoring">Container Status Monitoring</a></li>
                     <li><a href="#container-statistics-monitoring">Container Statistics Monitoring</a></li>
                 </ol>
@@ -71,8 +81,8 @@ dd {
 <p>The features added by this ZenPack can be summarized as follows. They are each detailed further below.</p>
 
 <ul>
-    <li>Discovery and periodic remodeling of Docker containers.</li>
-    <li>Optional status and performance monitoring of Docker containers.</li>
+    <li>Discovery and periodic remodeling of Docker and Podman containers.</li>
+    <li>Optional status and performance monitoring of Docker and Podman containers.</li>
     <li>Service impact and root cause analysis. (Requires Zenoss Service Dynamics)</li>
 </ul>
 
@@ -99,14 +109,36 @@ dd {
     <li>cat /proc/self/mountinfo</li>
 </ul>
 
+<p>The following components and properties will be automatically discovered when the <i>PodmanCollector</i> modeler plugin is enabled for Linux devices running Podman.</p>
+
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Podman_container_details.png"><img src="/sites/default/files/zenpack/Docker/Podman_container_details.png"></a></div>
+<dl>
+    <dt>Podman Host (Linux Device)</dt>
+    <dd><b>Properties</b>: Podman Version</dd>
+    <dd><b>Relationships</b>: Podman Containers</dd>
+</dl>
+
+<dl>
+    <dt>Docker Container</dt>
+    <dd><b>Properties</b>: ID, Title (Name), Image, Command, Ports, Created, CGroup Path</dd>
+</dl>
+
+<p>This information is obtained by running the following commands on the Linux device via SSH.</p>
+
+<ul>
+    <li>podman -v</li>
+    <li>sudo podman ps -a --no-trunc</li>
+    <li>cat /proc/self/mountinfo</li>
+</ul>
+
 <p>As with all SSH modeling, the <i>zCommandUsername</i>, <i>zCommandPassword</i>, and <i>zKeyPath</i> configuration properties are used to establish the SSH connection. For password authentication, zCommandUsername and zCommandPassword must be set. For public key authentication, zCommandUsername and zKeyPath must be set. The value of zCommandPassword will be used as the passphrase if the key file provided by zKeyPath requires a passphrase.</p>
 
-<p><strong>Note</strong>: The <i>DockerCollector</i> modeler plugin is not enabled by default for any device classes. Typically you would add it to the /Server/SSH/Linux device class so all Linux devices being monitoring via SSH will have any containers discovered. Alternatively you could create a /Server/SSH/Linux/Docker deviceclass under which you placed all of your Linux devices that operate as Docker hosts, and only add the <i>DockerCollector</i> modeler plugin for it.</p>
+<p><strong>Note</strong>: The <i>DockerCollector</i> and <i>PodmanCollector</i> modeler plugins are not enabled by default for any device classes. Typically you would add it to the /Server/SSH/Linux device class so all Linux devices being monitoring via SSH will have any containers discovered. Alternatively you could create a /Server/SSH/Linux/Docker or /Server/SSH/Linux/Podman deviceclass under which you placed all of your Linux devices that operate as Docker or Podman hosts, and only add the <i>DockerCollector/PodmanCollector</i> modeler plugin for it.</p>
 
 <br class="clear">
 
 <h3 id="monitoring">Monitoring</h3>
-<p>Three types of monitoring are performed for all discovered Docker containers: Status, statistics, and size. The monitoring of each of these aspects has been separated so that you can choose which you are interested in monitoring more easily.</p>
+<p>Three types of monitoring are performed for all discovered Docker and Podman containers: Status, Statistics, and Size. The monitoring of each of these aspects has been separated so that you can choose which you are interested in monitoring more easily.</p>
 
 <p><strong>Note</strong>: The default value of <i>zCommandCommandTimeout</i> is 15 seconds. This may not be long enough for the monitoring commands detailed below to execute. It is recommended that this value be increased to 60 seconds if status and statistics monitoring are enabled. It is recommended that this value be increased to 600 seconds if size monitoring is enabled.
 
@@ -146,21 +178,61 @@ dd {
     <dd><b>docker_output</b>: &lt;docker command output&gt;</dd>
 </dl>
 
-<p>The ZenPack installs a docker-ps-status event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the docker-ps-status eventClassKey with a lower sequence number if you wish th handle these events differently.</p>
+<p>The ZenPack installs a docker-ps-status event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the docker-ps-status eventClassKey with a lower sequence number if you wish to handle these events differently.</p>
+
+<h4 id="podman-status-monitoring">Podman Status Monitoring</h4>
+<p>When either zPodmanMonitorContainerStatus or zPodmanMonitorContainerSize are enabled, the status of the Podman will be checked once per minute (for zPodmanMonitorContainerStatus) or once every ten minutes (for zPodmanMonitorContainerSize) by running one of the following commands respectively.</p>
+
+<ul>
+    <li>/usr/bin/env sudo podman ps -a --no-trunc</li>
+    <li>/usr/bin/env sudo podman ps -a -s --no-trunc</li>
+</ul>
+
+<p>An error event such as the following will be created if either of these commands results in an error instead of a list of containers.</p>
+
+<dl>
+    <dt>Podman Error Event</dt>
+    <dd><b>summary</b>: received unexpected output from podman ps</dd>
+    <dd><b>severity</b>: error (4)</dd>
+    <dd><b>eventClassKey</b>: podman-ps-status</dd>
+    <dd><b>eventKey</b>: podman-ps-status</dd>
+    <dd><b>component</b>: podman (unlinked)</dd>
+    <dd><b>device</b>: example-device-id</dd>
+    <dd><b>podman_command</b>: &lt;podman command that resulted in an error&gt;</dd>
+    <dd><b>podman_output</b>: &lt;podman command output&gt;</dd>
+</dl>
+
+<p>A clear event such as the following will be created if the above commands properly result in a list of containers.</p>
+
+<dl>
+    <dt>Podman Clear Event</dt>
+    <dd><b>summary</b>: received expected output from podman ps</dd>
+    <dd><b>severity</b>: clear (0)</dd>
+    <dd><b>eventClassKey</b>: podman-ps-status</dd>
+    <dd><b>eventKey</b>: podman-ps-status</dd>
+    <dd><b>component</b>: podman (unlinked)</dd>
+    <dd><b>device</b>: example-device-id</dd>
+    <dd><b>podman_command</b>: &lt;podman command that resulted in an list of containers&gt;</dd>
+    <dd><b>podman_output</b>: &lt;podman command output&gt;</dd>
+</dl>
+
+<p>The ZenPack installs a podman-ps-status event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the podman-ps-status eventClassKey with a lower sequence number if you wish to handle these events differently.</p>
 
 <h4 id="container-status-monitoring">Container Status Monitoring</h4>
 <div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_events.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_events.png"></a></div>
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Podman_container_events.png"><img src="/sites/default/files/zenpack/Docker/Podman_container_events.png"></a></div>
 
-<p>When zDockerMonitorContainerStatus is enabled, the status of each container will be checked once per minute by running the following command.</p>
+<p>When zDockerMonitorContainerStatus or zPodmanMonitorContainerStatus is enabled, the status of each Docker/Podman container will be checked once per minute by running the following commands.</p>
 
 <ul>
-    <li>/usr/bin/env sudo docker ps -a --no-trunc</li>
+    <li>/usr/bin/env sudo docker ps -a --no-trunc for Docker Containers status</li>
+    <li>/usr/bin/env sudo podman ps -a --no-trunc for Podman Containers status</li>
 </ul>
 
 <p>Containers with any status other than "Up" or "Created" will result in a critical event being created for the container with the following example fields.</p>
 
 <dl>
-    <dt>Clear Down Event</dt>
+    <dt>Docker Clear Down Event</dt>
     <dd><b>summary</b>: container status: exited (0) 31 minutes ago</dd>
     <dd><b>severity</b>: critical (5)</dd>
     <dd><b>eventClassKey</b>: dockerContainerStatus</dd>
@@ -169,10 +241,20 @@ dd {
     <dd><b>device</b>: example-device-id</dd>
 </dl>
 
+<dl>
+    <dt>Podman Clear Down Event</dt>
+    <dd><b>summary</b>: container status: exited (0) 31 minutes ago</dd>
+    <dd><b>severity</b>: critical (5)</dd>
+    <dd><b>eventClassKey</b>: podmanContainerStatus</dd>
+    <dd><b>eventKey</b>: podmanContainerStatus</dd>
+    <dd><b>component</b>: podman-container-id</dd>
+    <dd><b>device</b>: example-device-id</dd>
+</dl>
+
 <p>Containers with an "Up" or "Created" status will result in a clear event being created for the container with the following example fields.</p>
 
 <dl>
-    <dt>Container Up Event</dt>
+    <dt>Docker Container Up Event</dt>
     <dd><b>summary</b>: container status: up</dd>
     <dd><b>severity</b>: clear (0)</dd>
     <dd><b>eventClassKey</b>: dockerContainerStatus</dd>
@@ -181,14 +263,24 @@ dd {
     <dd><b>device</b>: example-device-id</dd>
 </dl>
 
-<p>The ZenPack installs a dockerContainerStatus event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the dockerContainerStatus eventClassKey with a lower sequence number if you wish to handle these events differently.</p>
+<dl>
+    <dt>Podman Container Up Event</dt>
+    <dd><b>summary</b>: container status: up</dd>
+    <dd><b>severity</b>: clear (0)</dd>
+    <dd><b>eventClassKey</b>: podmanContainerStatus</dd>
+    <dd><b>eventKey</b>: podmanContainerStatus</dd>
+    <dd><b>component</b>: podman-container-id</dd>
+    <dd><b>device</b>: example-device-id</dd>
+</dl>
 
-<p><strong>Note</strong>: Container status monitoring is disable by default because container down events will only auto-clear if the same container is restarted. If the container is left in a non-running state, or if is removed, its event must be manually cleared. If auto-clearing is important you may want to consider using Zenoss' normal process monitoring support to monitor the process(es) running within the container instead of monitoring the container.</p>
+<p>The ZenPack installs a dockerContainerStatus and podmanContainerStatus event class mapping into the /Status event class to handle these events by default. You can create an alternative mapping for the dockerContainerStatus or podmanContainerStatus eventClassKey with a lower sequence number if you wish to handle these events differently.</p>
+
+<p><strong>Note</strong>: Container status monitoring is disabled by default because container down events will only auto-clear if the same container is restarted. If the container is left in a non-running state, or if is removed, its event must be manually cleared. If auto-clearing is important you may want to consider using Zenoss' normal process monitoring support to monitor the process(es) running within the container instead of monitoring the container.</p>
 
 <br class="clear">
 
 <h4 id="container-statistics-monitoring">Container Statistics Monitoring</h4>
-<p>When zDockerMonitorContainerStats is enabled, the statistics of each container will be collected once every five minutes by running the following commands.</p>
+<p>When zDockerMonitorContainerStats or zPodmanMonitorContainerStats is enabled, the statistics of each Docker/Podman container will be collected once every five minutes by running the following commands.</p>
 
 <ul>
     <li>/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</li>
@@ -328,13 +420,14 @@ dd {
 <br class="clear">
 
 <h4 id="container-size-monitoring">Container Size Monitoring</h4>
-<p>When zDockerMonitorContainerSize is enabled, the real size and virtual size of each container will be monitored once every ten minutes by running the following command.</p>
+<p>When zDockerMonitorContainerSize or zPodmanMonitorContainerSize is enabled, the real size and virtual size of each Docker/Podman container will be monitored once every ten minutes by running the following command.</p>
 
 <ul>
-    <li>/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null</li>
+    <li>/usr/bin/env sudo docker ps -a -s --no-trunc 2>/dev/null for Docker Containers size</li>
+    <li>/usr/bin/env sudo podman ps -a -s --no-trunc 2>/dev/null for Podman Containers size</li>
 </ul>
 
-<p><strong>Note</strong>: zDockerMonitorContainerSize is not enabled by default. The reason for this is that adding <i>-s</i> flag to <i>docker ps</i> can result in the command taking a very long time to run when many containers, or large containers are used. It is recommended that you attempt to run the command on your Docker hosts manually and see that it takes less than 10 minutes to execute before enabled zDockerMonitorContainerSize.</p>
+<p><strong>Note</strong>: zDockerMonitorContainerSize and zPodmanMonitorContainerSize are not enabled by default. The reason for this is that adding <i>-s</i> flag to <i>docker ps</i> or <i>podman ps</i> can result in the command taking a very long time to run when many containers, or large containers are used. It is recommended that you attempt to run the command on your Docker/Podman hosts manually and see that it takes less than 10 minutes to execute before enabling zDockerMonitorContainerSize or zPodmanMonitorContainerSize.</p>
 
 <p><strong>Note</strong>:Older versions of Docker only report real size, not virtual size. The exact version cut-off isn't known, but Docker 1.6.2 as known to not report virtual size.</p>
 
@@ -343,14 +436,14 @@ dd {
 <dl>
     <dt>size_size</dt>
     <dd><b>Description</b>: Actual space used by this specific container.</dd>
-    <dd><b>Provenance</b>: First number in the SIZE column of ''docker ps -s'' converted to bytes.</dd>
+    <dd><b>Provenance</b>: First number in the SIZE column of ''docker/podman ps -s'' converted to bytes.</dd>
     <dd><b>Units</b>: bytes</dd>
 </dl>
 
 <dl>
     <dt>size_size_virtual</dt>
     <dd><b>Description</b>: Virtual size of container including image layers that may be shared with other containers.</dd>
-    <dd><b>Provenance</b>: Parenthetical number in the SIZE column of <i>docker ps -s</i> converted to bytes</dd>
+    <dd><b>Provenance</b>: Parenthetical number in the SIZE column of <i>docker/podman ps -s</i> converted to bytes</dd>
     <dd><b>Units</b>: bytes</dd>
 </dl>
 
@@ -367,31 +460,43 @@ dd {
 <br class="clear">
 
 <h3 id="service-impact">Service Impact</h3>
-<p>When combined with the Zenoss Service Dynamics product, this ZenPack adds built-in service impact capability for Docker Containers. The following service impact relationships are automatically added. These will be included in any services containing one or more of the explicitly mentioned entities.</p>
+<p>When combined with the Zenoss Service Dynamics product, this ZenPack adds built-in service impact capability for Docker Containers and Podman Containers. The following service impact relationships are automatically added. These will be included in any services containing one or more of the explicitly mentioned entities.</p>
 
 <div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_dynamicview.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_dynamicview.png"></a></div>
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Podman_container_dynamicview.png"><img src="/sites/default/files/zenpack/Docker/Podman_container_dynamicview.png"></a></div>
 <dl>
     <dt>Service Impact Relationships</dt>
     <dd>Device affects related Docker Containers.</dd>
+    <dd>Device affects related Podman Containers.</dd>
 </dl>
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Docker_container_impact.png"><img src="/sites/default/files/zenpack/Docker/Docker_container_impact.png"></a></div>
+<div class="thumbnail"><a href="/sites/default/files/zenpack/Docker/Podman_container_impact.png"><img src="/sites/default/files/zenpack/Docker/Podman_container_impact.png"></a></div>
 
 <br class="clear">
 
 <h2 id="usage">Usage</h2>
-<p>To begin discovering and monitoring Docker containers you must start by deciding what kind of monitoring you want to perform. There are three configuration properties that will control how container monitoring is performed.</p>
+<p>To begin discovering and monitoring Docker and Podman containers you must start by deciding what kind of monitoring you want to perform. There are three configuration properties for Docker containers and three configuration properties for Podman containers that will control how container monitoring is performed.</p>
 
+<p>Configuration properties for Docker containers:</p>
 <ul>
     <li>zDockerMonitorContainerStatus</li>
     <li>zDockerMonitorContainerStats</li>
     <li>zDockerMonitorContainerSize</li>
 </ul>
 
-<p>You can refer to the various container monitoring sections above to understand exactly what the implications of each of these properties are. By default only <i>zDockerMonitorContainerStatus</i> and <i>zDockerMonitorContainerStats</i> are enabled. This is due to a potential performance consideration when monitoring container sizes. See the note above in the <a href="#container-size-monitoring">Container Size Monitoring</a> section.</p>
+<p>Configuration properties for Podman containers:</p>
+<ul>
+    <li>zPodmanMonitorContainerStatus</li>
+    <li>zPodmanMonitorContainerStats</li>
+    <li>zPodmanMonitorContainerSize</li>
+</ul>
 
-<p>After setting these configuration properties to the desired values, you must enable the <i>DockerCollector</i> modeler plugin for the device class(es) or device(s) for which you want to discover running containers. One possibility would be to create a <i>/Server/SSH/Linux/Docker</i> device class, and add <i>DockerCollector</i> to the list of modeler plugins it will inherit from the <i>/Server/SSH/Linux</i> device class.</p>
+<p>You can refer to the various container monitoring sections above to understand exactly what the implications of each of these properties are. By default only <i>zDockerMonitorContainerStats</i> and <i>zPodmanMonitorContainerStats</i> are enabled. This is due to a potential performance consideration when monitoring container sizes. See the note above in the <a href="#container-size-monitoring">Container Size Monitoring</a> section.</p>
+
+<p>After setting these configuration properties to the desired values and depends on container engine type, you must enable the <i>DockerCollector</i> or <i>PodmanCollector</i> modeler plugin for the device class(es) or device(s) for which you want to discover running containers. One possibility would be to create a <i>/Server/SSH/Linux/Docker</i> or <i>/Server/SSH/Linux/Podman</i> device class, and add <i>DockerCollector/PodmanCollector</i> to the list of modeler plugins it will inherit from the <i>/Server/SSH/Linux</i> device class.</p>
 
 <h3 id="ssh-configuration">SSH Configuration</h3>
-<p>Docker container discovery and monitoring will occur by running commands on the monitored device with SSH. This SSH connectivity will use the same SSH configuration that is used for normal Linux device monitoring. The following configuration properties can be used to control SSH access.</p>
+<p>Docker and Podman container discovery and monitoring will occur by running commands on the monitored device with SSH. This SSH connectivity will use the same SSH configuration that is used for normal Linux device monitoring. The following configuration properties can be used to control SSH access.</p>
 
 <ul>
     <li>zCommandUsername</li>
@@ -406,7 +511,7 @@ dd {
 <p>In addition to SSH access, this ZenPack executes specific commands via <i>sudo</i> both during discovery and monitoring. This means that <i>sudo</i> must be installed on the monitored system, and if <i>zCommandUsername</i> is not root, sudo must be configured to allow the user specified in <i>zCommandUsername</i> permission to run the following commands without specifying a password.</p>
 
 <dl>
-    <dt>Discovery:</dt>
+    <dt>Docker Containers Discovery:</dt>
     <dd>sudo docker ps -a --no-trunc</dd>
 </dl>
 
@@ -422,6 +527,28 @@ dd {
 
 <dl>
     <dt>If <i>zDockerMonitorContainerStats</i> is enabled:</dt>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+    <dd>/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
+</dl>
+
+<dl>
+    <dt>Podman Containers Discovery:</dt>
+    <dd>sudo podman ps -a --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If zPodmanMonitorContainerStatus is enabled:</dt>
+    <dd>/usr/bin/env sudo podman ps -a --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If zPodmanMonitorContainerSize is enabled:</dt>
+    <dd>/usr/bin/env sudo podman ps -a -s --no-trunc</dd>
+</dl>
+
+<dl>
+    <dt>If <i>zPodmanMonitorContainerStats</i> is enabled:</dt>
     <dd>/usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
     <dd>/usr/bin/env sudo find /sys/fs/cgroup/memory/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
     <dd>/usr/bin/env sudo find /sys/fs/cgroup/blkio/ -printf "\n%p\n" -exec cat {} 2>/dev/null \;</dd>
@@ -451,14 +578,14 @@ Defaults:zenmonitor !requiretty
 
 <dl>
     <dt>zenmodeler</dt>
-    <dd><b>Purpose</b>: Modeling Docker version and containers.</dd>
-    <dd><b>Location</b>: All collectors expected to be modeling Docker.</dd>
+    <dd><b>Purpose</b>: Modeling Docker/Podman version and containers.</dd>
+    <dd><b>Location</b>: All collectors expected to be modeling Docker/Podman.</dd>
 </dl>
 
 <dl>
     <dt>zencommand</dt>
-    <dd><b>Purpose</b>: Monitoring Docker containers status, statistics, and size.</dd>
-    <dd><b>Location</b>: All collectors expected to be monitoring Docker.</dd>
+    <dd><b>Purpose</b>: Monitoring Docker/Podman containers status, statistics, and size.</dd>
+    <dd><b>Location</b>: All collectors expected to be monitoring Docker/Podman.</dd>
 </dl>
 
 <h2 id="installed-items">Installed Items</h2>
@@ -472,11 +599,15 @@ Defaults:zenmonitor !requiretty
     <dd>zDockerMonitorContainerStatus</dd>
     <dd>zDockerMonitorContainerStats</dd>
     <dd>zDockerMonitorContainerSize</dd>
+    <dd>zPodmanMonitorContainerStatus</dd>
+    <dd>zPodmanMonitorContainerStats</dd>
+    <dd>zPodmanMonitorContainerSize</dd>
 </dl>
 
 <dl>
     <dt>Modeler Plugins</dt>
     <dd>DockerCollector</dd>
+    <dd>PodmanCollector</dd>
 </dl>
 
 <dl>
@@ -484,20 +615,33 @@ Defaults:zenmonitor !requiretty
     <dd>DockerContainer-Status (/Devices)</dd>
     <dd>DockerContainer-Stats (/Devices)</dd>
     <dd>DockerContainer-Size (/Devices)</dd>
+    <dd>PodmanContainer-Status (/Devices)</dd>
+    <dd>PodmanContainer-Stats (/Devices)</dd>
+    <dd>PodmanContainer-Size (/Devices)</dd>
 </dl>
 
 <dl>
     <dt>Event Class Mappings</dt>
     <dd>docker-ps-status (/Status)</dd>
     <dd>dockerContainerStatus (/Status)</dd>
+    <dd>podman-ps-status (/Status)</dd>
+    <dd>podmanContainerStatus (/Status)</dd>
 </dl>
 
 <dl>
     <dt>Component Types</dt>
     <dd>DockerContainer (on related device)</dd>
+    <dd>PodmanContainer (on related device)</dd>
 </dl>
 
 <h2 id="changes">Changes</h2>
+
+<h3 id="changes-2.1.0">2.1.0</h3>
+<ul>
+    <li>Added support for Podman Containers. (ZPS-7870)</li>
+    <li>Added Impact & DynamicView relations for Podman Containers. (ZPS-8022)</li>
+    <li>Fixed tracebacks during events creation for Docker and Podman containers status. (ZPS-8023)</li>
+</ul>
 
 <h3 id="changes-2.0.5">2.0.5</h3>
 <ul>
