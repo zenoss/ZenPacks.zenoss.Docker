@@ -85,5 +85,5 @@ class PodmanCollector(CommandPlugin):
                     }))
 
         log.info("%s: found %s Podman containers", device.id, len(rm.maps))
-        log.info("Podman RM maps: %s", rm.maps)
+        log.debug("%s: Podman RM maps: %s", device.id, rm.maps)
         return maps
