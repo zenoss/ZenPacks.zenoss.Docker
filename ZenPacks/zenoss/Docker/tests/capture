@@ -10,6 +10,11 @@ mkdir -p "captured/modelers"
 { docker -v 2>/dev/null ; echo __SPLIT__ ; sudo docker ps -a --no-trunc 2>/dev/null ; } \
     > "captured/modelers/DockerCollector"
 
+## PodmanCollector modeler
+mkdir -p "captured/modelers"
+{ podman -v 2>/dev/null ; echo __SPLIT__ ; sudo podman ps -a --no-trunc 2>/dev/null ; } \
+    > "captured/modelers/PodmanCollector"
+
 ## cgroupfs parser
 mkdir -p "captured/parsers/cgroupfs"
 { /usr/bin/env sudo find /sys/fs/cgroup/cpuacct/ -printf "\n%p\n" -exec cat {} 2>/dev/null \; ; } \
